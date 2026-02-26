@@ -17,8 +17,8 @@ warnings.filterwarnings("ignore")
 print("✅ Imports complete")
 
 # ── File paths ────────────────────────────────────────────────────────────────
-MODULES_PATH   = r"C:\Users\ingeb\OneDrive\Documenten\Capstone\BD_Dataset1_Training_Modules_v3.csv"
-CUSTOMERS_PATH = r"C:\Users\ingeb\OneDrive\Documenten\Capstone\BD_Dataset2_HCP_Profiles_v3 (1).csv"
+MODULES_PATH   = "BD_Dataset1_Training_Modules_v3.csv"
+CUSTOMERS_PATH = "BD_Dataset2_HCP_Profiles_v3 (1).csv"
 
 # ── Settings ──────────────────────────────────────────────────────────────────
 USE_SBERT      = SBERT_AVAILABLE
@@ -207,4 +207,5 @@ def recommend(profile: dict, top_k: int = TOP_K) -> pd.DataFrame:
 
     results = modules_df.iloc[top_idx].copy()
     results["Fusion_Score"] = scores[top_idx].round(4)
+
     return results.reset_index(drop=True)
