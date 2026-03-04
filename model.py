@@ -33,12 +33,12 @@ LSA_COMPONENTS = 150
 TFIDF_NGRAM    = (1, 2)
 W_TFIDF        = 0.35
 W_SBERT        = 0.65
-BOOST_LANGUAGE      = 0.06
-BOOST_DOMAIN        = 0.08
+BOOST_LANGUAGE      = 0.00   # Not used directly — language handled via soft-filter in recommend()
+BOOST_DOMAIN        = 0.10
 BOOST_OPCO          = 0.05
 BOOST_CONTRACT_CERT = 0.03
-BOOST_SKILL         = 0.04
-BOOST_FORMAT        = 0.03
+BOOST_SKILL         = 0.05
+BOOST_FORMAT        = 0.05
 PENALTY_DURATION    = 0.04   # Soft signal — was 0.10 which killed good modules
 TOP_K          = 5
 MMR_LAMBDA     = 0.70
@@ -217,49 +217,34 @@ def recommend(profile: dict, top_k: int = TOP_K) -> pd.DataFrame:
     if inferred_domain:
         scores += BOOST_DOMAIN * (modules_df["Topic_Domain"].values == inferred_domain).astype(float)
 
-    scores += BOOST_LANGUAGE * (modules_df["Language"].values == profile.get("Language", "")).astype(float)
+    # Language handled below via soft-filter — not as a score boost
     scores += BOOST_SKILL    * (((skill_diff >= 0) & (skill_diff <= 1)).astype(float))
     scores += BOOST_FORMAT   * (modules_df["Delivery_Format"].values == profile.get("Format_Preference", "")).astype(float)
     # Soft duration penalty — modules over the available time are deprioritised,
     # not hard-filtered, so we still always return top_k results
     scores -= PENALTY_DURATION * (modules_df["Duration_Hours"].values > float(profile.get("Available_Time_Hours", 8))).astype(float)
 
-    # MMR re-ranking on post-boost scores
-    candidate_idx = np.argsort(scores)[::-1][:CANDIDATE_POOL]
-    top_idx       = mmr_rerank(scores, M_sbert, candidate_idx, top_k=top_k)
+    # Language soft-filter: try to fill top_k from same-language modules first,
+    # then backfill with best content matches if not enough same-language results.
+    user_lang = profile.get("Language", "")
+    lang_mask = (modules_df["Language"].values == user_lang)
+    lang_candidates = np.argsort(scores)[::-1]
+    lang_idx   = lang_candidates[lang_mask[lang_candidates]][:CANDIDATE_POOL]
+    other_idx  = lang_candidates[~lang_mask[lang_candidates]][:CANDIDATE_POOL]
+
+    if len(lang_idx) >= top_k:
+        # Enough same-language modules — use those only
+        candidate_idx = lang_idx
+    elif len(lang_idx) > 0:
+        # Some same-language — use all of them + backfill with best other-language
+        needed = min(CANDIDATE_POOL, top_k * 4)
+        candidate_idx = np.concatenate([lang_idx, other_idx[:needed]])
+    else:
+        # No same-language modules — fall back to pure score ranking
+        candidate_idx = np.argsort(scores)[::-1][:CANDIDATE_POOL]
+
+    top_idx = mmr_rerank(scores, M_sbert, candidate_idx, top_k=top_k)
 
     results = modules_df.iloc[top_idx].copy()
     results["Fusion_Score"] = scores[top_idx].round(4)
     return results.reset_index(drop=True)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
