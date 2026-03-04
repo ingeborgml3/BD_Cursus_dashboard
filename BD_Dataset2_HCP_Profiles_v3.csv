@@ -1,0 +1,1001 @@
+Customer_ID,Customer_Role,Specialty_Service,Establishment_Type,Country,Language,Years_Experience,Skill_Level_Self_Assessed,OPCO_Eligibility,Has_BD_Contract,Format_Preference,Available_Time_Hours,Training_Objective,Preferred_BD_Product,Prior_BD_Trainings,Completed_Training_Treatment,Satisfaction_Score_Proxy
+HCP0001,Biomedical Engineer,Microbiology,Universitätsklinikum,Germany,Deutsch (de) - German,20,Intermediate,No,Yes,Blended,4,Develop vascular access unit expertise,,BD5366,No,3.8
+HCP0002,Nurse,Trauma ICU,IPSS,Portugal,Português (pt) - Portuguese,30,Beginner,No,Yes,Masterclass,24,Validate Qualiopi competencies for task delegation,BD PICCline,,Yes,4.7
+HCP0003,Physician,Réanimation,Private Hospital,United Kingdom,English (United Kingdom),18,Intermediate,No,No,E-learning,4,Improve pre-analytical quality and reduce specimen non-conformances,BD PICCline,,Yes,4.4
+HCP0004,Nurse,Clinical Pharmacy,Regionaal Ziekenhuis,Netherlands,Nederlands (nl) - Dutch,7,Advanced,No,Yes,Blended,16,Onboard on BD Nexiva™ IV catheter system,BD Foley,BD8152,Yes,4.4
+HCP0005,Physician,Dispensing Automation,Academic Medical Center,United States,English (United States),19,Advanced,No,Yes,Blended,4,Onboard new staff on BD Alaris™ infusion pump systems,BD PICCline,,Yes,2.5
+HCP0006,Pharmacy Manager,Formulary Management,HAD,France,Français (fr) - French,11,Intermediate,Yes,No,E-learning,16,Préparer la mise en œuvre du protocole TTM en réanimation,BD Rowa™,BD0260,Yes,5.0
+HCP0007,Physician,IT Systems,Academic Medical Center,Poland,Polski (pl) - Polish,16,Advanced,No,No,E-learning,8,Optimise Pyxis ES dispensing workflows,BD Alaris™,,Yes,4.6
+HCP0008,ICU Specialist,Pediatrics,EHPAD,France,Français (fr) - French,11,Intermediate,Yes,Yes,Masterclass,24,Optimiser les workflows de dispensation sur le système Pyxis ES,BD Insyte™,,No,
+HCP0009,ICU Specialist,Gériatrie,Ospedale Regionale,Italy,Italiano (it) - Italian,14,Intermediate,Yes,No,E-learning,4,Enhance PICC line insertion and maintenance skills,VADvisor™,,Yes,4.1
+HCP0010,Nurse,Oncologie,Community Hospital,Romania,Română (ro) - Romanian,13,Expert,No,Yes,E-learning,16,Prepare for OPCO-funded certification in vascular access,BD Insyte™,BD7321,Yes,3.3
+HCP0011,Nurse,Oncologie,EHPAD,France,Français (fr) - French,6,Advanced,Yes,No,Masterclass,2,Préparer une certification financée par l'OPCO en accès vasculaire,BD PICCline,BD8956,Yes,3.5
+HCP0012,Physician,Clinical Pharmacy,GGZ,Netherlands,Nederlands (nl) - Dutch,2,Expert,No,Yes,On-site,2,Enhance PICC line insertion and maintenance skills,BD Foley,,Yes,4.2
+HCP0013,Nurse,Hematology,CH,France,Français (fr) - French,20,Intermediate,Yes,Yes,Blended,8,Préparer la mise en œuvre du protocole TTM en réanimation,BD Bair Hugger™,,No,3.4
+HCP0014,Clinical Pharmacist,Pharmacy Management,Ospedale Universitario,Italy,Italiano (it) - Italian,15,Intermediate,Yes,No,Blended,16,Train on BD Rowa™ pharmacy automation system,BD A-Line™,,No,4.0
+HCP0015,Physician,Soins Intensifs,Academic Medical Center,Poland,Polski (pl) - Polish,22,Expert,No,Yes,Webinar,8,Prepare for BD Vacutainer® train-the-trainer programme,BD Rowa™,,No,4.6
+HCP0016,Nurse,Advanced Practice Nursing,ESPIC,France,Français (fr) - French,14,Intermediate,Yes,Yes,Blended,2,Former les nouveaux utilisateurs au système BD Alaris™,BD Bair Hugger™,BD2481,No,4.7
+HCP0017,Nurse,Urgences,CH,France,Français (fr) - French,14,Beginner,Yes,Yes,E-learning,40,Obtenir une certification avancée en gestion de la TTM,BD Provena™,,Yes,4.6
+HCP0018,Pharmacist,Pharmacie Hospitalière,Private Hospital,Czech Republic,Čeština (cs) - Czech,20,Advanced,Yes,Yes,Webinar,2,Onboard on BD Nexiva™ IV catheter system,,BD7274,No,3.6
+HCP0019,Physician,Pediatrics,Universitätsspital,Switzerland,Deutsch (de) - German,7,Advanced,No,Yes,Blended,40,Prepare for OPCO-funded certification in vascular access,BD Midline,BD3438,No,3.5
+HCP0020,System Manager,Trauma ICU,Regionsjukhus,Finland,Suomi (fi) - Finnish,9,Intermediate,Yes,Yes,Blended,2,Develop vascular access unit expertise,BD TTM System,BD0105,No,3.0
+HCP0021,Nurse,Pediatrics,Kantonsspital,Switzerland,Deutsch (de) - German,21,Advanced,Yes,Yes,E-learning,2,Improve infusion safety and reduce medication errors,BD Foley,BD3758,No,3.2
+HCP0022,Nurse,Surgical ICU,Regionaal Ziekenhuis,Netherlands,Nederlands (nl) - Dutch,3,Advanced,No,Yes,On-site,4,Enhance PICC line insertion and maintenance skills,BD Preset™,,Yes,2.8
+HCP0023,System Manager,Medical Biology,Hospital Universitário,Portugal,Português (pt) - Portuguese,8,Intermediate,Yes,Yes,Webinar,40,Prepare for OPCO-funded certification in vascular access,BD Alaris™,,Yes,3.6
+HCP0024,Nurse,ICU / Critical Care,Privatklinik,Germany,Deutsch (de) - German,15,Advanced,No,No,Webinar,24,Improve infusion safety and reduce medication errors,BD Provena™,BD5297,No,3.9
+HCP0025,Physician,Geriatrics,Privatklinik,Germany,Deutsch (de) - German,21,Intermediate,No,Yes,E-learning,8,Prepare for targeted temperature management protocol implementation,BD PICCline,BD9418,No,2.8
+HCP0026,System Manager,Operating Theatre,Community Trust,United Kingdom,English (United Kingdom),8,Advanced,No,Yes,Blended,40,Enhance PICC line insertion and maintenance skills,BD Bair Hugger™,BD0988,No,4.6
+HCP0027,Physician,Surgical ICU,Regionaal Ziekenhuis,Netherlands,Nederlands (nl) - Dutch,1,Intermediate,No,Yes,On-site,16,Prepare for BD Vacutainer® train-the-trainer programme,,,No,3.2
+HCP0028,Pharmacy Manager,Gériatrie,Hôpital Général,France,Français (fr) - French,10,Advanced,Yes,Yes,Masterclass,4,Former les nouveaux utilisateurs au système BD Alaris™,BD A-Line™,,No,4.5
+HCP0029,Physician,Cardiologie,Primärvård,Sweden,Svenska (sv) - Swedish,8,Beginner,No,Yes,Blended,8,Gain expert-level certification in TTM management,BD Vacutainer®,BD8241,No,3.5
+HCP0030,Nurse,Nephrology,Community Hospital,Croatia,Hrvatski (hr) - Croatian,1,Expert,No,Yes,E-learning,2,Optimise Pyxis ES dispensing workflows,BD Foley,BD4964,Yes,4.2
+HCP0031,Physician,Pediatrics,Clinique Privée,France,Français (fr) - French,18,Advanced,Yes,Yes,E-learning,8,Préparer une certification financée par l'OPCO en accès vasculaire,BD Nexiva™,,Yes,
+HCP0032,Pharmacist,Cardiac ICU,Private Hospital,Israel,English (United Kingdom),9,Beginner,No,Yes,E-learning,16,Prepare for OPCO-funded certification in vascular access,BD Alaris™,BD2976,Yes,4.9
+HCP0033,Pharmacist,Vascular Surgery,MSP,France,Français (fr) - French,3,Advanced,Yes,Yes,Webinar,24,Optimiser les workflows de dispensation sur le système Pyxis ES,BD BodyGuard T,BD5144,Yes,
+HCP0034,Pharmacist,Anesthesiology,Academic Medical Center,Hungary,Magyar (hu) - Hungarian,26,Beginner,No,Yes,Webinar,4,Develop vascular access unit expertise,BD Vacutainer®,BD4018,Yes,4.8
+HCP0035,Pharmacist,Infectious Disease,Ospedale Universitario,Italy,Italiano (it) - Italian,16,Beginner,Yes,Yes,E-learning,16,Improve infusion safety and reduce medication errors,,BD6266,Yes,4.5
+HCP0036,ICU Specialist,Medical ICU,Universitetssjukhus,Finland,Suomi (fi) - Finnish,16,Intermediate,No,No,Webinar,24,Improve pre-analytical quality and reduce specimen non-conformances,BD Insyte™,,Yes,3.6
+HCP0037,Nurse Practitioner,Gastroenterology,Centro de Salud,Spain,Español (es) - Spanish,3,Beginner,Yes,Yes,Webinar,24,Optimise Pyxis ES dispensing workflows,BD A-Line™,BD2494,No,2.6
+HCP0038,Nurse,Dispensing Automation,Clinique Privée,France,Français (fr) - French,16,Advanced,Yes,No,E-learning,8,Préparer une certification financée par l'OPCO en accès vasculaire,BD Nexiva™,,No,4.7
+HCP0039,Pharmacist,Geriatrics,CHU,France,Français (fr) - French,25,Beginner,Yes,Yes,On-site,40,Maîtriser les techniques de prélèvement avec BD Vacutainer®,BD TTM System,,No,
+HCP0040,Physician,Anesthesiology,Kreiskrankenhaus,Austria,Deutsch (de) - German,1,Intermediate,No,Yes,Masterclass,4,Support career development with certified training (Qualiopi equivalent),,BD9664,No,4.2
+HCP0041,Physician,Pharmacie Hospitalière,GP Surgery,United Kingdom,English (United Kingdom),6,Advanced,No,Yes,Webinar,2,Optimise Pyxis ES dispensing workflows,BD Provena™,BD3731,Yes,
+HCP0042,ICU Specialist,Infectious Disease,Clinique Privée,France,Français (fr) - French,16,Intermediate,Yes,No,E-learning,4,Former les nouveaux utilisateurs au système BD Alaris™,BD TTM System,,No,3.1
+HCP0043,Biomedical Engineer,EHR Integration,Policlinico,Italy,Italiano (it) - Italian,7,Intermediate,Yes,Yes,E-learning,4,Prepare for targeted temperature management protocol implementation,BD Bair Hugger™,,Yes,
+HCP0044,Nurse,Nephrology,Universitetssjukhus,Norway,Norsk (Ino) - Norwegian,19,Advanced,Yes,Yes,Webinar,16,Enhance PICC line insertion and maintenance skills,BD PICCline,BD0320,No,4.4
+HCP0045,Nurse,Formulary Management,Ospedale Universitario,Italy,Italiano (it) - Italian,27,Intermediate,No,Yes,E-learning,4,Develop vascular access unit expertise,Pyxis ES,BD7181,No,2.7
+HCP0046,Nurse,Infectious Disease,Academic Medical Center,United States,English (United States),23,Beginner,Yes,No,Webinar,24,Master blood collection techniques with BD Vacutainer® systems,BD PICCline,,No,2.7
+HCP0047,Nurse,Neurologie,Kantonsspital,Switzerland,Deutsch (de) - German,9,Beginner,Yes,No,E-learning,16,Onboard new staff on BD Alaris™ infusion pump systems,,BD4964,Yes,4.6
+HCP0048,Nurse,ICU / Critical Care,Private Hospital,United Kingdom,English (United Kingdom),21,Intermediate,No,No,E-learning,40,Gain expert-level certification in TTM management,BD Insyte™,BD8262,No,3.1
+HCP0049,Pharmacist,Cardiology,Centro de Salud,Spain,Español (es) - Spanish,13,Intermediate,Yes,Yes,Webinar,4,Optimise Pyxis ES dispensing workflows,BD Rowa™,BD0647,Yes,4.5
+HCP0050,Physician,EHR Integration,Universitätsspital,Switzerland,Deutsch (de) - German,30,Beginner,No,Yes,E-learning,16,Optimise Pyxis ES dispensing workflows,BD Provena™,BD1972,Yes,3.7
+HCP0051,ICU Specialist,Biomedical Engineering,ESPIC,France,Français (fr) - French,6,Advanced,Yes,No,E-learning,40,Obtenir une certification avancée en gestion de la TTM,BD Microtainer®,BD3438,Yes,3.4
+HCP0052,Physician,EHR Integration,Centro de Salud,Spain,Español (es) - Spanish,8,Advanced,No,Yes,E-learning,4,Support career development with certified training (Qualiopi equivalent),BD Bair Hugger™,BD3422,Yes,3.0
+HCP0053,ICU Specialist,Soins Intensifs,Ospedale Regionale,Italy,Italiano (it) - Italian,7,Advanced,No,Yes,Webinar,24,Train on BD Rowa™ pharmacy automation system,BD Nexiva™,BD0310,No,2.8
+HCP0054,Physician,Réanimation,Private Hospital,Romania,Română (ro) - Romanian,18,Advanced,No,Yes,Blended,2,Onboard new staff on BD Alaris™ infusion pump systems,BD Alaris™,,Yes,3.3
+HCP0055,Nurse,Vascular Surgery,EHPAD,France,Français (fr) - French,22,Intermediate,Yes,Yes,Webinar,16,Former les nouveaux utilisateurs au système BD Alaris™,BD Preset™,,No,2.9
+HCP0056,Nurse,Réanimation,HAD,France,Français (fr) - French,4,Intermediate,Yes,Yes,Blended,8,Améliorer la conformité préanalytique et réduire les non-conformités,BD Vacutainer®,BD3277,Yes,4.4
+HCP0057,Physician,Neurology,Ospedale Universitario,Italy,Italiano (it) - Italian,14,Expert,No,Yes,Webinar,4,Validate Qualiopi competencies for task delegation,BD Alaris™,,Yes,5.0
+HCP0058,Nurse,Hematology,HAD,France,Français (fr) - French,25,Beginner,Yes,No,E-learning,40,Maîtriser les techniques de prélèvement avec BD Vacutainer®,BD A-Line™,BD2629,Yes,2.5
+HCP0059,Physician,Pharmacy Management,ESPIC,France,Français (fr) - French,12,Expert,Yes,Yes,Webinar,4,Améliorer la sécurité des perfusions et réduire les erreurs médicamenteuses,BD Eclipse™,BD8713,Yes,3.3
+HCP0060,Anesthesiologist,Soins Intensifs,Academic Medical Center,United States,English (United States),8,Beginner,No,Yes,Blended,2,Prepare for OPCO-funded certification in vascular access,BD Insyte™,BD8306,Yes,4.2
+HCP0061,Physician,Equipment Maintenance,Casa di Cura,Italy,Italiano (it) - Italian,10,Intermediate,No,No,E-learning,4,Validate Qualiopi competencies for task delegation,BD A-Line™,BD3435,Yes,4.5
+HCP0062,Pharmacy Manager,ICU / Critical Care,Hospital Distrital,Portugal,Português (pt) - Portuguese,21,Beginner,Yes,Yes,E-learning,4,Gain expert-level certification in TTM management,BD Eclipse™,,Yes,4.3
+HCP0063,Biomedical Engineer,Dispensing Automation,Hôpital Général,France,Français (fr) - French,15,Intermediate,Yes,No,E-learning,2,Améliorer la sécurité des perfusions et réduire les erreurs médicamenteuses,BD PICCline,,No,
+HCP0064,System Manager,Cardiac ICU,Tagesklinik,Germany,Deutsch (de) - German,3,Intermediate,No,Yes,Webinar,4,Enhance PICC line insertion and maintenance skills,HealthSight,BD5264,No,4.2
+HCP0065,Nurse,Critical Care,CH,France,Français (fr) - French,5,Beginner,Yes,Yes,On-site,24,Améliorer la conformité préanalytique et réduire les non-conformités,BD Vacutainer®,,Yes,4.4
+HCP0066,Physician,Medical Biology,Regionsjukhus,Norway,Norsk (Ino) - Norwegian,12,Intermediate,No,Yes,Blended,40,Improve infusion safety and reduce medication errors,,,Yes,
+HCP0067,Physician,Réanimation,CPAS,Belgium,Français (fr) - French,3,Advanced,Yes,No,Webinar,40,Préparer la mise en œuvre du protocole TTM en réanimation,BD Preset™,BD0430,No,
+HCP0068,Nurse,Infectious Disease,Regionsjukhus,Finland,Suomi (fi) - Finnish,19,Intermediate,No,Yes,Blended,8,Improve pre-analytical quality and reduce specimen non-conformances,BD Nexiva™,,Yes,3.5
+HCP0069,Physician,Emergency Department,Regionsjukhus,Denmark,Dansk (da) - Danish,23,Intermediate,Yes,Yes,Blended,16,Optimise Pyxis ES dispensing workflows,BD Alaris™,BD0310,No,2.9
+HCP0070,Physician,Nephrology,Universitetssjukhus,Denmark,Dansk (da) - Danish,14,Beginner,Yes,Yes,E-learning,4,Prepare for OPCO-funded certification in vascular access,BD Preset™,BD5905,Yes,4.6
+HCP0071,Nurse,Gériatrie,Hôpital Général,France,Français (fr) - French,10,Expert,Yes,Yes,Webinar,40,Améliorer la sécurité des perfusions et réduire les erreurs médicamenteuses,BD Microtainer®,BD3268,No,3.7
+HCP0072,Nurse,Vascular Surgery,Academic Medical Center,Czech Republic,Čeština (cs) - Czech,12,Expert,No,Yes,E-learning,8,Onboard on BD Nexiva™ IV catheter system,Pyxis Anesthesia,BD7179,No,3.2
+HCP0073,System Manager,Geriatrics,Private Hospital,Poland,Polski (pl) - Polish,28,Beginner,No,Yes,Webinar,4,Support career development with certified training (Qualiopi equivalent),BD Eclipse™,BD0105,Yes,4.5
+HCP0074,Pharmacist,Surgery,Ospedale Regionale,Italy,Italiano (it) - Italian,28,Advanced,No,Yes,Blended,24,Improve infusion safety and reduce medication errors,BD Eclipse™,BD8306,Yes,
+HCP0075,System Manager,Trauma ICU,Huisartsenpraktijk,Netherlands,Nederlands (nl) - Dutch,12,Intermediate,No,Yes,E-learning,16,Train on BD Rowa™ pharmacy automation system,BD Nexiva™,BD3128,Yes,
+HCP0076,Nurse,Microbiology,GGZ,Netherlands,Nederlands (nl) - Dutch,21,Intermediate,Yes,Yes,Masterclass,16,Support career development with certified training (Qualiopi equivalent),Pyxis Anesthesia,BD4244,No,3.0
+HCP0077,Pharmacist,Cardiac ICU,Tagesklinik,Germany,Deutsch (de) - German,24,Intermediate,No,Yes,E-learning,16,Optimise Pyxis ES dispensing workflows,BD Alaris™,,Yes,2.6
+HCP0078,Physician,Cardiology,Casa di Cura,Italy,Italiano (it) - Italian,15,Intermediate,No,Yes,Blended,2,Develop vascular access unit expertise,BD Rowa™,BD3261,Yes,3.2
+HCP0079,Physician,Cardiac ICU,MSP,France,Français (fr) - French,13,Intermediate,Yes,Yes,On-site,16,Développer les compétences en pose et entretien de PICC line,BD Alaris™,BD5282,Yes,4.0
+HCP0080,Pharmacist,Formulary Management,Ospedale Universitario,Italy,Italiano (it) - Italian,24,Beginner,No,No,E-learning,2,Develop vascular access unit expertise,BD TTM System,BD9941,No,3.1
+HCP0081,Clinical Pharmacist,Pulmonology,Policlinico,Italy,Italiano (it) - Italian,19,Intermediate,No,Yes,Webinar,40,Train on BD Rowa™ pharmacy automation system,BD Insyte™,BD3438,Yes,
+HCP0082,Biomedical Engineer,Clinical Pharmacy,Universitätsklinikum,Germany,Deutsch (de) - German,16,Intermediate,Yes,No,On-site,4,Validate Qualiopi competencies for task delegation,,BD7164,Yes,3.8
+HCP0083,System Manager,ICU / Critical Care,Ambulatory Surgery Center,United States,English (United States),19,Intermediate,No,No,Blended,24,Prepare for targeted temperature management protocol implementation,Pyxis ES,,No,3.7
+HCP0084,Nurse,Equipment Maintenance,Hospital Distrital,Portugal,Português (pt) - Portuguese,10,Beginner,Yes,No,Blended,8,Prepare for OPCO-funded certification in vascular access,BD Bair Hugger™,,Yes,4.4
+HCP0085,Nurse,Emergency Department,Universitätsklinikum,Austria,Deutsch (de) - German,16,Intermediate,No,No,Masterclass,40,Improve pre-analytical quality and reduce specimen non-conformances,BD Insyte™,,Yes,4.4
+HCP0086,Nurse,Hématologie,GP Surgery,United Kingdom,English (United Kingdom),22,Advanced,No,Yes,E-learning,2,Onboard on BD Nexiva™ IV catheter system,BD Eclipse™,,Yes,3.3
+HCP0087,Nurse,Advanced Practice Nursing,Casa di Cura,Italy,Italiano (it) - Italian,18,Intermediate,No,No,Blended,16,Validate Qualiopi competencies for task delegation,BD Bair Hugger™,,Yes,4.7
+HCP0088,Pharmacist,Specimen Management,Universitetssjukhus,Finland,Suomi (fi) - Finnish,8,Intermediate,No,Yes,E-learning,8,Improve infusion safety and reduce medication errors,BD Nexiva™,,Yes,4.1
+HCP0089,Nurse,Cardiology,EHPAD,France,Français (fr) - French,11,Expert,Yes,Yes,E-learning,40,Améliorer la sécurité des perfusions et réduire les erreurs médicamenteuses,HealthSight,,Yes,3.6
+HCP0090,ICU Specialist,ICU / Critical Care,Tagesklinik,Germany,Deutsch (de) - German,14,Beginner,No,Yes,E-learning,16,Onboard on BD Nexiva™ IV catheter system,,BD5905,Yes,3.5
+HCP0091,Pharmacist,Surgical ICU,EHPAD,France,Français (fr) - French,18,Advanced,Yes,Yes,Blended,2,Valider les compétences Qualiopi pour la délégation de tâches infirmières,BD Nexiva™,BD2669,No,2.6
+HCP0092,Pharmacy Manager,Chirurgie,Integrated Care Board,United Kingdom,English (United Kingdom),20,Advanced,No,Yes,E-learning,2,Gain expert-level certification in TTM management,BD Microtainer®,BD5896,Yes,4.1
+HCP0093,Pharmacist,Hématologie,MSP,France,Français (fr) - French,10,Intermediate,Yes,Yes,Webinar,8,Valider les compétences Qualiopi pour la délégation de tâches infirmières,BD PICCline,BD5812,Yes,3.4
+HCP0094,Pharmacist,Biochemistry,Centro de Saúde,Portugal,Português (pt) - Portuguese,16,Intermediate,No,No,E-learning,2,Support career development with certified training (Qualiopi equivalent),VADvisor™,BD9406,No,4.1
+HCP0095,Pharmacy Manager,Vascular Surgery,Private Hospital,United Kingdom,English (United Kingdom),10,Advanced,Yes,No,Webinar,24,Prepare for targeted temperature management protocol implementation,,BD4802,Yes,4.3
+HCP0096,System Manager,Microbiology,Clínica Privada,Spain,Español (es) - Spanish,13,Intermediate,No,Yes,E-learning,8,Enhance PICC line insertion and maintenance skills,BD Provena™,,No,3.6
+HCP0097,Pharmacy Manager,Critical Care,CH,France,Français (fr) - French,12,Expert,Yes,No,Masterclass,4,Préparer une certification financée par l'OPCO en accès vasculaire,BD A-Line™,BD0639,Yes,
+HCP0098,Nurse,Cardiologie,CH,France,Français (fr) - French,2,Intermediate,Yes,Yes,Webinar,8,Préparer une certification financée par l'OPCO en accès vasculaire,BD Alaris™,,Yes,3.0
+HCP0099,Pharmacist,Réanimation,Residencia,Spain,Español (es) - Spanish,2,Intermediate,Yes,Yes,E-learning,2,Prepare for OPCO-funded certification in vascular access,HealthSight,BD3422,Yes,3.6
+HCP0100,Pharmacy Manager,Cardiologie,Academic Medical Center,Greece,Ελληνικά (el) - Greek,30,Intermediate,No,Yes,Webinar,24,Prepare for targeted temperature management protocol implementation,BD TTM System,BD6391,No,3.3
+HCP0101,Physician,IT Systems,Casa di Cura,Italy,Italiano (it) - Italian,6,Intermediate,Yes,No,E-learning,40,Train on BD Rowa™ pharmacy automation system,BD Alaris™,,Yes,3.7
+HCP0102,Physician,Urgences,Üniversite Hastanesi,Turkey,Türkçe (tr) - Turkish,7,Beginner,No,Yes,E-learning,16,Prepare for OPCO-funded certification in vascular access,,BD3652,No,2.9
+HCP0103,Nurse,Critical Care,Centro de Salud,Spain,Español (es) - Spanish,20,Advanced,Yes,Yes,E-learning,4,Improve infusion safety and reduce medication errors,BD Preset™,BD6614,Yes,4.3
+HCP0104,Nurse Practitioner,Neurology,Clinique Privée,France,Français (fr) - French,4,Expert,Yes,No,Webinar,16,Former les nouveaux utilisateurs au système BD Alaris™,BD Microtainer®,,No,4.7
+HCP0105,Pharmacist,Emergency ICU,Clínica Privada,Spain,Español (es) - Spanish,11,Advanced,Yes,Yes,E-learning,40,Support career development with certified training (Qualiopi equivalent),HealthSight,BD8062,Yes,2.8
+HCP0106,Pharmacist,Infectious Disease,Ambulatory Surgery Center,United States,English (United States),9,Intermediate,Yes,No,E-learning,16,Prepare for targeted temperature management protocol implementation,,,Yes,4.4
+HCP0107,Physician,Critical Care,NHS Trust,United Kingdom,English (United Kingdom),13,Intermediate,No,Yes,E-learning,4,Support career development with certified training (Qualiopi equivalent),BD Eclipse™,,Yes,3.7
+HCP0108,Nurse,Pharmacie Hospitalière,Community Trust,United Kingdom,English (United Kingdom),23,Beginner,No,Yes,On-site,4,Prepare for BD Vacutainer® train-the-trainer programme,BD TTM System,BD7211,Yes,4.1
+HCP0109,Pharmacist,Pharmacy Management,Academic Medical Center,Czech Republic,Čeština (cs) - Czech,2,Intermediate,No,Yes,E-learning,40,Enhance PICC line insertion and maintenance skills,BD Microtainer®,BD8393,Yes,3.7
+HCP0110,Pharmacist,Pharmacie Hospitalière,Ospedale Regionale,Italy,Italiano (it) - Italian,6,Intermediate,No,Yes,Webinar,2,Optimise Pyxis ES dispensing workflows,BD TTM System,BD9406,Yes,3.4
+HCP0111,Physician,Biochemistry,Regionsjukhus,Denmark,Dansk (da) - Danish,22,Intermediate,No,Yes,Webinar,16,Train on BD Rowa™ pharmacy automation system,BD Foley,,Yes,2.7
+HCP0112,Physician,Pharmacie Hospitalière,NHS Trust,United Kingdom,English (United Kingdom),7,Intermediate,No,Yes,Webinar,4,Support career development with certified training (Qualiopi equivalent),BD Preset™,,Yes,3.0
+HCP0113,ICU Specialist,Gériatrie,MVZ,Germany,Deutsch (de) - German,16,Beginner,No,Yes,Blended,40,Prepare for OPCO-funded certification in vascular access,BD Nexiva™,BD0430,No,3.3
+HCP0114,Pharmacist,Neurologie,EHPAD,France,Français (fr) - French,16,Intermediate,Yes,No,On-site,4,Former les nouveaux utilisateurs au système BD Alaris™,BD Microtainer®,BD0265,No,3.6
+HCP0115,Nurse,Anesthesiology,HAD,France,Français (fr) - French,21,Expert,Yes,Yes,E-learning,8,Former les nouveaux utilisateurs au système BD Alaris™,BD BodyGuard T,BD4802,Yes,3.8
+HCP0116,Nurse,Pharmacie Hospitalière,Academic Medical Center,Israel,English (United Kingdom),14,Intermediate,No,Yes,E-learning,4,Prepare for targeted temperature management protocol implementation,BD Microtainer®,,Yes,3.2
+HCP0117,Nurse,Hématologie,Primärvård,Sweden,Svenska (sv) - Swedish,10,Beginner,No,No,E-learning,2,Support career development with certified training (Qualiopi equivalent),Pyxis Anesthesia,BD7631,Yes,3.1
+HCP0118,System Manager,Pediatrics,Community Hospital,Romania,Română (ro) - Romanian,4,Intermediate,No,Yes,E-learning,16,Improve infusion safety and reduce medication errors,BD Bair Hugger™,,No,4.0
+HCP0119,System Manager,Clinical Pharmacy,HAD,France,Français (fr) - French,6,Intermediate,Yes,Yes,On-site,4,Valider les compétences Qualiopi pour la délégation de tâches infirmières,,BD6578,No,4.6
+HCP0120,Nurse,Pulmonology,Regionsjukhus,Finland,Suomi (fi) - Finnish,11,Advanced,No,No,Blended,2,Improve pre-analytical quality and reduce specimen non-conformances,BD Rowa™,BD6559,No,
+HCP0121,Pharmacist,Infectious Disease,RSA,Italy,Italiano (it) - Italian,6,Beginner,Yes,No,On-site,40,Optimise Pyxis ES dispensing workflows,BD Midline,,Yes,3.5
+HCP0122,Nurse,Gériatrie,MVZ,Germany,Deutsch (de) - German,28,Advanced,No,Yes,Webinar,2,Validate Qualiopi competencies for task delegation,BD Alaris™,BD5811,Yes,3.7
+HCP0123,Biomedical Engineer,Pharmacy Management,MSP,France,Français (fr) - French,6,Intermediate,Yes,Yes,Webinar,4,Améliorer la conformité préanalytique et réduire les non-conformités,BD Foley,BD0152,Yes,4.9
+HCP0124,System Manager,Neurology,CH,France,Français (fr) - French,15,Intermediate,Yes,Yes,E-learning,8,Former les nouveaux utilisateurs au système BD Alaris™,BD PICCline,,Yes,3.1
+HCP0125,Pharmacist,Trauma ICU,Pflegeheim,Germany,Deutsch (de) - German,2,Advanced,No,Yes,E-learning,16,Optimise Pyxis ES dispensing workflows,BD Midline,BD5457,Yes,
+HCP0126,System Manager,Anesthesiology,Hôpital Général,France,Français (fr) - French,13,Intermediate,Yes,Yes,E-learning,4,Améliorer la conformité préanalytique et réduire les non-conformités,BD Alaris™,BD0359,No,4.5
+HCP0127,Pharmacy Manager,Neurology,Ospedale Universitario,Italy,Italiano (it) - Italian,11,Advanced,Yes,No,On-site,24,Train on BD Rowa™ pharmacy automation system,BD Rowa™,,Yes,4.3
+HCP0128,Pharmacist,Internal Medicine,Clinique Privée,France,Français (fr) - French,1,Intermediate,Yes,Yes,Blended,16,Développer les compétences en pose et entretien de PICC line,BD Bair Hugger™,BD4080,No,4.9
+HCP0129,Pharmacist,Hématologie,Kantonsspital,Switzerland,Deutsch (de) - German,19,Intermediate,No,Yes,Webinar,16,Master blood collection techniques with BD Vacutainer® systems,Pyxis ES,BD0647,Yes,4.0
+HCP0130,Physician,Microbiology,Casa di Cura,Italy,Italiano (it) - Italian,5,Beginner,No,No,Blended,16,Prepare for BD Vacutainer® train-the-trainer programme,BD Foley,BD2465,Yes,3.5
+HCP0131,Biomedical Engineer,Pharmacy Management,Kreiskrankenhaus,Austria,Deutsch (de) - German,10,Advanced,No,Yes,Webinar,16,Onboard new staff on BD Alaris™ infusion pump systems,BD Eclipse™,,Yes,3.4
+HCP0132,Pharmacy Manager,Surgical ICU,Private Hospital,Poland,Polski (pl) - Polish,7,Advanced,No,Yes,E-learning,16,Prepare for targeted temperature management protocol implementation,BD Microtainer®,BD9417,Yes,
+HCP0133,ICU Specialist,Cardiac ICU,NHS Trust,United Kingdom,English (United Kingdom),12,Intermediate,No,Yes,Webinar,8,Train on BD Rowa™ pharmacy automation system,Pyxis Anesthesia,,Yes,4.5
+HCP0134,Pharmacy Manager,Gastroenterology,Clinique Spécialisée,Belgium,Français (fr) - French,1,Advanced,Yes,No,Blended,24,Préparer la mise en œuvre du protocole TTM en réanimation,BD PICCline,,No,3.6
+HCP0135,Nurse,Surgery,CH,France,Français (fr) - French,15,Intermediate,Yes,Yes,E-learning,8,Améliorer la sécurité des perfusions et réduire les erreurs médicamenteuses,BD PICCline,,Yes,3.6
+HCP0136,Anesthesiologist,Surgical ICU,Kreiskrankenhaus,Germany,Deutsch (de) - German,23,Intermediate,No,Yes,E-learning,4,Develop vascular access unit expertise,HealthSight,BD5192,Yes,4.0
+HCP0137,Pharmacy Manager,Pharmacy Management,Private Hospital,Greece,Ελληνικά (el) - Greek,13,Advanced,No,Yes,Webinar,8,Improve pre-analytical quality and reduce specimen non-conformances,BD PICCline,BD0744,No,4.4
+HCP0138,System Manager,Specimen Management,Clínica Privada,Spain,Español (es) - Spanish,27,Intermediate,No,Yes,E-learning,24,Prepare for OPCO-funded certification in vascular access,BD Rowa™,BD3277,Yes,4.7
+HCP0139,Biomedical Engineer,Chirurgie,Geriatrik,Turkey,Türkçe (tr) - Turkish,12,Intermediate,No,Yes,Webinar,8,Prepare for targeted temperature management protocol implementation,BD Eclipse™,BD7487,No,2.7
+HCP0140,Pharmacy Manager,Gastroenterology,Hospital General,Spain,Español (es) - Spanish,10,Expert,No,Yes,E-learning,4,Validate Qualiopi competencies for task delegation,HealthSight,BD3818,Yes,3.6
+HCP0141,Nurse,Biochemistry,Universitetssjukhus,Denmark,Dansk (da) - Danish,14,Intermediate,Yes,Yes,E-learning,40,Onboard new staff on BD Alaris™ infusion pump systems,BD PICCline,BD1640,No,4.1
+HCP0142,Nurse,Oncology,EHPAD,France,Français (fr) - French,29,Intermediate,Yes,No,On-site,40,Maîtriser les techniques de prélèvement avec BD Vacutainer®,,BD9121,Yes,2.7
+HCP0143,Nurse,Critical Care,ESPIC,France,Français (fr) - French,20,Advanced,Yes,Yes,E-learning,24,Valider les compétences Qualiopi pour la délégation de tâches infirmières,Pyxis Anesthesia,BD8241,Yes,2.8
+HCP0144,Pharmacy Manager,Chirurgie,CH,France,Français (fr) - French,12,Intermediate,Yes,Yes,E-learning,8,Optimiser les workflows de dispensation sur le système Pyxis ES,HealthSight,BD2976,Yes,3.2
+HCP0145,Physician,Clinical Pharmacy,Regionsjukhus,Denmark,Dansk (da) - Danish,16,Intermediate,No,Yes,Blended,2,Prepare for targeted temperature management protocol implementation,Pyxis ES,,Yes,2.8
+HCP0146,Nurse,Microbiology,RSA,Italy,Italiano (it) - Italian,6,Intermediate,No,Yes,On-site,40,Onboard on BD Nexiva™ IV catheter system,BD Bair Hugger™,BD8647,Yes,4.7
+HCP0147,Physician,Pediatrics,Ospedale Universitario,Italy,Italiano (it) - Italian,2,Advanced,No,Yes,E-learning,16,Validate Qualiopi competencies for task delegation,BD Insyte™,BD5282,Yes,4.4
+HCP0148,ICU Specialist,Formulary Management,Private Hospital,Hungary,Magyar (hu) - Hungarian,5,Advanced,Yes,Yes,Webinar,16,Develop vascular access unit expertise,BD Preset™,,No,3.7
+HCP0149,Nurse,Emergency ICU,CHU,France,Français (fr) - French,15,Advanced,Yes,No,E-learning,2,Préparer la mise en œuvre du protocole TTM en réanimation,HealthSight,,Yes,3.3
+HCP0150,ICU Specialist,Biomedical Engineering,Integrated Care Board,United Kingdom,English (United Kingdom),24,Expert,No,No,E-learning,40,Train on BD Rowa™ pharmacy automation system,Pyxis ES,,Yes,2.6
+HCP0151,Physician,Surgical ICU,VVT,Netherlands,Nederlands (nl) - Dutch,22,Intermediate,No,No,Webinar,8,Prepare for BD Vacutainer® train-the-trainer programme,BD Foley,,No,4.6
+HCP0152,ICU Specialist,Emergency Department,GP Surgery,United Kingdom,English (United Kingdom),1,Intermediate,Yes,Yes,E-learning,2,Optimise Pyxis ES dispensing workflows,Pyxis ES,BD9995,No,
+HCP0153,Pharmacy Manager,Pharmacie Hospitalière,CPAS,Belgium,Français (fr) - French,19,Advanced,Yes,Yes,Masterclass,4,Développer les compétences en pose et entretien de PICC line,BD Bair Hugger™,BD4523,Yes,3.9
+HCP0154,Pharmacist,Cardiologie,MVZ,Germany,Deutsch (de) - German,3,Intermediate,No,Yes,E-learning,40,Enhance PICC line insertion and maintenance skills,BD Rowa™,BD1197,Yes,2.9
+HCP0155,ICU Specialist,Medical Biology,Policlinico,Italy,Italiano (it) - Italian,30,Advanced,No,Yes,E-learning,4,Prepare for BD Vacutainer® train-the-trainer programme,BD Vacutainer®,BD6076,Yes,4.4
+HCP0156,Nurse Practitioner,Anesthesiology,Academic Medical Center,Hungary,Magyar (hu) - Hungarian,8,Intermediate,No,Yes,Webinar,16,Onboard on BD Nexiva™ IV catheter system,Pyxis Anesthesia,BD2629,Yes,3.4
+HCP0157,Nurse,Neurologie,Community Hospital,Czech Republic,Čeština (cs) - Czech,25,Intermediate,Yes,Yes,E-learning,8,Master blood collection techniques with BD Vacutainer® systems,VADvisor™,,No,3.4
+HCP0158,Physician,Medical ICU,Clinique Spécialisée,Belgium,Français (fr) - French,20,Intermediate,Yes,Yes,E-learning,40,Former les nouveaux utilisateurs au système BD Alaris™,BD Foley,BD3268,No,3.1
+HCP0159,Biomedical Engineer,Blood Bank,Centro de Salud,Spain,Español (es) - Spanish,8,Intermediate,Yes,Yes,Webinar,2,Gain expert-level certification in TTM management,,BD8849,Yes,
+HCP0160,Physician,Oncology,Hospital Universitario,Spain,Español (es) - Spanish,14,Intermediate,Yes,No,E-learning,16,Improve pre-analytical quality and reduce specimen non-conformances,BD Bair Hugger™,,Yes,4.5
+HCP0161,Nurse,Gastroenterology,GP Surgery,United Kingdom,English (United Kingdom),2,Beginner,No,No,Masterclass,4,Enhance PICC line insertion and maintenance skills,BD Rowa™,,Yes,5.0
+HCP0162,Physician,Hématologie,GP Surgery,United Kingdom,English (United Kingdom),10,Beginner,No,Yes,E-learning,2,Prepare for BD Vacutainer® train-the-trainer programme,BD PICCline,BD4590,Yes,4.9
+HCP0163,Physician,Formulary Management,ESPIC,France,Français (fr) - French,14,Beginner,Yes,Yes,E-learning,24,Développer les compétences en pose et entretien de PICC line,BD TTM System,BD4802,No,3.9
+HCP0164,ICU Specialist,Emergency Department,CHU,France,Français (fr) - French,8,Advanced,Yes,Yes,Blended,8,Améliorer la sécurité des perfusions et réduire les erreurs médicamenteuses,,,Yes,2.6
+HCP0165,Physician,Neurology,ESPIC,France,Français (fr) - French,3,Beginner,Yes,No,On-site,40,Préparer la mise en œuvre du protocole TTM en réanimation,BD Alaris™,,No,3.8
+HCP0166,Nurse,Specimen Management,Community Trust,United Kingdom,English (United Kingdom),20,Advanced,Yes,Yes,Webinar,2,Optimise Pyxis ES dispensing workflows,BD Nexiva™,,No,3.2
+HCP0167,Clinical Pharmacist,Dispensing Automation,Clínica Privada,Spain,Español (es) - Spanish,7,Intermediate,Yes,No,Webinar,40,Gain expert-level certification in TTM management,,BD5615,Yes,4.4
+HCP0168,Pharmacist,Dispensing Automation,Universitetssjukhus,Denmark,Dansk (da) - Danish,28,Intermediate,No,Yes,E-learning,4,Enhance PICC line insertion and maintenance skills,Pyxis ES,,Yes,
+HCP0169,Nurse,Anesthesiology,Privatklinik,Germany,Deutsch (de) - German,17,Intermediate,No,Yes,Webinar,4,Enhance PICC line insertion and maintenance skills,BD Vacutainer®,BD6999,Yes,4.1
+HCP0170,Physician,Pharmacie Hospitalière,Kreiskrankenhaus,Germany,Deutsch (de) - German,6,Intermediate,No,No,E-learning,16,Prepare for OPCO-funded certification in vascular access,,BD6076,Yes,2.7
+HCP0171,Nurse,Medical Biology,Hospital General,Spain,Español (es) - Spanish,10,Advanced,Yes,Yes,E-learning,16,Train on BD Rowa™ pharmacy automation system,BD Alaris™,,Yes,3.4
+HCP0172,Physician,Specimen Management,Kantonsspital,Switzerland,Deutsch (de) - German,28,Intermediate,No,Yes,Webinar,4,Onboard new staff on BD Alaris™ infusion pump systems,BD Eclipse™,,No,3.8
+HCP0173,Nurse,Biomedical Engineering,Kantonsspital,Switzerland,Deutsch (de) - German,17,Intermediate,No,No,Blended,40,Optimise Pyxis ES dispensing workflows,,,Yes,3.1
+HCP0174,Nurse Practitioner,Réanimation,Private Hospital,Romania,Română (ro) - Romanian,21,Intermediate,Yes,No,Webinar,24,Onboard new staff on BD Alaris™ infusion pump systems,BD PICCline,BD2466,No,3.5
+HCP0175,Physician,Neurologie,EHPAD,France,Français (fr) - French,18,Intermediate,Yes,No,Blended,24,Améliorer la conformité préanalytique et réduire les non-conformités,BD Insyte™,BD2481,Yes,3.4
+HCP0176,Pharmacy Manager,Biochemistry,Policlinico,Italy,Italiano (it) - Italian,11,Intermediate,No,Yes,E-learning,24,Onboard new staff on BD Alaris™ infusion pump systems,BD TTM System,,Yes,3.0
+HCP0177,Anesthesiologist,Cardiologie,Hôpital Général,France,Français (fr) - French,18,Intermediate,Yes,Yes,E-learning,2,Améliorer la sécurité des perfusions et réduire les erreurs médicamenteuses,,,Yes,4.1
+HCP0178,Pharmacy Manager,Clinical Pharmacy,CH,France,Français (fr) - French,3,Intermediate,Yes,No,Webinar,40,Améliorer la conformité préanalytique et réduire les non-conformités,Pyxis ES,BD3128,No,4.4
+HCP0179,Biomedical Engineer,Vascular Surgery,Centro de Salud,Spain,Español (es) - Spanish,24,Beginner,No,No,E-learning,24,Prepare for OPCO-funded certification in vascular access,BD Alaris™,BD2501,Yes,3.9
+HCP0180,ICU Specialist,Formulary Management,Community Hospital,Israel,English (United Kingdom),16,Beginner,Yes,Yes,Blended,40,Master blood collection techniques with BD Vacutainer® systems,BD Nexiva™,,Yes,2.7
+HCP0181,Pharmacist,Neurologie,ESPIC,France,Français (fr) - French,9,Advanced,Yes,Yes,On-site,16,Optimiser les workflows de dispensation sur le système Pyxis ES,BD TTM System,BD9384,Yes,
+HCP0182,Nurse,Pulmonology,Universitetssjukhus,Finland,Suomi (fi) - Finnish,3,Beginner,Yes,Yes,Webinar,16,Improve infusion safety and reduce medication errors,BD Midline,BD0744,No,3.8
+HCP0183,Pharmacist,Dispensing Automation,Academic Medical Center,Hungary,Magyar (hu) - Hungarian,24,Beginner,No,No,Blended,4,Validate Qualiopi competencies for task delegation,BD Provena™,,Yes,4.0
+HCP0184,System Manager,Surgery,Regionsjukhus,Norway,Norsk (Ino) - Norwegian,8,Advanced,No,Yes,On-site,2,Train on BD Rowa™ pharmacy automation system,BD PICCline,BD0266,No,
+HCP0185,Physician,Dispensing Automation,Privatklinik,Austria,Deutsch (de) - German,18,Beginner,No,Yes,Webinar,4,Train on BD Rowa™ pharmacy automation system,BD PICCline,BD4830,No,
+HCP0186,Pharmacist,Biomedical Engineering,CH,France,Français (fr) - French,7,Intermediate,Yes,Yes,Blended,2,Préparer une certification financée par l'OPCO en accès vasculaire,HealthSight,,Yes,
+HCP0187,Nurse,Gastroenterology,Residencia,Spain,Español (es) - Spanish,3,Advanced,No,Yes,Blended,8,Onboard new staff on BD Alaris™ infusion pump systems,Pyxis ES,BD0093,No,2.6
+HCP0188,Nurse,Hématologie,RSA,Italy,Italiano (it) - Italian,3,Advanced,No,Yes,Webinar,24,Onboard on BD Nexiva™ IV catheter system,,BD0093,Yes,3.3
+HCP0189,System Manager,Medical Biology,GP Surgery,United Kingdom,English (United Kingdom),7,Beginner,Yes,No,Blended,24,Validate Qualiopi competencies for task delegation,BD A-Line™,,Yes,3.8
+HCP0190,Physician,Equipment Maintenance,Centro de Salud,Spain,Español (es) - Spanish,11,Beginner,Yes,Yes,Blended,4,Optimise Pyxis ES dispensing workflows,BD Microtainer®,BD9715,No,3.2
+HCP0191,Physician,Pulmonology,Clinique Privée,France,Français (fr) - French,20,Intermediate,Yes,Yes,E-learning,2,Maîtriser les techniques de prélèvement avec BD Vacutainer®,BD A-Line™,BD8152,Yes,
+HCP0192,Physician,Clinical Pharmacy,Casa di Cura,Italy,Italiano (it) - Italian,15,Intermediate,No,No,E-learning,2,Train on BD Rowa™ pharmacy automation system,Pyxis Anesthesia,,Yes,2.7
+HCP0193,Biomedical Engineer,Pharmacy Management,Private Hospital,Poland,Polski (pl) - Polish,4,Intermediate,No,No,E-learning,40,Enhance PICC line insertion and maintenance skills,BD Rowa™,BD5144,Yes,3.7
+HCP0194,Pharmacist,Surgery,RSA,Italy,Italiano (it) - Italian,16,Intermediate,Yes,Yes,Blended,4,Enhance PICC line insertion and maintenance skills,BD Insyte™,BD9425,No,3.9
+HCP0195,ICU Specialist,Neurology,Ospedale Universitario,Italy,Italiano (it) - Italian,6,Intermediate,No,Yes,E-learning,40,Prepare for BD Vacutainer® train-the-trainer programme,VADvisor™,,Yes,2.7
+HCP0196,System Manager,Pharmacie Hospitalière,MVZ,Germany,Deutsch (de) - German,4,Expert,No,Yes,On-site,2,Master blood collection techniques with BD Vacutainer® systems,BD Insyte™,,No,3.0
+HCP0197,Pharmacy Manager,Soins Intensifs,CHU,Belgium,Français (fr) - French,11,Intermediate,Yes,Yes,On-site,24,Obtenir une certification avancée en gestion de la TTM,VADvisor™,BD6448,No,2.8
+HCP0198,ICU Specialist,Specimen Management,GP Surgery,United Kingdom,English (United Kingdom),18,Beginner,No,No,E-learning,40,Support career development with certified training (Qualiopi equivalent),Pyxis ES,BD7005,Yes,3.1
+HCP0199,Nurse,Pediatrics,Universitetssjukhus,Sweden,Svenska (sv) - Swedish,22,Intermediate,No,No,E-learning,40,Improve infusion safety and reduce medication errors,BD PICCline,,No,3.6
+HCP0200,Pharmacy Manager,Cardiac ICU,ESPIC,France,Français (fr) - French,6,Beginner,Yes,No,E-learning,4,Optimiser les workflows de dispensation sur le système Pyxis ES,BD Insyte™,,Yes,4.6
+HCP0201,Nurse Practitioner,Réanimation,Geriatrik,Turkey,Türkçe (tr) - Turkish,12,Expert,No,Yes,Webinar,24,Prepare for BD Vacutainer® train-the-trainer programme,BD Provena™,BD4080,Yes,4.8
+HCP0202,Nurse,Dispensing Automation,Universitetssjukhus,Denmark,Dansk (da) - Danish,8,Intermediate,No,Yes,On-site,24,Develop vascular access unit expertise,BD Alaris™,,No,4.3
+HCP0203,Nurse,Anesthesiology,Private Hospital,Croatia,Hrvatski (hr) - Croatian,25,Expert,No,No,E-learning,8,Gain expert-level certification in TTM management,BD Microtainer®,,No,2.7
+HCP0204,Pharmacist,Medical Biology,Universitetssjukhus,Sweden,Svenska (sv) - Swedish,13,Intermediate,No,No,Webinar,2,Gain expert-level certification in TTM management,BD PICCline,,No,2.9
+HCP0205,Pharmacist,Clinical Pharmacy,Hôpital Général,France,Français (fr) - French,7,Intermediate,Yes,Yes,E-learning,2,Valider les compétences Qualiopi pour la délégation de tâches infirmières,BD PICCline,BD2018,Yes,4.6
+HCP0206,System Manager,Advanced Practice Nursing,Casa di Cura,Italy,Italiano (it) - Italian,10,Expert,No,Yes,Webinar,2,Prepare for targeted temperature management protocol implementation,BD PICCline,BD6969,Yes,
+HCP0207,Pharmacy Manager,Emergency Department,RSA,Italy,Italiano (it) - Italian,3,Advanced,Yes,Yes,E-learning,16,Prepare for targeted temperature management protocol implementation,BD Preset™,,Yes,4.4
+HCP0208,Physician,Gastroenterology,Clinique Privée,France,Français (fr) - French,11,Beginner,Yes,No,On-site,16,Développer les compétences en pose et entretien de PICC line,BD PICCline,BD4080,Yes,
+HCP0209,Nurse,Critical Care,IPSS,Portugal,Português (pt) - Portuguese,20,Intermediate,Yes,Yes,On-site,24,Enhance PICC line insertion and maintenance skills,VADvisor™,,No,3.4
+HCP0210,Nurse,Infectious Disease,Academic Medical Center,United States,English (United States),15,Beginner,No,No,Webinar,2,Train on BD Rowa™ pharmacy automation system,BD A-Line™,BD3520,No,5.0
+HCP0211,Pharmacist,Gériatrie,HAD,France,Français (fr) - French,19,Intermediate,Yes,Yes,On-site,40,Valider les compétences Qualiopi pour la délégation de tâches infirmières,BD Bair Hugger™,,No,3.2
+HCP0212,Physician,Formulary Management,Ospedale Regionale,Italy,Italiano (it) - Italian,4,Intermediate,No,Yes,Blended,8,Gain expert-level certification in TTM management,Pyxis Anesthesia,BD5935,Yes,2.8
+HCP0213,System Manager,Cardiology,Privatklinik,Germany,Deutsch (de) - German,28,Intermediate,No,Yes,Webinar,40,Onboard new staff on BD Alaris™ infusion pump systems,BD Bair Hugger™,BD3560,Yes,4.4
+HCP0214,Nurse,Hématologie,Hospital General,Spain,Español (es) - Spanish,8,Expert,No,Yes,Webinar,4,Support career development with certified training (Qualiopi equivalent),Pyxis Anesthesia,BD8062,No,2.8
+HCP0215,System Manager,Medical Biology,Universitetssjukhus,Norway,Norsk (Ino) - Norwegian,24,Expert,No,Yes,Masterclass,40,Gain expert-level certification in TTM management,Pyxis Anesthesia,BD0907,Yes,3.5
+HCP0216,Pharmacist,Soins Intensifs,EHPAD,France,Français (fr) - French,3,Intermediate,Yes,No,E-learning,16,Préparer la mise en œuvre du protocole TTM en réanimation,,BD7487,Yes,4.2
+HCP0217,Nurse,Biomedical Engineering,MSP,France,Français (fr) - French,14,Expert,Yes,Yes,E-learning,4,Valider les compétences Qualiopi pour la délégation de tâches infirmières,BD Insyte™,BD8828,Yes,4.6
+HCP0218,Pharmacy Manager,Neurology,Regionsjukhus,Finland,Suomi (fi) - Finnish,19,Beginner,No,No,Webinar,16,Develop vascular access unit expertise,,,Yes,
+HCP0219,ICU Specialist,Biochemistry,Universitetssjukhus,Denmark,Dansk (da) - Danish,2,Beginner,No,Yes,Webinar,8,Prepare for targeted temperature management protocol implementation,BD A-Line™,BD7211,Yes,2.6
+HCP0220,Nurse,Surgery,Huisartsenpraktijk,Netherlands,Nederlands (nl) - Dutch,27,Intermediate,No,Yes,E-learning,8,Improve infusion safety and reduce medication errors,BD Rowa™,BD5812,No,3.2
+HCP0221,ICU Specialist,Oncology,Centro de Salud,Spain,Español (es) - Spanish,19,Intermediate,Yes,No,E-learning,2,Improve pre-analytical quality and reduce specimen non-conformances,BD TTM System,BD6559,Yes,4.8
+HCP0222,Clinical Pharmacist,Gériatrie,NHS Trust,United Kingdom,English (United Kingdom),20,Intermediate,No,No,Blended,8,Prepare for targeted temperature management protocol implementation,BD Nexiva™,,Yes,4.9
+HCP0223,ICU Specialist,Pediatrics,HAD,France,Français (fr) - French,3,Intermediate,Yes,Yes,Webinar,4,Optimiser les workflows de dispensation sur le système Pyxis ES,,,Yes,3.0
+HCP0224,System Manager,Microbiology,Community Hospital,Croatia,Hrvatski (hr) - Croatian,11,Intermediate,No,Yes,E-learning,4,Validate Qualiopi competencies for task delegation,BD TTM System,,Yes,4.0
+HCP0225,Nurse,Cardiac ICU,Community Hospital,United Kingdom,English (United Kingdom),23,Intermediate,Yes,Yes,Webinar,8,Onboard new staff on BD Alaris™ infusion pump systems,BD Eclipse™,BD1100,Yes,
+HCP0226,Nurse,Advanced Practice Nursing,Residencia,Spain,Español (es) - Spanish,5,Beginner,Yes,Yes,Webinar,16,Develop vascular access unit expertise,BD Foley,,Yes,3.2
+HCP0227,Physician,Biochemistry,Private Hospital,United Kingdom,English (United Kingdom),22,Advanced,No,No,Webinar,16,Prepare for BD Vacutainer® train-the-trainer programme,BD Eclipse™,,Yes,4.6
+HCP0228,ICU Specialist,ICU / Critical Care,Policlinico,Italy,Italiano (it) - Italian,6,Advanced,No,Yes,Webinar,40,Gain expert-level certification in TTM management,BD Bair Hugger™,BD3370,Yes,3.6
+HCP0229,Physician,Clinical Pharmacy,Academic Medical Center,Czech Republic,Čeština (cs) - Czech,12,Advanced,Yes,Yes,Blended,16,Improve pre-analytical quality and reduce specimen non-conformances,,,No,3.4
+HCP0230,Nurse,Soins Intensifs,Policlinico,Italy,Italiano (it) - Italian,1,Intermediate,No,Yes,Blended,16,Gain expert-level certification in TTM management,BD PICCline,BD2306,Yes,2.7
+HCP0231,Physician,Blood Bank,RSA,Italy,Italiano (it) - Italian,27,Intermediate,No,No,E-learning,16,Gain expert-level certification in TTM management,Pyxis Anesthesia,BD9769,Yes,2.8
+HCP0232,Pharmacy Manager,Gériatrie,Privat Klinik,Denmark,Dansk (da) - Danish,18,Advanced,No,Yes,Masterclass,24,Enhance PICC line insertion and maintenance skills,BD Rowa™,BD1197,Yes,4.7
+HCP0233,ICU Specialist,Pharmacie Hospitalière,NHS Trust,United Kingdom,English (United Kingdom),16,Intermediate,No,No,Webinar,16,Train on BD Rowa™ pharmacy automation system,Pyxis ES,,Yes,3.1
+HCP0234,Physician,EHR Integration,Hospital General,Spain,Español (es) - Spanish,1,Intermediate,No,Yes,Blended,24,Prepare for targeted temperature management protocol implementation,BD BodyGuard T,BD2097,No,2.9
+HCP0235,Biomedical Engineer,Oncologie,Community Hospital,United Kingdom,English (United Kingdom),22,Beginner,No,No,E-learning,40,Onboard new staff on BD Alaris™ infusion pump systems,BD Bair Hugger™,,No,3.0
+HCP0236,Nurse,Specimen Management,CHU,France,Français (fr) - French,16,Advanced,Yes,Yes,E-learning,24,Maîtriser les techniques de prélèvement avec BD Vacutainer®,BD BodyGuard T,BD0907,Yes,3.2
+HCP0237,System Manager,Geriatrics,Policlinico,Italy,Italiano (it) - Italian,7,Expert,No,Yes,Webinar,4,Master blood collection techniques with BD Vacutainer® systems,BD Microtainer®,,Yes,4.1
+HCP0238,Pharmacist,Specimen Management,Integrated Care Board,United Kingdom,English (United Kingdom),22,Intermediate,Yes,No,Masterclass,24,Develop vascular access unit expertise,BD Vacutainer®,,No,4.2
+HCP0239,Pharmacist,Operating Theatre,Ospedale Regionale,Italy,Italiano (it) - Italian,25,Intermediate,Yes,No,E-learning,24,Improve infusion safety and reduce medication errors,BD Eclipse™,,No,2.8
+HCP0240,Physician,Urgences,Hôpital Général,France,Français (fr) - French,12,Expert,Yes,No,E-learning,24,Maîtriser les techniques de prélèvement avec BD Vacutainer®,HealthSight,BD2494,Yes,2.5
+HCP0241,Pharmacist,Equipment Maintenance,Private Hospital,Poland,Polski (pl) - Polish,2,Advanced,No,No,Webinar,2,Improve infusion safety and reduce medication errors,VADvisor™,BD9575,Yes,
+HCP0242,Physician,Trauma ICU,Policlinico,Italy,Italiano (it) - Italian,7,Beginner,No,Yes,E-learning,40,Master blood collection techniques with BD Vacutainer® systems,BD Microtainer®,BD7002,Yes,4.3
+HCP0243,Nurse,Infectious Disease,Regionsjukhus,Denmark,Dansk (da) - Danish,2,Expert,No,Yes,Blended,40,Train on BD Rowa™ pharmacy automation system,BD Vacutainer®,,Yes,2.9
+HCP0244,Pharmacist,Chirurgie,Private Hospital,South Africa,English (United Kingdom),13,Intermediate,No,No,On-site,16,Onboard new staff on BD Alaris™ infusion pump systems,BD Rowa™,BD0526,No,3.9
+HCP0245,Physician,Biochemistry,IPSS,Portugal,Português (pt) - Portuguese,10,Expert,No,No,Webinar,16,Improve pre-analytical quality and reduce specimen non-conformances,BD BodyGuard T,,No,3.3
+HCP0246,ICU Specialist,EHR Integration,VA Hospital,United States,English (United States),18,Intermediate,No,Yes,Blended,24,Prepare for OPCO-funded certification in vascular access,BD Midline,BD7085,Yes,4.9
+HCP0247,Physician,Oncology,Ospedale Universitario,Italy,Italiano (it) - Italian,24,Beginner,No,Yes,Webinar,24,Onboard on BD Nexiva™ IV catheter system,,,Yes,4.5
+HCP0248,Nurse,Biochemistry,Hôpital Général,France,Français (fr) - French,1,Intermediate,Yes,No,Webinar,40,Optimiser les workflows de dispensation sur le système Pyxis ES,BD Vacutainer®,BD7631,No,4.0
+HCP0249,Pharmacist,Cardiology,Kantonsspital,Switzerland,Deutsch (de) - German,28,Advanced,Yes,Yes,Webinar,40,Train on BD Rowa™ pharmacy automation system,BD BodyGuard T,BD1197,Yes,4.4
+HCP0250,Pharmacy Manager,Oncologie,Community Hospital,Israel,English (United Kingdom),26,Intermediate,Yes,No,E-learning,4,Enhance PICC line insertion and maintenance skills,BD Bair Hugger™,BD6145,Yes,4.6
+HCP0251,Pharmacist,Urgences,Hospital Universitário,Portugal,Português (pt) - Portuguese,15,Intermediate,Yes,Yes,Blended,2,Improve pre-analytical quality and reduce specimen non-conformances,BD Eclipse™,,No,3.9
+HCP0252,Pharmacist,Emergency Department,Primärvård,Sweden,Svenska (sv) - Swedish,18,Advanced,Yes,Yes,On-site,16,Validate Qualiopi competencies for task delegation,BD Preset™,BD0430,Yes,3.7
+HCP0253,Pharmacy Manager,Microbiology,Community Hospital,Czech Republic,Čeština (cs) - Czech,15,Intermediate,No,No,Webinar,40,Improve pre-analytical quality and reduce specimen non-conformances,BD Eclipse™,,Yes,4.3
+HCP0254,Pharmacist,Blood Bank,ESPIC,France,Français (fr) - French,5,Advanced,Yes,No,E-learning,24,Obtenir une certification avancée en gestion de la TTM,BD Midline,,Yes,2.9
+HCP0255,Biomedical Engineer,Pulmonology,Kreiskrankenhaus,Germany,Deutsch (de) - German,27,Advanced,No,No,On-site,2,Onboard on BD Nexiva™ IV catheter system,BD A-Line™,,Yes,3.3
+HCP0256,Nurse Practitioner,EHR Integration,Universitetssjukhus,Sweden,Svenska (sv) - Swedish,8,Expert,No,Yes,E-learning,40,Onboard on BD Nexiva™ IV catheter system,BD BodyGuard T,,Yes,3.2
+HCP0257,Pharmacist,Pharmacy Management,Pflegeheim,Germany,Deutsch (de) - German,21,Advanced,No,No,Blended,4,Develop vascular access unit expertise,BD BodyGuard T,BD6614,Yes,3.9
+HCP0258,Nurse,Soins Intensifs,RSA,Italy,Italiano (it) - Italian,11,Intermediate,No,No,E-learning,16,Enhance PICC line insertion and maintenance skills,BD Preset™,BD6869,No,3.1
+HCP0259,System Manager,Medical ICU,CHU,Belgium,Français (fr) - French,20,Intermediate,Yes,No,On-site,24,Améliorer la conformité préanalytique et réduire les non-conformités,,,No,3.7
+HCP0260,ICU Specialist,Equipment Maintenance,Residencia,Spain,Español (es) - Spanish,23,Intermediate,No,Yes,Blended,40,Enhance PICC line insertion and maintenance skills,BD Microtainer®,,No,3.8
+HCP0261,System Manager,Emergency ICU,Devlet Hastanesi,Turkey,Türkçe (tr) - Turkish,1,Expert,Yes,Yes,Webinar,24,Prepare for BD Vacutainer® train-the-trainer programme,BD Foley,,Yes,4.9
+HCP0262,Pharmacist,Trauma ICU,Community Hospital,Romania,Română (ro) - Romanian,20,Intermediate,Yes,No,On-site,40,Support career development with certified training (Qualiopi equivalent),,BD3261,No,4.7
+HCP0263,Nurse,Critical Care,Regionsjukhus,Norway,Norsk (Ino) - Norwegian,30,Beginner,No,No,Webinar,24,Prepare for targeted temperature management protocol implementation,BD PICCline,BD1442,Yes,
+HCP0264,ICU Specialist,Blood Bank,Kantonsspital,Switzerland,Deutsch (de) - German,11,Advanced,Yes,Yes,Webinar,40,Onboard on BD Nexiva™ IV catheter system,BD TTM System,BD3771,Yes,
+HCP0265,Pharmacist,Oncology,MSP,France,Français (fr) - French,16,Expert,Yes,Yes,On-site,4,Obtenir une certification avancée en gestion de la TTM,,,Yes,3.3
+HCP0266,ICU Specialist,Soins Intensifs,Clínica Privada,Spain,Español (es) - Spanish,20,Beginner,No,Yes,E-learning,8,Onboard new staff on BD Alaris™ infusion pump systems,BD Bair Hugger™,,Yes,4.6
+HCP0267,Physician,Gériatrie,EHPAD,France,Français (fr) - French,9,Beginner,Yes,No,E-learning,8,Maîtriser les techniques de prélèvement avec BD Vacutainer®,BD Insyte™,BD9175,No,4.1
+HCP0268,Nurse,Gériatrie,VA Hospital,United States,English (United States),4,Advanced,No,Yes,Blended,4,Validate Qualiopi competencies for task delegation,BD Vacutainer®,BD3731,Yes,3.9
+HCP0269,Physician,Oncology,Universitetssjukhus,Sweden,Svenska (sv) - Swedish,22,Intermediate,Yes,No,Blended,2,Master blood collection techniques with BD Vacutainer® systems,HealthSight,,No,2.9
+HCP0270,Physician,Gériatrie,CHU,France,Français (fr) - French,11,Advanced,Yes,Yes,Webinar,24,Améliorer la sécurité des perfusions et réduire les erreurs médicamenteuses,BD Provena™,BD1820,No,4.1
+HCP0271,Physician,Neurology,Privatklinik,Germany,Deutsch (de) - German,24,Intermediate,Yes,Yes,Blended,8,Onboard new staff on BD Alaris™ infusion pump systems,,BD5047,Yes,4.9
+HCP0272,System Manager,Gastroenterology,Clínica Privada,Spain,Español (es) - Spanish,15,Intermediate,No,No,Blended,8,Support career development with certified training (Qualiopi equivalent),BD A-Line™,BD2302,Yes,
+HCP0273,Pharmacy Manager,Gastroenterology,Universitätsklinikum,Germany,Deutsch (de) - German,3,Intermediate,Yes,No,E-learning,4,Onboard new staff on BD Alaris™ infusion pump systems,BD Provena™,BD4590,Yes,
+HCP0274,Nurse,EHR Integration,NHS Trust,United Kingdom,English (United Kingdom),12,Advanced,No,Yes,Webinar,4,Gain expert-level certification in TTM management,BD Alaris™,BD0972,No,
+HCP0275,Pharmacist,Medical ICU,Ospedale Regionale,Italy,Italiano (it) - Italian,2,Advanced,No,Yes,Masterclass,8,Support career development with certified training (Qualiopi equivalent),VADvisor™,,Yes,2.9
+HCP0276,Nurse,Nephrology,GP Surgery,United Kingdom,English (United Kingdom),13,Intermediate,No,Yes,Webinar,16,Gain expert-level certification in TTM management,BD Rowa™,,Yes,3.3
+HCP0277,System Manager,Gériatrie,Regionsjukhus,Sweden,Svenska (sv) - Swedish,4,Advanced,No,Yes,On-site,16,Optimise Pyxis ES dispensing workflows,,,Yes,4.6
+HCP0278,Physician,Specimen Management,HAD,France,Français (fr) - French,10,Beginner,Yes,Yes,Webinar,2,Préparer la mise en œuvre du protocole TTM en réanimation,,BD0119,Yes,
+HCP0279,ICU Specialist,Clinical Pharmacy,Pflegeheim,Germany,Deutsch (de) - German,19,Intermediate,No,No,Blended,40,Onboard on BD Nexiva™ IV catheter system,BD Rowa™,,No,2.7
+HCP0280,Nurse,Equipment Maintenance,Academisch Ziekenhuis,Netherlands,Nederlands (nl) - Dutch,21,Intermediate,No,Yes,On-site,16,Train on BD Rowa™ pharmacy automation system,Pyxis Anesthesia,BD1640,No,2.7
+HCP0281,Physician,Pulmonology,HAD,France,Français (fr) - French,15,Advanced,Yes,Yes,Webinar,16,Préparer la mise en œuvre du protocole TTM en réanimation,BD PICCline,BD7394,Yes,3.7
+HCP0282,Nurse,Microbiology,HAD,France,Français (fr) - French,5,Advanced,Yes,No,Blended,24,Valider les compétences Qualiopi pour la délégation de tâches infirmières,BD Foley,BD5615,Yes,
+HCP0283,System Manager,Gastroenterology,Privatklinik,Germany,Deutsch (de) - German,30,Advanced,Yes,Yes,Webinar,24,Validate Qualiopi competencies for task delegation,BD Bair Hugger™,,Yes,4.6
+HCP0284,ICU Specialist,Soins Intensifs,GGZ,Netherlands,Nederlands (nl) - Dutch,3,Expert,No,Yes,E-learning,40,Enhance PICC line insertion and maintenance skills,Pyxis Anesthesia,BD4927,No,3.6
+HCP0285,Nurse,ICU / Critical Care,Private Hospital,Croatia,Hrvatski (hr) - Croatian,22,Intermediate,No,Yes,On-site,24,Onboard new staff on BD Alaris™ infusion pump systems,BD TTM System,BD5822,Yes,3.8
+HCP0286,Nurse,Pediatrics,Private Hospital,Greece,Ελληνικά (el) - Greek,12,Expert,No,Yes,Masterclass,8,Validate Qualiopi competencies for task delegation,BD Alaris™,BD5337,Yes,3.9
+HCP0287,Physician,Nephrology,Community Hospital,United States,English (United States),9,Beginner,No,Yes,E-learning,40,Onboard on BD Nexiva™ IV catheter system,BD TTM System,BD6385,No,4.5
+HCP0288,Nurse,IT Systems,Ambulatory Surgery Center,United States,English (United States),4,Advanced,No,No,On-site,40,Develop vascular access unit expertise,HealthSight,,No,3.4
+HCP0289,Nurse,Dispensing Automation,Regionsjukhus,Denmark,Dansk (da) - Danish,3,Intermediate,No,No,Webinar,4,Validate Qualiopi competencies for task delegation,BD A-Line™,BD6798,Yes,4.3
+HCP0290,System Manager,Soins Intensifs,Centro de Salud,Spain,Español (es) - Spanish,5,Intermediate,No,Yes,Blended,8,Prepare for BD Vacutainer® train-the-trainer programme,Pyxis Anesthesia,,Yes,4.8
+HCP0291,Nurse,Cardiology,NHS Trust,United Kingdom,English (United Kingdom),11,Beginner,No,Yes,E-learning,4,Develop vascular access unit expertise,BD Microtainer®,BD8062,Yes,3.2
+HCP0292,Nurse,Hospital Pharmacy,Academic Medical Center,Bulgaria,Български (bg) - Bulgarian,13,Intermediate,No,Yes,Webinar,16,Master blood collection techniques with BD Vacutainer® systems,BD Rowa™,BD1442,No,3.6
+HCP0293,Physician,Surgical ICU,Academisch Ziekenhuis,Netherlands,Nederlands (nl) - Dutch,8,Intermediate,Yes,No,On-site,40,Improve infusion safety and reduce medication errors,BD Microtainer®,BD4272,Yes,
+HCP0294,Nurse,Critical Care,Kantonsspital,Switzerland,Deutsch (de) - German,5,Intermediate,No,Yes,Webinar,2,Optimise Pyxis ES dispensing workflows,BD Preset™,BD6448,Yes,4.8
+HCP0295,Physician,Anesthesiology,CH,France,Français (fr) - French,10,Advanced,Yes,Yes,Blended,8,Améliorer la sécurité des perfusions et réduire les erreurs médicamenteuses,BD Foley,BD9144,No,3.7
+HCP0296,ICU Specialist,Oncology,Primärvård,Sweden,Svenska (sv) - Swedish,7,Intermediate,No,No,E-learning,24,Develop vascular access unit expertise,BD Alaris™,BD6802,Yes,
+HCP0297,Nurse,Medical ICU,Community Hospital,United Kingdom,English (United Kingdom),22,Intermediate,No,No,E-learning,8,Improve pre-analytical quality and reduce specimen non-conformances,BD Provena™,BD2298,Yes,4.2
+HCP0298,ICU Specialist,Hematology,Community Trust,United Kingdom,English (United Kingdom),9,Intermediate,Yes,Yes,E-learning,8,Support career development with certified training (Qualiopi equivalent),Pyxis ES,BD6780,No,3.0
+HCP0299,System Manager,Clinical Pharmacy,Private Hospital,Qatar,English (United Kingdom),26,Advanced,Yes,Yes,E-learning,16,Prepare for targeted temperature management protocol implementation,BD Provena™,,No,3.8
+HCP0300,System Manager,Microbiology,Kreiskrankenhaus,Germany,Deutsch (de) - German,10,Advanced,Yes,Yes,Webinar,8,Support career development with certified training (Qualiopi equivalent),BD Microtainer®,BD5167,Yes,2.6
+HCP0301,Pharmacist,Hematology,Privat Klinik,Denmark,Dansk (da) - Danish,28,Intermediate,Yes,Yes,On-site,16,Onboard on BD Nexiva™ IV catheter system,BD Rowa™,BD6869,Yes,
+HCP0302,System Manager,Critical Care,Privatklinik,Germany,Deutsch (de) - German,20,Intermediate,No,Yes,Webinar,16,Support career development with certified training (Qualiopi equivalent),BD Bair Hugger™,BD1793,Yes,4.4
+HCP0303,Nurse,Gériatrie,NHS Trust,United Kingdom,English (United Kingdom),10,Intermediate,No,Yes,Blended,16,Train on BD Rowa™ pharmacy automation system,BD PICCline,BD3017,Yes,
+HCP0304,Physician,Gériatrie,Policlinico,Italy,Italiano (it) - Italian,6,Beginner,No,No,Webinar,4,Prepare for targeted temperature management protocol implementation,BD Midline,BD7305,Yes,3.6
+HCP0305,ICU Specialist,Emergency Department,Hospital General,Spain,Español (es) - Spanish,19,Intermediate,No,Yes,E-learning,4,Prepare for OPCO-funded certification in vascular access,,BD7114,Yes,3.8
+HCP0306,Physician,EHR Integration,CHU,France,Français (fr) - French,3,Intermediate,Yes,Yes,Webinar,16,Développer les compétences en pose et entretien de PICC line,BD PICCline,,No,4.7
+HCP0307,Biomedical Engineer,Specimen Management,IPSS,Portugal,Português (pt) - Portuguese,4,Advanced,No,Yes,Webinar,16,Prepare for targeted temperature management protocol implementation,BD PICCline,,No,3.1
+HCP0308,Pharmacy Manager,Gastroenterology,Policlinico,Italy,Italiano (it) - Italian,17,Advanced,No,Yes,Webinar,8,Prepare for BD Vacutainer® train-the-trainer programme,BD Midline,BD2593,Yes,3.3
+HCP0309,Pharmacist,Equipment Maintenance,CPAS,Belgium,Français (fr) - French,24,Intermediate,Yes,Yes,E-learning,40,Préparer une certification financée par l'OPCO en accès vasculaire,BD Rowa™,,Yes,3.3
+HCP0310,Nurse,Anesthesiology,Hospital Distrital,Portugal,Português (pt) - Portuguese,27,Beginner,No,Yes,E-learning,24,Gain expert-level certification in TTM management,HealthSight,BD5333,Yes,4.4
+HCP0311,Nurse,Hématologie,Community Hospital,United States,English (United States),12,Beginner,No,No,E-learning,4,Prepare for BD Vacutainer® train-the-trainer programme,BD TTM System,BD3378,No,3.9
+HCP0312,Nurse,Clinical Pharmacy,Universitetssjukhus,Sweden,Svenska (sv) - Swedish,7,Advanced,Yes,Yes,E-learning,4,Support career development with certified training (Qualiopi equivalent),BD Bair Hugger™,,Yes,3.3
+HCP0313,Physician,Chirurgie,CH,France,Français (fr) - French,12,Advanced,Yes,Yes,Webinar,24,Valider les compétences Qualiopi pour la délégation de tâches infirmières,VADvisor™,,Yes,3.2
+HCP0314,ICU Specialist,Pharmacy Management,Casa di Cura,Italy,Italiano (it) - Italian,2,Intermediate,No,Yes,Blended,16,Gain expert-level certification in TTM management,Pyxis Anesthesia,,No,4.2
+HCP0315,System Manager,Clinical Pharmacy,Ambulatory Surgery Center,United States,English (United States),4,Intermediate,No,No,Blended,24,Enhance PICC line insertion and maintenance skills,BD Insyte™,BD2976,No,3.8
+HCP0316,Pharmacy Manager,Gériatrie,Universitetssjukhus,Sweden,Svenska (sv) - Swedish,8,Expert,No,No,Blended,16,Prepare for targeted temperature management protocol implementation,BD Rowa™,,Yes,
+HCP0317,ICU Specialist,Hématologie,VVT,Netherlands,Nederlands (nl) - Dutch,18,Beginner,Yes,Yes,On-site,40,Improve infusion safety and reduce medication errors,BD Foley,,No,4.5
+HCP0318,Nurse,IT Systems,IDN,United States,English (United States),1,Expert,Yes,No,E-learning,4,Improve pre-analytical quality and reduce specimen non-conformances,VADvisor™,BD8152,Yes,2.9
+HCP0319,System Manager,Hospital Pharmacy,Clinique Privée,France,Français (fr) - French,24,Beginner,Yes,No,Webinar,16,Préparer une certification financée par l'OPCO en accès vasculaire,BD Insyte™,BD0907,No,4.0
+HCP0320,Biomedical Engineer,Oncologie,IDN,United States,English (United States),4,Intermediate,No,Yes,E-learning,2,Prepare for OPCO-funded certification in vascular access,Pyxis ES,BD0526,Yes,4.8
+HCP0321,Pharmacist,Equipment Maintenance,CHU,France,Français (fr) - French,20,Intermediate,Yes,No,Webinar,4,Maîtriser les techniques de prélèvement avec BD Vacutainer®,BD A-Line™,BD6389,Yes,2.6
+HCP0322,System Manager,Emergency Department,Clinique Privée,France,Français (fr) - French,1,Advanced,Yes,Yes,On-site,40,Obtenir une certification avancée en gestion de la TTM,BD Insyte™,,No,2.6
+HCP0323,Pharmacy Manager,Specimen Management,Ospedale Universitario,Italy,Italiano (it) - Italian,2,Expert,No,Yes,E-learning,2,Enhance PICC line insertion and maintenance skills,BD TTM System,BD8393,Yes,4.5
+HCP0324,Nurse,Dispensing Automation,GGZ,Netherlands,Nederlands (nl) - Dutch,20,Intermediate,No,No,E-learning,24,Train on BD Rowa™ pharmacy automation system,BD Nexiva™,,No,2.9
+HCP0325,Pharmacist,Neurology,VVT,Netherlands,Nederlands (nl) - Dutch,15,Advanced,No,Yes,Webinar,24,Improve pre-analytical quality and reduce specimen non-conformances,VADvisor™,,No,5.0
+HCP0326,Physician,Geriatrics,Academisch Ziekenhuis,Netherlands,Nederlands (nl) - Dutch,9,Intermediate,Yes,Yes,Webinar,2,Gain expert-level certification in TTM management,BD BodyGuard T,BD6448,Yes,2.8
+HCP0327,Nurse,Pediatrics,IPSS,Portugal,Português (pt) - Portuguese,22,Intermediate,No,No,On-site,4,Optimise Pyxis ES dispensing workflows,BD Alaris™,BD1220,Yes,4.4
+HCP0328,Pharmacist,Surgical ICU,Academic Medical Center,Romania,Română (ro) - Romanian,9,Intermediate,Yes,Yes,Webinar,8,Enhance PICC line insertion and maintenance skills,BD TTM System,BD2487,Yes,4.0
+HCP0329,Nurse,Urgences,Ambulatory Surgery Center,United States,English (United States),4,Beginner,No,No,Webinar,4,Optimise Pyxis ES dispensing workflows,BD Rowa™,BD9664,Yes,3.3
+HCP0330,Physician,Pharmacy Management,Privat Klinik,Denmark,Dansk (da) - Danish,18,Intermediate,Yes,Yes,Blended,8,Onboard on BD Nexiva™ IV catheter system,BD A-Line™,,No,2.8
+HCP0331,Nurse,Geriatrics,Regionsjukhus,Finland,Suomi (fi) - Finnish,22,Advanced,Yes,No,E-learning,40,Optimise Pyxis ES dispensing workflows,BD Eclipse™,BD9412,Yes,3.6
+HCP0332,Nurse,Operating Theatre,Universitetssjukhus,Finland,Suomi (fi) - Finnish,12,Expert,No,Yes,On-site,8,Onboard new staff on BD Alaris™ infusion pump systems,,BD0744,No,3.0
+HCP0333,ICU Specialist,Oncology,MVZ,Germany,Deutsch (de) - German,2,Expert,No,Yes,E-learning,2,Onboard new staff on BD Alaris™ infusion pump systems,BD Microtainer®,,No,
+HCP0334,Nurse,Medical ICU,Hospital Universitario,Spain,Español (es) - Spanish,8,Intermediate,No,Yes,Blended,4,Prepare for BD Vacutainer® train-the-trainer programme,,,Yes,
+HCP0335,Physician,Critical Care,Ospedale Universitario,Italy,Italiano (it) - Italian,28,Intermediate,No,No,E-learning,24,Gain expert-level certification in TTM management,BD A-Line™,BD2466,Yes,4.5
+HCP0336,Pharmacist,Dispensing Automation,Residencia,Spain,Español (es) - Spanish,14,Advanced,No,Yes,E-learning,8,Prepare for OPCO-funded certification in vascular access,HealthSight,BD7274,Yes,4.9
+HCP0337,Pharmacist,Operating Theatre,ESPIC,France,Français (fr) - French,21,Advanced,Yes,Yes,E-learning,40,Préparer la mise en œuvre du protocole TTM en réanimation,Pyxis ES,,No,4.2
+HCP0338,ICU Specialist,Medical Biology,ESPIC,France,Français (fr) - French,28,Advanced,Yes,No,E-learning,8,Développer les compétences en pose et entretien de PICC line,BD Eclipse™,BD1442,Yes,3.5
+HCP0339,Pharmacist,Gastroenterology,Hôpital Général,France,Français (fr) - French,5,Intermediate,Yes,No,Masterclass,8,Développer les compétences en pose et entretien de PICC line,VADvisor™,BD7085,Yes,4.5
+HCP0340,Clinical Pharmacist,Hematology,Kreiskrankenhaus,Austria,Deutsch (de) - German,25,Intermediate,No,Yes,E-learning,16,Develop vascular access unit expertise,BD Rowa™,BD4442,No,
+HCP0341,Nurse Practitioner,Formulary Management,Clinique Privée,France,Français (fr) - French,18,Beginner,Yes,Yes,Webinar,8,Maîtriser les techniques de prélèvement avec BD Vacutainer®,,BD9417,No,
+HCP0342,Nurse,Medical ICU,Academic Medical Center,Greece,Ελληνικά (el) - Greek,20,Expert,Yes,No,Masterclass,2,Master blood collection techniques with BD Vacutainer® systems,BD Preset™,BD8463,Yes,4.2
+HCP0343,Pharmacist,Réanimation,Policlinico,Italy,Italiano (it) - Italian,26,Intermediate,No,No,On-site,40,Master blood collection techniques with BD Vacutainer® systems,BD Alaris™,,Yes,4.5
+HCP0344,Physician,Critical Care,Community Hospital,Hungary,Magyar (hu) - Hungarian,23,Advanced,No,Yes,E-learning,2,Support career development with certified training (Qualiopi equivalent),BD Nexiva™,BD3520,Yes,4.9
+HCP0345,ICU Specialist,Pharmacie Hospitalière,Pflegeheim,Germany,Deutsch (de) - German,8,Intermediate,Yes,Yes,E-learning,16,Enhance PICC line insertion and maintenance skills,BD Nexiva™,BD3130,Yes,4.8
+HCP0346,Pharmacist,ICU / Critical Care,Ospedale Regionale,Italy,Italiano (it) - Italian,16,Advanced,Yes,Yes,Masterclass,8,Onboard on BD Nexiva™ IV catheter system,Pyxis Anesthesia,BD7085,Yes,3.0
+HCP0347,Nurse,Oncology,Universitätsklinikum,Germany,Deutsch (de) - German,24,Intermediate,No,No,Blended,8,Prepare for targeted temperature management protocol implementation,BD TTM System,BD6391,No,3.3
+HCP0348,Pharmacy Manager,Pediatrics,Academic Medical Center,Hungary,Magyar (hu) - Hungarian,19,Intermediate,No,No,Webinar,4,Onboard new staff on BD Alaris™ infusion pump systems,BD Microtainer®,,Yes,3.9
+HCP0349,Pharmacist,Gastroenterology,RSA,Italy,Italiano (it) - Italian,2,Intermediate,No,Yes,Webinar,2,Train on BD Rowa™ pharmacy automation system,BD Eclipse™,,No,2.8
+HCP0350,Nurse,Medical Biology,EHPAD,France,Français (fr) - French,14,Expert,Yes,Yes,On-site,2,Améliorer la sécurité des perfusions et réduire les erreurs médicamenteuses,BD Insyte™,BD5366,Yes,
+HCP0351,Nurse,Critical Care,Ospedale Universitario,Italy,Italiano (it) - Italian,12,Expert,No,Yes,E-learning,16,Master blood collection techniques with BD Vacutainer® systems,BD A-Line™,,No,2.7
+HCP0352,Nurse Practitioner,Cardiology,Universitätsspital,Switzerland,Deutsch (de) - German,20,Intermediate,Yes,Yes,E-learning,2,Gain expert-level certification in TTM management,Pyxis ES,BD7321,Yes,
+HCP0353,System Manager,Pulmonology,Community Trust,United Kingdom,English (United Kingdom),7,Beginner,Yes,Yes,E-learning,16,Improve infusion safety and reduce medication errors,BD PICCline,,No,3.3
+HCP0354,Biomedical Engineer,Formulary Management,RSA,Italy,Italiano (it) - Italian,20,Intermediate,No,No,On-site,2,Master blood collection techniques with BD Vacutainer® systems,BD Foley,,Yes,2.6
+HCP0355,Nurse,Nephrology,Academic Medical Center,United States,English (United States),24,Beginner,No,Yes,Webinar,2,Prepare for OPCO-funded certification in vascular access,BD BodyGuard T,BD6835,Yes,2.5
+HCP0356,Nurse,Neurology,Ospedale Regionale,Italy,Italiano (it) - Italian,18,Intermediate,Yes,Yes,Webinar,4,Prepare for targeted temperature management protocol implementation,Pyxis Anesthesia,,No,4.5
+HCP0357,Biomedical Engineer,Cardiologie,CPAS,Belgium,Français (fr) - French,14,Intermediate,Yes,Yes,Webinar,4,Développer les compétences en pose et entretien de PICC line,BD Microtainer®,,No,4.7
+HCP0358,Physician,Neurology,Private Hospital,Bulgaria,Български (bg) - Bulgarian,17,Intermediate,No,Yes,Blended,8,Develop vascular access unit expertise,BD Eclipse™,,Yes,4.0
+HCP0359,Biomedical Engineer,Nephrology,Residencia,Spain,Español (es) - Spanish,7,Expert,No,Yes,Blended,24,Master blood collection techniques with BD Vacutainer® systems,BD Midline,,Yes,2.9
+HCP0360,Nurse,Hospital Pharmacy,Clinique Privée,France,Français (fr) - French,16,Beginner,Yes,Yes,E-learning,8,Former les nouveaux utilisateurs au système BD Alaris™,BD Rowa™,BD1213,No,
+HCP0361,Clinical Pharmacist,Formulary Management,Private Hospital,Hungary,Magyar (hu) - Hungarian,18,Advanced,No,Yes,Blended,40,Onboard new staff on BD Alaris™ infusion pump systems,,BD2299,Yes,4.8
+HCP0362,Nurse,Oncologie,Hôpital Général,France,Français (fr) - French,12,Advanced,Yes,Yes,Blended,2,Améliorer la conformité préanalytique et réduire les non-conformités,BD Microtainer®,BD0320,Yes,3.8
+HCP0363,Pharmacy Manager,Emergency Department,Ospedale Regionale,Italy,Italiano (it) - Italian,1,Expert,Yes,Yes,Blended,24,Improve infusion safety and reduce medication errors,BD BodyGuard T,BD5055,No,2.7
+HCP0364,Nurse,ICU / Critical Care,Clinique Privée,France,Français (fr) - French,30,Beginner,Yes,No,On-site,40,Préparer la mise en œuvre du protocole TTM en réanimation,HealthSight,BD4493,Yes,4.0
+HCP0365,Nurse,ICU / Critical Care,Academic Medical Center,Czech Republic,Čeština (cs) - Czech,7,Expert,No,Yes,E-learning,16,Optimise Pyxis ES dispensing workflows,BD Midline,BD3984,Yes,4.8
+HCP0366,Nurse,Emergency Department,MSP,France,Français (fr) - French,28,Intermediate,Yes,Yes,Webinar,2,Préparer une certification financée par l'OPCO en accès vasculaire,BD Eclipse™,,No,4.5
+HCP0367,Nurse,Pharmacy Management,GP Surgery,United Kingdom,English (United Kingdom),16,Intermediate,No,Yes,Masterclass,40,Prepare for OPCO-funded certification in vascular access,Pyxis Anesthesia,BD8393,Yes,2.5
+HCP0368,Physician,Oncology,Hospital General,Spain,Español (es) - Spanish,9,Intermediate,Yes,Yes,E-learning,4,Prepare for OPCO-funded certification in vascular access,BD Nexiva™,BD2487,No,3.4
+HCP0369,ICU Specialist,Cardiology,Universitätsklinikum,Germany,Deutsch (de) - German,17,Advanced,No,Yes,Webinar,16,Gain expert-level certification in TTM management,,,Yes,4.3
+HCP0370,ICU Specialist,Formulary Management,IDN,United States,English (United States),7,Intermediate,No,Yes,On-site,40,Prepare for OPCO-funded certification in vascular access,BD BodyGuard T,BD5264,No,2.6
+HCP0371,Nurse,Surgery,Privatklinik,Germany,Deutsch (de) - German,1,Advanced,Yes,Yes,Blended,8,Prepare for BD Vacutainer® train-the-trainer programme,VADvisor™,BD6621,No,3.2
+HCP0372,System Manager,Chirurgie,RSA,Italy,Italiano (it) - Italian,17,Intermediate,No,Yes,Webinar,40,Train on BD Rowa™ pharmacy automation system,BD Rowa™,BD5352,Yes,4.9
+HCP0373,Pharmacist,Specimen Management,Academic Medical Center,Qatar,English (United Kingdom),9,Advanced,No,Yes,Masterclass,2,Optimise Pyxis ES dispensing workflows,BD Nexiva™,,Yes,
+HCP0374,ICU Specialist,Biochemistry,EHPAD,France,Français (fr) - French,12,Advanced,Yes,Yes,Blended,24,Optimiser les workflows de dispensation sur le système Pyxis ES,BD Preset™,BD8849,Yes,3.3
+HCP0375,Nurse,Critical Care,Sağlık Merkezi,Turkey,Türkçe (tr) - Turkish,23,Intermediate,Yes,Yes,Blended,24,Prepare for targeted temperature management protocol implementation,BD Rowa™,BD7179,Yes,2.6
+HCP0376,Nurse,Surgery,Community Hospital,United Kingdom,English (United Kingdom),20,Beginner,No,Yes,E-learning,8,Develop vascular access unit expertise,BD A-Line™,BD5274,Yes,3.1
+HCP0377,Nurse,Cardiologie,Community Hospital,Hungary,Magyar (hu) - Hungarian,1,Intermediate,No,Yes,Webinar,24,Prepare for BD Vacutainer® train-the-trainer programme,BD Microtainer®,BD9664,Yes,3.4
+HCP0378,Nurse,Specimen Management,Academic Medical Center,Romania,Română (ro) - Romanian,4,Intermediate,No,Yes,Blended,4,Optimise Pyxis ES dispensing workflows,VADvisor™,,No,4.1
+HCP0379,Nurse,Urgences,Hospital General,Spain,Español (es) - Spanish,23,Expert,No,Yes,Blended,16,Train on BD Rowa™ pharmacy automation system,BD Preset™,,Yes,3.7
+HCP0380,Physician,Pulmonology,Community Hospital,United States,English (United States),5,Beginner,No,Yes,Webinar,2,Develop vascular access unit expertise,BD Microtainer®,BD2869,Yes,2.6
+HCP0381,Physician,Emergency ICU,NHS Trust,United Kingdom,English (United Kingdom),1,Beginner,No,Yes,Blended,2,Prepare for OPCO-funded certification in vascular access,BD Midline,,Yes,4.0
+HCP0382,Pharmacist,Vascular Surgery,Regionsjukhus,Denmark,Dansk (da) - Danish,13,Intermediate,Yes,Yes,Masterclass,2,Improve infusion safety and reduce medication errors,BD Vacutainer®,BD9452,Yes,3.8
+HCP0383,Biomedical Engineer,Urgences,Clinique Privée,France,Français (fr) - French,14,Intermediate,Yes,Yes,Blended,8,Optimiser les workflows de dispensation sur le système Pyxis ES,BD Microtainer®,BD2430,No,4.2
+HCP0384,Nurse,Chirurgie,Hôpital Général,France,Français (fr) - French,6,Intermediate,Yes,No,Webinar,4,Améliorer la sécurité des perfusions et réduire les erreurs médicamenteuses,BD A-Line™,BD7832,Yes,4.5
+HCP0385,Nurse,Equipment Maintenance,Clínica Privada,Spain,Español (es) - Spanish,28,Intermediate,Yes,Yes,Webinar,16,Onboard new staff on BD Alaris™ infusion pump systems,VADvisor™,BD5905,Yes,4.4
+HCP0386,System Manager,Emergency ICU,Universitätsklinikum,Germany,Deutsch (de) - German,1,Beginner,No,Yes,E-learning,24,Improve infusion safety and reduce medication errors,BD Bair Hugger™,BD3520,Yes,4.2
+HCP0387,Physician,Pharmacy Management,Privatklinik,Switzerland,Deutsch (de) - German,23,Advanced,No,Yes,E-learning,8,Master blood collection techniques with BD Vacutainer® systems,BD PICCline,BD6494,Yes,2.9
+HCP0388,ICU Specialist,Medical ICU,EHPAD,France,Français (fr) - French,7,Beginner,Yes,No,Masterclass,40,Obtenir une certification avancée en gestion de la TTM,BD PICCline,,Yes,3.5
+HCP0389,System Manager,Biochemistry,Regionaal Ziekenhuis,Netherlands,Nederlands (nl) - Dutch,9,Beginner,No,Yes,On-site,40,Train on BD Rowa™ pharmacy automation system,HealthSight,,No,
+HCP0390,Physician,Specimen Management,Universitetssjukhus,Denmark,Dansk (da) - Danish,22,Beginner,No,Yes,E-learning,24,Prepare for OPCO-funded certification in vascular access,BD Vacutainer®,,No,2.7
+HCP0391,Nurse,Equipment Maintenance,VA Hospital,United States,English (United States),16,Intermediate,No,Yes,Blended,16,Prepare for targeted temperature management protocol implementation,BD Preset™,,Yes,
+HCP0392,Nurse,Surgical ICU,GGZ,Netherlands,Nederlands (nl) - Dutch,3,Expert,No,Yes,E-learning,40,Support career development with certified training (Qualiopi equivalent),BD Preset™,BD5047,No,2.7
+HCP0393,Pharmacist,Microbiology,MVZ,Germany,Deutsch (de) - German,13,Intermediate,Yes,Yes,Webinar,2,Train on BD Rowa™ pharmacy automation system,,BD4775,Yes,
+HCP0394,Pharmacy Manager,Oncology,Hospital Universitario,Spain,Español (es) - Spanish,4,Beginner,Yes,No,E-learning,40,Optimise Pyxis ES dispensing workflows,Pyxis Anesthesia,BD2097,Yes,3.5
+HCP0395,Pharmacist,Neurology,MVZ,Germany,Deutsch (de) - German,12,Intermediate,Yes,No,Masterclass,4,Master blood collection techniques with BD Vacutainer® systems,BD BodyGuard T,BD6621,Yes,4.2
+HCP0396,Pharmacist,EHR Integration,Centro de Salud,Spain,Español (es) - Spanish,9,Advanced,Yes,No,Blended,40,Enhance PICC line insertion and maintenance skills,BD A-Line™,BD7699,Yes,3.3
+HCP0397,Nurse Practitioner,Dispensing Automation,VA Hospital,United States,English (United States),5,Beginner,Yes,Yes,E-learning,2,Support career development with certified training (Qualiopi equivalent),BD Alaris™,BD0119,Yes,5.0
+HCP0398,Physician,Operating Theatre,Üniversite Hastanesi,Turkey,Türkçe (tr) - Turkish,18,Beginner,No,No,Webinar,8,Prepare for OPCO-funded certification in vascular access,BD Bair Hugger™,BD2043,Yes,3.9
+HCP0399,Biomedical Engineer,Trauma ICU,IPSS,Portugal,Português (pt) - Portuguese,21,Intermediate,No,Yes,Blended,2,Prepare for OPCO-funded certification in vascular access,,,Yes,4.2
+HCP0400,Nurse,Specimen Management,Clinique Spécialisée,Belgium,Français (fr) - French,10,Beginner,Yes,Yes,Webinar,2,Obtenir une certification avancée en gestion de la TTM,BD Microtainer®,,Yes,2.6
+HCP0401,Physician,Geriatrics,MSP,France,Français (fr) - French,3,Intermediate,Yes,Yes,Webinar,4,Préparer une certification financée par l'OPCO en accès vasculaire,BD A-Line™,BD1220,No,3.2
+HCP0402,Pharmacy Manager,Biochemistry,Regionsjukhus,Finland,Suomi (fi) - Finnish,9,Intermediate,No,Yes,E-learning,8,Train on BD Rowa™ pharmacy automation system,BD Rowa™,BD1197,Yes,4.3
+HCP0403,System Manager,Anesthesiology,MVZ,Germany,Deutsch (de) - German,14,Intermediate,Yes,No,E-learning,40,Prepare for BD Vacutainer® train-the-trainer programme,BD Rowa™,,No,4.7
+HCP0404,Nurse,Cardiologie,Private Hospital,United Kingdom,English (United Kingdom),17,Beginner,Yes,Yes,Webinar,24,Optimise Pyxis ES dispensing workflows,BD PICCline,BD8336,Yes,5.0
+HCP0405,Pharmacist,Biomedical Engineering,Primärvård,Sweden,Svenska (sv) - Swedish,23,Intermediate,Yes,Yes,E-learning,2,Develop vascular access unit expertise,BD Foley,BD5337,Yes,4.7
+HCP0406,Physician,Biomedical Engineering,Fachklinik,Germany,Deutsch (de) - German,5,Intermediate,No,Yes,E-learning,24,Master blood collection techniques with BD Vacutainer® systems,,,Yes,3.9
+HCP0407,Physician,Neurologie,ESPIC,France,Français (fr) - French,14,Advanced,Yes,Yes,On-site,8,Préparer la mise en œuvre du protocole TTM en réanimation,BD PICCline,BD9890,Yes,3.3
+HCP0408,Physician,Emergency Department,Universitätsspital,Switzerland,Deutsch (de) - German,8,Intermediate,No,Yes,Masterclass,24,Optimise Pyxis ES dispensing workflows,BD TTM System,BD7969,Yes,4.3
+HCP0409,Nurse,Emergency Department,Kantonsspital,Switzerland,Deutsch (de) - German,6,Beginner,No,No,E-learning,4,Prepare for OPCO-funded certification in vascular access,BD Midline,,No,
+HCP0410,Nurse,Medical Biology,Kreiskrankenhaus,Germany,Deutsch (de) - German,7,Intermediate,Yes,Yes,E-learning,40,Validate Qualiopi competencies for task delegation,BD Foley,BD3818,No,
+HCP0411,System Manager,Urgences,Academic Medical Center,Saudi Arabia,English (United Kingdom),18,Advanced,No,Yes,E-learning,24,Onboard new staff on BD Alaris™ infusion pump systems,BD PICCline,BD9715,Yes,3.6
+HCP0412,Physician,Emergency ICU,EHPAD,France,Français (fr) - French,6,Intermediate,Yes,Yes,E-learning,8,Améliorer la sécurité des perfusions et réduire les erreurs médicamenteuses,BD Midline,BD2825,Yes,3.6
+HCP0413,Physician,Neurology,Ospedale Regionale,Italy,Italiano (it) - Italian,5,Intermediate,Yes,No,Blended,2,Master blood collection techniques with BD Vacutainer® systems,BD Alaris™,BD0448,Yes,3.0
+HCP0414,Nurse,Pharmacy Management,MVZ,Germany,Deutsch (de) - German,11,Beginner,No,Yes,Blended,16,Train on BD Rowa™ pharmacy automation system,BD BodyGuard T,BD5799,Yes,2.9
+HCP0415,Pharmacist,Microbiology,CHU,Belgium,Français (fr) - French,25,Beginner,Yes,Yes,Webinar,4,Améliorer la sécurité des perfusions et réduire les erreurs médicamenteuses,BD TTM System,BD2302,No,4.0
+HCP0416,System Manager,ICU / Critical Care,ESPIC,France,Français (fr) - French,7,Expert,Yes,Yes,E-learning,24,Valider les compétences Qualiopi pour la délégation de tâches infirmières,,BD5015,Yes,2.7
+HCP0417,Nurse Practitioner,Oncology,VA Hospital,United States,English (United States),2,Intermediate,No,No,Webinar,8,Onboard on BD Nexiva™ IV catheter system,BD Bair Hugger™,BD9941,Yes,4.1
+HCP0418,Physician,Medical ICU,Pflegeheim,Germany,Deutsch (de) - German,20,Intermediate,Yes,Yes,E-learning,8,Onboard on BD Nexiva™ IV catheter system,BD Bair Hugger™,,No,3.7
+HCP0419,Pharmacist,Nephrology,Community Hospital,Romania,Română (ro) - Romanian,8,Beginner,No,No,E-learning,16,Train on BD Rowa™ pharmacy automation system,BD Bair Hugger™,BD9262,No,4.3
+HCP0420,Physician,Infectious Disease,Huisartsenpraktijk,Netherlands,Nederlands (nl) - Dutch,20,Beginner,Yes,Yes,E-learning,2,Onboard new staff on BD Alaris™ infusion pump systems,BD Vacutainer®,,No,3.4
+HCP0421,Physician,Réanimation,Üniversite Hastanesi,Turkey,Türkçe (tr) - Turkish,16,Advanced,Yes,Yes,On-site,16,Prepare for OPCO-funded certification in vascular access,Pyxis ES,BD8393,Yes,2.8
+HCP0422,Pharmacist,Nephrology,Privatklinik,Switzerland,Deutsch (de) - German,8,Advanced,Yes,Yes,E-learning,4,Master blood collection techniques with BD Vacutainer® systems,HealthSight,,No,3.6
+HCP0423,Physician,Cardiology,Universitätsklinikum,Germany,Deutsch (de) - German,9,Intermediate,No,No,Blended,24,Develop vascular access unit expertise,BD Insyte™,BD7550,No,4.3
+HCP0424,System Manager,Medical Biology,Fachklinik,Germany,Deutsch (de) - German,8,Advanced,Yes,Yes,Webinar,24,Validate Qualiopi competencies for task delegation,VADvisor™,,Yes,2.6
+HCP0425,Pharmacy Manager,Internal Medicine,Huisartsenpraktijk,Netherlands,Nederlands (nl) - Dutch,17,Beginner,No,Yes,Blended,16,Validate Qualiopi competencies for task delegation,BD Rowa™,BD3520,No,4.1
+HCP0426,Pharmacy Manager,Pulmonology,CHU,Belgium,Français (fr) - French,7,Intermediate,Yes,Yes,Webinar,4,Optimiser les workflows de dispensation sur le système Pyxis ES,BD Microtainer®,BD5047,Yes,
+HCP0427,System Manager,Urgences,MSP,France,Français (fr) - French,14,Expert,Yes,Yes,Webinar,2,Préparer la mise en œuvre du protocole TTM en réanimation,BD Preset™,,Yes,4.0
+HCP0428,ICU Specialist,Hospital Pharmacy,Integrated Care Board,United Kingdom,English (United Kingdom),6,Advanced,Yes,No,Webinar,24,Enhance PICC line insertion and maintenance skills,BD A-Line™,,Yes,2.7
+HCP0429,Pharmacist,Soins Intensifs,MSP,France,Français (fr) - French,3,Intermediate,Yes,Yes,E-learning,24,Améliorer la sécurité des perfusions et réduire les erreurs médicamenteuses,Pyxis ES,BD8498,Yes,4.3
+HCP0430,System Manager,Cardiology,CH,France,Français (fr) - French,27,Beginner,Yes,Yes,E-learning,8,Développer les compétences en pose et entretien de PICC line,BD Vacutainer®,,Yes,3.9
+HCP0431,Anesthesiologist,Critical Care,Universitätsklinikum,Germany,Deutsch (de) - German,19,Beginner,No,Yes,Webinar,2,Optimise Pyxis ES dispensing workflows,BD A-Line™,BD5318,No,2.5
+HCP0432,Nurse,Advanced Practice Nursing,Academic Medical Center,Romania,Română (ro) - Romanian,16,Intermediate,No,No,E-learning,40,Optimise Pyxis ES dispensing workflows,BD Insyte™,BD5822,No,2.8
+HCP0433,Nurse,Nephrology,Universitätsklinikum,Germany,Deutsch (de) - German,15,Advanced,No,Yes,E-learning,4,Master blood collection techniques with BD Vacutainer® systems,BD Alaris™,,Yes,4.0
+HCP0434,System Manager,Neurologie,Hôpital Général,France,Français (fr) - French,26,Expert,Yes,No,Blended,40,Préparer la mise en œuvre du protocole TTM en réanimation,BD TTM System,,Yes,4.0
+HCP0435,Pharmacist,Biomedical Engineering,NHS Trust,United Kingdom,English (United Kingdom),16,Intermediate,Yes,Yes,Blended,2,Onboard new staff on BD Alaris™ infusion pump systems,BD Eclipse™,BD7186,No,4.2
+HCP0436,Nurse,Surgery,Clinique Privée,France,Français (fr) - French,13,Beginner,Yes,Yes,E-learning,2,Améliorer la sécurité des perfusions et réduire les erreurs médicamenteuses,BD Preset™,BD2466,Yes,3.1
+HCP0437,Nurse,Pediatrics,Privatklinik,Switzerland,Deutsch (de) - German,17,Expert,No,Yes,Blended,24,Train on BD Rowa™ pharmacy automation system,,BD3435,No,3.6
+HCP0438,System Manager,Hospital Pharmacy,Community Hospital,Romania,Română (ro) - Romanian,22,Expert,Yes,No,Webinar,16,Onboard on BD Nexiva™ IV catheter system,BD Nexiva™,BD0265,No,2.7
+HCP0439,Nurse,EHR Integration,VVT,Netherlands,Nederlands (nl) - Dutch,5,Intermediate,Yes,Yes,Webinar,2,Onboard new staff on BD Alaris™ infusion pump systems,BD TTM System,BD4927,Yes,4.8
+HCP0440,Nurse,Equipment Maintenance,Community Hospital,United States,English (United States),9,Beginner,No,No,Blended,2,Improve pre-analytical quality and reduce specimen non-conformances,HealthSight,BD9229,Yes,
+HCP0441,Nurse,Neurologie,CPAS,Belgium,Français (fr) - French,21,Beginner,Yes,No,On-site,24,Développer les compétences en pose et entretien de PICC line,BD Vacutainer®,,Yes,4.1
+HCP0442,Physician,Blood Bank,RSA,Italy,Italiano (it) - Italian,17,Intermediate,No,Yes,Webinar,24,Onboard on BD Nexiva™ IV catheter system,BD Eclipse™,,Yes,2.9
+HCP0443,Anesthesiologist,Cardiology,Regionsjukhus,Norway,Norsk (Ino) - Norwegian,9,Advanced,No,No,E-learning,4,Gain expert-level certification in TTM management,BD Microtainer®,,Yes,3.0
+HCP0444,Pharmacist,Neurology,Centro de Saúde,Portugal,Português (pt) - Portuguese,8,Intermediate,No,Yes,Webinar,2,Train on BD Rowa™ pharmacy automation system,BD BodyGuard T,BD6780,No,2.6
+HCP0445,Physician,Pulmonology,Regionsjukhus,Sweden,Svenska (sv) - Swedish,14,Expert,Yes,Yes,Webinar,16,Validate Qualiopi competencies for task delegation,BD Alaris™,BD6798,Yes,3.3
+HCP0446,Nurse,Réanimation,RSA,Italy,Italiano (it) - Italian,7,Intermediate,No,Yes,Blended,24,Prepare for BD Vacutainer® train-the-trainer programme,BD A-Line™,,Yes,3.8
+HCP0447,Nurse,EHR Integration,Clinique Spécialisée,Belgium,Français (fr) - French,3,Intermediate,Yes,No,Webinar,8,Valider les compétences Qualiopi pour la délégation de tâches infirmières,,BD8701,No,4.5
+HCP0448,Physician,Emergency ICU,Clinique Privée,France,Français (fr) - French,10,Expert,Yes,Yes,E-learning,8,Développer les compétences en pose et entretien de PICC line,Pyxis Anesthesia,BD6969,Yes,3.2
+HCP0449,Physician,Hospital Pharmacy,CHU,France,Français (fr) - French,13,Intermediate,Yes,No,E-learning,40,Améliorer la sécurité des perfusions et réduire les erreurs médicamenteuses,BD Preset™,BD7698,No,4.0
+HCP0450,Pharmacy Manager,Medical ICU,Clinique Spécialisée,Belgium,Français (fr) - French,9,Expert,Yes,Yes,E-learning,16,Maîtriser les techniques de prélèvement avec BD Vacutainer®,,,Yes,4.3
+HCP0451,Physician,Gériatrie,GGZ,Netherlands,Nederlands (nl) - Dutch,16,Beginner,No,Yes,E-learning,24,Prepare for OPCO-funded certification in vascular access,BD Foley,BD2869,No,4.6
+HCP0452,Physician,Equipment Maintenance,Integrated Care Board,United Kingdom,English (United Kingdom),25,Expert,No,Yes,Webinar,4,Optimise Pyxis ES dispensing workflows,,BD9890,No,2.8
+HCP0453,Biomedical Engineer,Pharmacy Management,Kreiskrankenhaus,Germany,Deutsch (de) - German,15,Expert,No,Yes,E-learning,8,Optimise Pyxis ES dispensing workflows,BD Bair Hugger™,BD0448,Yes,2.9
+HCP0454,Physician,Oncology,Universitetssjukhus,Sweden,Svenska (sv) - Swedish,8,Intermediate,No,Yes,On-site,4,Support career development with certified training (Qualiopi equivalent),BD Provena™,BD3017,Yes,
+HCP0455,Nurse,Urgences,Private Hospital,Romania,Română (ro) - Romanian,8,Advanced,No,Yes,E-learning,16,Prepare for OPCO-funded certification in vascular access,BD Bair Hugger™,BD6999,Yes,4.0
+HCP0456,Nurse,Hospital Pharmacy,Universitetssjukhus,Norway,Norsk (Ino) - Norwegian,8,Intermediate,Yes,Yes,E-learning,40,Support career development with certified training (Qualiopi equivalent),BD Nexiva™,,Yes,3.5
+HCP0457,Nurse Practitioner,Surgical ICU,Private Hospital,Romania,Română (ro) - Romanian,20,Intermediate,No,Yes,Webinar,16,Validate Qualiopi competencies for task delegation,BD Midline,BD9404,No,4.3
+HCP0458,Pharmacist,Microbiology,Privatklinik,Switzerland,Deutsch (de) - German,8,Beginner,No,Yes,E-learning,8,Master blood collection techniques with BD Vacutainer® systems,BD Preset™,BD4523,Yes,3.7
+HCP0459,Physician,Cardiac ICU,CHU,France,Français (fr) - French,9,Intermediate,Yes,Yes,Webinar,8,Valider les compétences Qualiopi pour la délégation de tâches infirmières,HealthSight,BD9862,Yes,4.4
+HCP0460,Pharmacy Manager,Neurologie,CPAS,Belgium,Français (fr) - French,3,Advanced,Yes,Yes,E-learning,24,Valider les compétences Qualiopi pour la délégation de tâches infirmières,BD Foley,,No,3.0
+HCP0461,Physician,Hospital Pharmacy,Community Hospital,United Kingdom,English (United Kingdom),4,Intermediate,Yes,Yes,Blended,4,Prepare for BD Vacutainer® train-the-trainer programme,VADvisor™,BD3520,Yes,3.8
+HCP0462,Pharmacy Manager,IT Systems,Universitetssjukhus,Denmark,Dansk (da) - Danish,9,Beginner,No,Yes,E-learning,8,Prepare for BD Vacutainer® train-the-trainer programme,BD Bair Hugger™,BD6389,Yes,3.0
+HCP0463,Physician,Soins Intensifs,Ospedale Regionale,Italy,Italiano (it) - Italian,26,Advanced,No,No,E-learning,24,Gain expert-level certification in TTM management,BD Vacutainer®,,Yes,4.7
+HCP0464,ICU Specialist,Internal Medicine,Hospital General,Spain,Español (es) - Spanish,14,Intermediate,Yes,Yes,E-learning,16,Master blood collection techniques with BD Vacutainer® systems,BD Foley,BD1510,No,4.5
+HCP0465,Biomedical Engineer,Dispensing Automation,CHU,France,Français (fr) - French,17,Beginner,Yes,No,Webinar,8,Former les nouveaux utilisateurs au système BD Alaris™,BD Eclipse™,BD2097,No,4.3
+HCP0466,ICU Specialist,Pulmonology,Private Hospital,United Kingdom,English (United Kingdom),13,Expert,Yes,No,E-learning,8,Enhance PICC line insertion and maintenance skills,VADvisor™,BD5568,No,4.0
+HCP0467,Physician,Geriatrics,Hôpital Général,France,Français (fr) - French,8,Advanced,Yes,Yes,Blended,4,Développer les compétences en pose et entretien de PICC line,BD Vacutainer®,,Yes,3.6
+HCP0468,ICU Specialist,Soins Intensifs,Academisch Ziekenhuis,Netherlands,Nederlands (nl) - Dutch,21,Intermediate,No,Yes,Webinar,16,Develop vascular access unit expertise,BD TTM System,BD4242,No,3.2
+HCP0469,Biomedical Engineer,Specimen Management,Universitetssjukhus,Denmark,Dansk (da) - Danish,10,Advanced,Yes,No,Masterclass,24,Prepare for targeted temperature management protocol implementation,BD TTM System,BD7969,Yes,3.8
+HCP0470,Physician,Trauma ICU,Community Trust,United Kingdom,English (United Kingdom),6,Expert,No,No,E-learning,8,Gain expert-level certification in TTM management,BD Alaris™,BD6448,No,4.1
+HCP0471,Pharmacy Manager,Neurology,NHS Trust,United Kingdom,English (United Kingdom),11,Intermediate,No,Yes,E-learning,16,Develop vascular access unit expertise,BD Provena™,BD8658,Yes,2.7
+HCP0472,Physician,ICU / Critical Care,Private Hospital,United Kingdom,English (United Kingdom),11,Advanced,No,Yes,E-learning,40,Optimise Pyxis ES dispensing workflows,BD Alaris™,,Yes,
+HCP0473,Nurse,Oncology,Regionsjukhus,Finland,Suomi (fi) - Finnish,8,Intermediate,No,Yes,E-learning,40,Optimise Pyxis ES dispensing workflows,Pyxis ES,,No,4.5
+HCP0474,ICU Specialist,Microbiology,CHU,France,Français (fr) - French,24,Intermediate,Yes,No,Webinar,16,Préparer la mise en œuvre du protocole TTM en réanimation,BD Preset™,BD0152,Yes,4.4
+HCP0475,Physician,Pediatrics,Pflegeheim,Germany,Deutsch (de) - German,18,Intermediate,Yes,Yes,E-learning,24,Onboard new staff on BD Alaris™ infusion pump systems,BD Alaris™,,Yes,2.7
+HCP0476,Nurse,Trauma ICU,VA Hospital,United States,English (United States),23,Advanced,Yes,No,Webinar,4,Support career development with certified training (Qualiopi equivalent),BD Microtainer®,,Yes,3.1
+HCP0477,Pharmacist,Equipment Maintenance,Community Hospital,United States,English (United States),11,Beginner,Yes,Yes,Webinar,16,Train on BD Rowa™ pharmacy automation system,BD Insyte™,BD9412,Yes,
+HCP0478,System Manager,Oncologie,Tagesklinik,Germany,Deutsch (de) - German,10,Beginner,Yes,No,Masterclass,16,Support career development with certified training (Qualiopi equivalent),BD Nexiva™,BD7440,Yes,2.6
+HCP0479,Nurse,IT Systems,CHU,France,Français (fr) - French,4,Expert,Yes,Yes,E-learning,16,Préparer une certification financée par l'OPCO en accès vasculaire,BD Nexiva™,BD1384,Yes,4.1
+HCP0480,Physician,Dispensing Automation,Community Hospital,United Kingdom,English (United Kingdom),14,Advanced,Yes,No,Webinar,2,Optimise Pyxis ES dispensing workflows,HealthSight,BD6076,Yes,3.8
+HCP0481,Nurse,Blood Bank,GGZ,Netherlands,Nederlands (nl) - Dutch,23,Advanced,No,Yes,On-site,4,Prepare for BD Vacutainer® train-the-trainer programme,BD Preset™,,Yes,2.8
+HCP0482,Nurse,Gastroenterology,Ambulatory Surgery Center,United States,English (United States),28,Expert,Yes,Yes,On-site,8,Train on BD Rowa™ pharmacy automation system,Pyxis ES,BD2299,No,4.8
+HCP0483,Nurse,Urgences,Clínica Privada,Spain,Español (es) - Spanish,28,Intermediate,Yes,Yes,Webinar,16,Validate Qualiopi competencies for task delegation,BD Alaris™,,Yes,4.0
+HCP0484,Nurse,Surgery,Private Hospital,Greece,Ελληνικά (el) - Greek,22,Advanced,Yes,Yes,Webinar,16,Master blood collection techniques with BD Vacutainer® systems,BD Microtainer®,BD8701,Yes,2.7
+HCP0485,Pharmacy Manager,Trauma ICU,Pflegeheim,Germany,Deutsch (de) - German,1,Advanced,No,Yes,E-learning,8,Train on BD Rowa™ pharmacy automation system,,BD5274,Yes,4.2
+HCP0486,Nurse,Neurology,GP Surgery,United Kingdom,English (United Kingdom),9,Advanced,No,No,E-learning,24,Validate Qualiopi competencies for task delegation,Pyxis Anesthesia,,Yes,3.9
+HCP0487,Pharmacist,Operating Theatre,CHU,Belgium,Français (fr) - French,19,Expert,Yes,No,Webinar,4,Optimiser les workflows de dispensation sur le système Pyxis ES,,BD5812,Yes,
+HCP0488,Pharmacy Manager,Cardiologie,Universitätsspital,Switzerland,Deutsch (de) - German,5,Beginner,No,No,E-learning,4,Prepare for OPCO-funded certification in vascular access,BD Insyte™,BD4094,Yes,
+HCP0489,Pharmacist,Urgences,Hospital General,Spain,Español (es) - Spanish,2,Expert,Yes,Yes,Webinar,4,Optimise Pyxis ES dispensing workflows,BD Provena™,BD3523,Yes,3.5
+HCP0490,Nurse,Operating Theatre,RSA,Italy,Italiano (it) - Italian,8,Beginner,No,Yes,E-learning,24,Onboard new staff on BD Alaris™ infusion pump systems,BD Alaris™,BD6494,Yes,3.0
+HCP0491,ICU Specialist,Trauma ICU,CH,France,Français (fr) - French,6,Advanced,Yes,No,E-learning,24,Former les nouveaux utilisateurs au système BD Alaris™,BD TTM System,,Yes,2.6
+HCP0492,Physician,Specimen Management,Sağlık Merkezi,Turkey,Türkçe (tr) - Turkish,20,Expert,Yes,No,E-learning,2,Validate Qualiopi competencies for task delegation,BD Alaris™,,Yes,5.0
+HCP0493,Nurse,Oncology,Kreiskrankenhaus,Germany,Deutsch (de) - German,9,Beginner,No,Yes,E-learning,4,Improve infusion safety and reduce medication errors,BD Foley,,No,4.8
+HCP0494,Nurse,Hématologie,Privatklinik,Germany,Deutsch (de) - German,11,Advanced,Yes,Yes,Webinar,4,Onboard on BD Nexiva™ IV catheter system,BD Midline,,Yes,4.8
+HCP0495,Nurse,Hematology,Residencia,Spain,Español (es) - Spanish,1,Expert,Yes,Yes,On-site,40,Support career development with certified training (Qualiopi equivalent),BD Foley,BD0920,Yes,2.8
+HCP0496,Nurse,EHR Integration,Private Hospital,Greece,Ελληνικά (el) - Greek,26,Beginner,No,No,On-site,40,Prepare for OPCO-funded certification in vascular access,Pyxis Anesthesia,,No,3.6
+HCP0497,Clinical Pharmacist,Oncology,Community Hospital,United States,English (United States),11,Expert,Yes,No,Webinar,8,Validate Qualiopi competencies for task delegation,,BD9269,No,
+HCP0498,Pharmacist,Advanced Practice Nursing,GP Surgery,United Kingdom,English (United Kingdom),15,Intermediate,Yes,Yes,E-learning,2,Optimise Pyxis ES dispensing workflows,BD Foley,BD9251,Yes,3.5
+HCP0499,Pharmacist,Microbiology,Universitetssjukhus,Norway,Norsk (Ino) - Norwegian,7,Intermediate,No,Yes,Webinar,2,Improve pre-analytical quality and reduce specimen non-conformances,BD Midline,BD2661,Yes,3.3
+HCP0500,Nurse,Neurology,Universitetssjukhus,Finland,Suomi (fi) - Finnish,30,Beginner,No,Yes,Blended,40,Master blood collection techniques with BD Vacutainer® systems,BD Alaris™,,Yes,
+HCP0501,Nurse,Internal Medicine,Community Hospital,United Kingdom,English (United Kingdom),20,Advanced,No,Yes,E-learning,2,Gain expert-level certification in TTM management,,BD0744,No,5.0
+HCP0502,Nurse,ICU / Critical Care,Privat Klinik,Denmark,Dansk (da) - Danish,27,Advanced,No,No,Blended,40,Master blood collection techniques with BD Vacutainer® systems,BD Eclipse™,,Yes,4.4
+HCP0503,Pharmacist,Neurologie,Regionsjukhus,Sweden,Svenska (sv) - Swedish,19,Intermediate,No,Yes,Webinar,40,Support career development with certified training (Qualiopi equivalent),BD A-Line™,BD2629,No,3.6
+HCP0504,Physician,ICU / Critical Care,EHPAD,France,Français (fr) - French,17,Intermediate,Yes,Yes,On-site,40,Améliorer la conformité préanalytique et réduire les non-conformités,,BD7980,Yes,3.3
+HCP0505,Pharmacist,Pharmacy Management,Policlinico,Italy,Italiano (it) - Italian,12,Advanced,No,Yes,Masterclass,4,Onboard on BD Nexiva™ IV catheter system,BD Rowa™,,Yes,3.3
+HCP0506,Physician,Microbiology,HAD,France,Français (fr) - French,27,Intermediate,Yes,Yes,E-learning,40,Valider les compétences Qualiopi pour la délégation de tâches infirmières,BD Insyte™,BD3277,Yes,2.6
+HCP0507,Pharmacy Manager,Oncology,Privatklinik,Switzerland,Deutsch (de) - German,20,Expert,No,No,E-learning,4,Onboard on BD Nexiva™ IV catheter system,BD Eclipse™,BD2494,Yes,4.9
+HCP0508,Nurse,Surgical ICU,Casa di Cura,Italy,Italiano (it) - Italian,7,Intermediate,Yes,Yes,E-learning,8,Onboard on BD Nexiva™ IV catheter system,BD Nexiva™,BD9384,Yes,3.4
+HCP0509,Nurse,Réanimation,CH,France,Français (fr) - French,30,Intermediate,Yes,Yes,Webinar,8,Préparer la mise en œuvre du protocole TTM en réanimation,BD Bair Hugger™,BD0807,No,2.9
+HCP0510,Physician,Medical Biology,Private Hospital,United Kingdom,English (United Kingdom),23,Intermediate,Yes,Yes,Webinar,4,Improve infusion safety and reduce medication errors,Pyxis ES,,Yes,2.8
+HCP0511,Nurse,Trauma ICU,Clinique Privée,France,Français (fr) - French,5,Expert,Yes,No,Blended,40,Préparer une certification financée par l'OPCO en accès vasculaire,BD TTM System,,Yes,4.9
+HCP0512,Nurse,Gastroenterology,CPAS,Belgium,Français (fr) - French,6,Advanced,Yes,No,On-site,8,Valider les compétences Qualiopi pour la délégation de tâches infirmières,BD Insyte™,BD0352,Yes,4.9
+HCP0513,Nurse,Internal Medicine,Academisch Ziekenhuis,Netherlands,Nederlands (nl) - Dutch,3,Beginner,Yes,Yes,E-learning,40,Enhance PICC line insertion and maintenance skills,BD Nexiva™,BD9417,Yes,3.1
+HCP0514,Nurse Practitioner,Pulmonology,Clinique Privée,France,Français (fr) - French,5,Intermediate,Yes,Yes,Blended,4,Former les nouveaux utilisateurs au système BD Alaris™,BD Midline,BD6076,Yes,4.3
+HCP0515,Physician,Emergency Department,Universitätsspital,Switzerland,Deutsch (de) - German,23,Intermediate,Yes,No,On-site,16,Prepare for BD Vacutainer® train-the-trainer programme,BD Bair Hugger™,BD9404,Yes,3.7
+HCP0516,ICU Specialist,Pharmacie Hospitalière,Community Hospital,United Kingdom,English (United Kingdom),9,Beginner,Yes,No,E-learning,24,Validate Qualiopi competencies for task delegation,BD A-Line™,,Yes,4.5
+HCP0517,Physician,Hématologie,Centro de Salud,Spain,Español (es) - Spanish,13,Expert,Yes,Yes,E-learning,40,Optimise Pyxis ES dispensing workflows,BD Rowa™,,Yes,3.9
+HCP0518,Nurse Practitioner,Specimen Management,VA Hospital,United States,English (United States),16,Beginner,Yes,Yes,Blended,24,Validate Qualiopi competencies for task delegation,BD Nexiva™,BD3984,Yes,3.1
+HCP0519,Physician,Biochemistry,Tagesklinik,Germany,Deutsch (de) - German,14,Intermediate,No,Yes,Blended,24,Improve pre-analytical quality and reduce specimen non-conformances,BD Rowa™,BD0807,Yes,3.5
+HCP0520,Nurse,Medical ICU,Universitetssjukhus,Finland,Suomi (fi) - Finnish,5,Beginner,No,Yes,E-learning,40,Prepare for OPCO-funded certification in vascular access,BD TTM System,,Yes,2.8
+HCP0521,Physician,Biomedical Engineering,CPAS,Belgium,Français (fr) - French,1,Expert,Yes,Yes,E-learning,40,Développer les compétences en pose et entretien de PICC line,,,Yes,5.0
+HCP0522,Pharmacist,Dispensing Automation,Community Trust,United Kingdom,English (United Kingdom),15,Expert,Yes,Yes,Blended,2,Onboard new staff on BD Alaris™ infusion pump systems,BD Nexiva™,BD4183,Yes,2.8
+HCP0523,ICU Specialist,Blood Bank,Huisartsenpraktijk,Netherlands,Nederlands (nl) - Dutch,10,Advanced,Yes,No,Blended,4,Train on BD Rowa™ pharmacy automation system,BD Microtainer®,BD6120,Yes,2.7
+HCP0524,Pharmacy Manager,Biomedical Engineering,VA Hospital,United States,English (United States),23,Expert,No,Yes,E-learning,16,Support career development with certified training (Qualiopi equivalent),BD Eclipse™,BD9121,Yes,3.7
+HCP0525,Pharmacist,Infectious Disease,Private Hospital,Poland,Polski (pl) - Polish,19,Intermediate,No,No,Blended,40,Improve infusion safety and reduce medication errors,BD BodyGuard T,,Yes,3.9
+HCP0526,System Manager,Cardiology,Hospital General,Spain,Español (es) - Spanish,24,Advanced,No,No,Masterclass,8,Validate Qualiopi competencies for task delegation,HealthSight,,Yes,
+HCP0527,Pharmacy Manager,Medical ICU,NHS Trust,United Kingdom,English (United Kingdom),5,Intermediate,Yes,No,Blended,24,Support career development with certified training (Qualiopi equivalent),BD Microtainer®,,Yes,4.1
+HCP0528,Nurse,Oncology,Universitetssjukhus,Denmark,Dansk (da) - Danish,24,Expert,Yes,Yes,E-learning,2,Train on BD Rowa™ pharmacy automation system,BD Insyte™,BD3771,Yes,3.1
+HCP0529,Nurse,Cardiologie,Privat Klinik,Denmark,Dansk (da) - Danish,9,Intermediate,No,Yes,E-learning,8,Enhance PICC line insertion and maintenance skills,,BD5274,Yes,4.7
+HCP0530,Physician,Critical Care,ESPIC,France,Français (fr) - French,5,Beginner,Yes,No,Webinar,8,Optimiser les workflows de dispensation sur le système Pyxis ES,BD A-Line™,BD0920,Yes,3.9
+HCP0531,Pharmacy Manager,Hospital Pharmacy,NHS Trust,United Kingdom,English (United Kingdom),1,Expert,No,Yes,Webinar,2,Prepare for BD Vacutainer® train-the-trainer programme,BD Alaris™,,Yes,
+HCP0532,Physician,Oncologie,RSA,Italy,Italiano (it) - Italian,30,Advanced,No,No,Blended,4,Onboard on BD Nexiva™ IV catheter system,Pyxis Anesthesia,,Yes,2.7
+HCP0533,System Manager,Specimen Management,IPSS,Portugal,Português (pt) - Portuguese,10,Advanced,Yes,Yes,Webinar,24,Train on BD Rowa™ pharmacy automation system,BD Provena™,,Yes,3.9
+HCP0534,System Manager,Oncology,Private Hospital,Poland,Polski (pl) - Polish,20,Expert,No,Yes,Blended,4,Improve infusion safety and reduce medication errors,BD Foley,BD8497,Yes,3.4
+HCP0535,Physician,Emergency ICU,Private Hospital,Czech Republic,Čeština (cs) - Czech,21,Intermediate,Yes,No,E-learning,4,Prepare for OPCO-funded certification in vascular access,BD A-Line™,BD2087,Yes,4.4
+HCP0536,Nurse,Medical ICU,CHU,France,Français (fr) - French,11,Beginner,Yes,No,Webinar,8,Préparer une certification financée par l'OPCO en accès vasculaire,BD Rowa™,BD7487,No,4.4
+HCP0537,ICU Specialist,Advanced Practice Nursing,Fachklinik,Germany,Deutsch (de) - German,8,Intermediate,Yes,Yes,On-site,8,Prepare for BD Vacutainer® train-the-trainer programme,BD TTM System,BD7114,No,3.6
+HCP0538,Nurse,Biochemistry,GP Surgery,United Kingdom,English (United Kingdom),20,Intermediate,No,Yes,Masterclass,16,Master blood collection techniques with BD Vacutainer® systems,BD Bair Hugger™,BD7440,Yes,3.5
+HCP0539,Nurse,Internal Medicine,Community Hospital,United States,English (United States),4,Expert,No,Yes,On-site,4,Enhance PICC line insertion and maintenance skills,BD Bair Hugger™,BD0448,No,2.8
+HCP0540,Nurse,Neurologie,Community Trust,United Kingdom,English (United Kingdom),22,Intermediate,No,No,Blended,8,Improve pre-analytical quality and reduce specimen non-conformances,VADvisor™,,No,3.3
+HCP0541,Nurse,ICU / Critical Care,Clinique Privée,France,Français (fr) - French,11,Intermediate,Yes,No,E-learning,8,Obtenir une certification avancée en gestion de la TTM,BD BodyGuard T,BD1510,Yes,3.0
+HCP0542,Physician,Hématologie,Centro de Salud,Spain,Español (es) - Spanish,12,Advanced,No,No,E-learning,8,Master blood collection techniques with BD Vacutainer® systems,BD Provena™,,No,3.1
+HCP0543,Physician,Hématologie,Community Hospital,Poland,Polski (pl) - Polish,11,Intermediate,Yes,No,E-learning,40,Master blood collection techniques with BD Vacutainer® systems,HealthSight,BD4489,Yes,4.1
+HCP0544,Pharmacist,Medical ICU,Academic Medical Center,Bulgaria,Български (bg) - Bulgarian,5,Advanced,Yes,No,On-site,8,Prepare for targeted temperature management protocol implementation,BD A-Line™,BD6090,No,3.1
+HCP0545,Biomedical Engineer,Dispensing Automation,Universitetssjukhus,Norway,Norsk (Ino) - Norwegian,6,Advanced,Yes,Yes,E-learning,4,Enhance PICC line insertion and maintenance skills,BD Provena™,BD5982,Yes,2.7
+HCP0546,Nurse,Specimen Management,IDN,United States,English (United States),22,Beginner,No,Yes,On-site,16,Validate Qualiopi competencies for task delegation,BD Alaris™,BD3984,Yes,3.6
+HCP0547,Pharmacy Manager,Emergency ICU,Kantonsspital,Switzerland,Deutsch (de) - German,14,Intermediate,No,Yes,E-learning,8,Optimise Pyxis ES dispensing workflows,BD Foley,BD0920,Yes,2.9
+HCP0548,Physician,IT Systems,Community Hospital,Croatia,Hrvatski (hr) - Croatian,13,Expert,Yes,No,E-learning,8,Prepare for OPCO-funded certification in vascular access,Pyxis ES,BD3095,No,4.5
+HCP0549,Nurse,Hématologie,Huisartsenpraktijk,Netherlands,Nederlands (nl) - Dutch,6,Intermediate,Yes,Yes,E-learning,2,Master blood collection techniques with BD Vacutainer® systems,BD Foley,,No,2.6
+HCP0550,Pharmacist,Oncology,Centro de Salud,Spain,Español (es) - Spanish,18,Intermediate,No,Yes,Blended,16,Prepare for BD Vacutainer® train-the-trainer programme,BD Midline,BD7085,Yes,4.0
+HCP0551,ICU Specialist,ICU / Critical Care,VVT,Netherlands,Nederlands (nl) - Dutch,18,Intermediate,No,Yes,E-learning,2,Optimise Pyxis ES dispensing workflows,HealthSight,BD7274,Yes,2.9
+HCP0552,ICU Specialist,Formulary Management,Devlet Hastanesi,Turkey,Türkçe (tr) - Turkish,14,Beginner,Yes,Yes,Blended,8,Develop vascular access unit expertise,BD Eclipse™,,No,4.8
+HCP0553,Nurse,Surgery,ESPIC,France,Français (fr) - French,6,Beginner,Yes,Yes,E-learning,2,Améliorer la sécurité des perfusions et réduire les erreurs médicamenteuses,BD PICCline,,Yes,2.8
+HCP0554,Nurse,Biochemistry,Ospedale Universitario,Italy,Italiano (it) - Italian,6,Intermediate,No,No,Blended,8,Enhance PICC line insertion and maintenance skills,BD Nexiva™,,Yes,3.2
+HCP0555,Biomedical Engineer,Oncology,Academisch Ziekenhuis,Netherlands,Nederlands (nl) - Dutch,21,Beginner,No,No,Blended,40,Improve infusion safety and reduce medication errors,BD Vacutainer®,BD1438,Yes,2.9
+HCP0556,Physician,Gériatrie,Casa di Cura,Italy,Italiano (it) - Italian,8,Advanced,No,No,E-learning,2,Prepare for targeted temperature management protocol implementation,BD PICCline,BD5905,Yes,3.7
+HCP0557,Physician,Critical Care,HAD,France,Français (fr) - French,5,Advanced,Yes,Yes,Webinar,24,Améliorer la conformité préanalytique et réduire les non-conformités,BD BodyGuard T,BD4094,Yes,
+HCP0558,Nurse,Hospital Pharmacy,Centro de Salud,Spain,Español (es) - Spanish,4,Intermediate,No,Yes,E-learning,40,Prepare for BD Vacutainer® train-the-trainer programme,VADvisor™,,Yes,4.7
+HCP0559,Nurse,Anesthesiology,VVT,Netherlands,Nederlands (nl) - Dutch,21,Intermediate,Yes,No,Webinar,40,Enhance PICC line insertion and maintenance skills,BD Bair Hugger™,BD6389,Yes,2.7
+HCP0560,Nurse,Hospital Pharmacy,Policlinico,Italy,Italiano (it) - Italian,9,Intermediate,No,Yes,Blended,4,Prepare for targeted temperature management protocol implementation,BD Foley,,Yes,3.8
+HCP0561,Biomedical Engineer,Oncology,Clínica Privada,Spain,Español (es) - Spanish,11,Expert,No,No,Blended,4,Master blood collection techniques with BD Vacutainer® systems,BD TTM System,BD0526,Yes,4.1
+HCP0562,ICU Specialist,Anesthesiology,Community Trust,United Kingdom,English (United Kingdom),5,Expert,Yes,Yes,Blended,16,Validate Qualiopi competencies for task delegation,Pyxis ES,BD3771,Yes,4.9
+HCP0563,System Manager,IT Systems,VVT,Netherlands,Nederlands (nl) - Dutch,9,Intermediate,No,Yes,E-learning,16,Enhance PICC line insertion and maintenance skills,BD Bair Hugger™,,No,3.3
+HCP0564,System Manager,Biomedical Engineering,CHU,Belgium,Français (fr) - French,22,Intermediate,Yes,Yes,Blended,40,Former les nouveaux utilisateurs au système BD Alaris™,BD PICCline,,No,3.2
+HCP0565,ICU Specialist,Geriatrics,Regionsjukhus,Sweden,Svenska (sv) - Swedish,26,Advanced,No,Yes,Blended,2,Train on BD Rowa™ pharmacy automation system,BD Foley,,Yes,
+HCP0566,Nurse,Neurologie,HAD,France,Français (fr) - French,5,Advanced,Yes,Yes,Webinar,24,Préparer une certification financée par l'OPCO en accès vasculaire,BD Nexiva™,BD1100,No,2.5
+HCP0567,Nurse,Specimen Management,CH,France,Français (fr) - French,7,Intermediate,Yes,No,E-learning,2,Obtenir une certification avancée en gestion de la TTM,BD Provena™,,Yes,3.5
+HCP0568,Pharmacy Manager,Cardiac ICU,RSA,Italy,Italiano (it) - Italian,9,Beginner,Yes,Yes,On-site,40,Onboard new staff on BD Alaris™ infusion pump systems,BD Alaris™,,Yes,3.9
+HCP0569,System Manager,Nephrology,Community Hospital,United Kingdom,English (United Kingdom),5,Advanced,Yes,Yes,On-site,4,Optimise Pyxis ES dispensing workflows,BD Alaris™,BD0807,No,2.9
+HCP0570,Nurse,Emergency Department,Ospedale Universitario,Italy,Italiano (it) - Italian,26,Advanced,Yes,Yes,Masterclass,4,Optimise Pyxis ES dispensing workflows,BD A-Line™,BD2906,Yes,2.5
+HCP0571,Nurse,Specimen Management,HAD,France,Français (fr) - French,3,Advanced,Yes,No,E-learning,4,Préparer la mise en œuvre du protocole TTM en réanimation,BD Nexiva™,BD3261,Yes,2.5
+HCP0572,Pharmacist,Trauma ICU,MVZ,Germany,Deutsch (de) - German,8,Expert,No,Yes,E-learning,8,Develop vascular access unit expertise,BD A-Line™,BD5457,Yes,3.7
+HCP0573,Pharmacist,Pulmonology,Hospital Universitario,Spain,Español (es) - Spanish,10,Advanced,No,No,E-learning,24,Onboard new staff on BD Alaris™ infusion pump systems,BD Rowa™,BD3523,Yes,2.8
+HCP0574,Nurse,Advanced Practice Nursing,ESPIC,France,Français (fr) - French,5,Advanced,Yes,Yes,On-site,8,Développer les compétences en pose et entretien de PICC line,BD Eclipse™,BD8414,Yes,4.4
+HCP0575,Nurse,Biochemistry,Hospital General,Spain,Español (es) - Spanish,12,Intermediate,No,Yes,Webinar,2,Master blood collection techniques with BD Vacutainer® systems,BD Microtainer®,BD2552,Yes,3.4
+HCP0576,Physician,Specimen Management,Private Hospital,United Kingdom,English (United Kingdom),11,Beginner,No,No,Blended,2,Onboard on BD Nexiva™ IV catheter system,BD Alaris™,BD6076,Yes,3.8
+HCP0577,Pharmacy Manager,Specimen Management,Hospital General,Spain,Español (es) - Spanish,3,Advanced,Yes,Yes,Blended,24,Onboard new staff on BD Alaris™ infusion pump systems,Pyxis ES,BD0787,Yes,3.2
+HCP0578,Physician,Pharmacie Hospitalière,Regionsjukhus,Finland,Suomi (fi) - Finnish,18,Intermediate,No,No,Masterclass,24,Prepare for OPCO-funded certification in vascular access,BD Rowa™,BD6120,Yes,2.7
+HCP0579,Pharmacy Manager,Pediatrics,Academic Medical Center,Hungary,Magyar (hu) - Hungarian,7,Intermediate,No,Yes,Blended,16,Train on BD Rowa™ pharmacy automation system,BD Eclipse™,BD3268,Yes,
+HCP0580,Physician,Gériatrie,Community Trust,United Kingdom,English (United Kingdom),1,Beginner,No,Yes,On-site,4,Gain expert-level certification in TTM management,,,Yes,4.2
+HCP0581,Pharmacy Manager,Medical Biology,Ospedale Regionale,Italy,Italiano (it) - Italian,9,Advanced,No,Yes,E-learning,2,Improve infusion safety and reduce medication errors,BD Eclipse™,BD6541,Yes,3.0
+HCP0582,Pharmacist,ICU / Critical Care,IDN,United States,English (United States),11,Advanced,Yes,No,On-site,4,Enhance PICC line insertion and maintenance skills,BD Midline,BD4183,No,
+HCP0583,Nurse,Equipment Maintenance,Private Hospital,United Kingdom,English (United Kingdom),12,Intermediate,No,Yes,Blended,2,Optimise Pyxis ES dispensing workflows,HealthSight,BD2661,Yes,4.2
+HCP0584,Pharmacist,Equipment Maintenance,VVT,Netherlands,Nederlands (nl) - Dutch,30,Beginner,No,No,E-learning,2,Prepare for BD Vacutainer® train-the-trainer programme,BD A-Line™,BD2465,No,3.6
+HCP0585,Pharmacy Manager,Chirurgie,Hospital Universitario,Spain,Español (es) - Spanish,13,Intermediate,No,Yes,E-learning,16,Improve infusion safety and reduce medication errors,BD Midline,BD3523,Yes,3.9
+HCP0586,Pharmacy Manager,Surgery,Clinique Privée,France,Français (fr) - French,19,Intermediate,Yes,No,E-learning,24,Développer les compétences en pose et entretien de PICC line,BD Midline,,No,3.3
+HCP0587,Nurse,Blood Bank,Universitetssjukhus,Denmark,Dansk (da) - Danish,11,Expert,Yes,No,Webinar,8,Gain expert-level certification in TTM management,BD Rowa™,,Yes,4.3
+HCP0588,ICU Specialist,Trauma ICU,Community Hospital,United States,English (United States),28,Intermediate,No,No,Blended,2,Prepare for OPCO-funded certification in vascular access,BD Microtainer®,BD0807,Yes,
+HCP0589,Physician,Surgery,NHS Trust,United Kingdom,English (United Kingdom),9,Expert,No,Yes,Masterclass,8,Improve infusion safety and reduce medication errors,BD Bair Hugger™,BD1198,Yes,4.5
+HCP0590,System Manager,Hématologie,Universitätsspital,Switzerland,Deutsch (de) - German,11,Intermediate,No,Yes,Webinar,2,Optimise Pyxis ES dispensing workflows,BD Insyte™,BD9404,No,2.8
+HCP0591,Pharmacist,Cardiac ICU,Community Hospital,Poland,Polski (pl) - Polish,9,Advanced,No,No,Blended,40,Improve pre-analytical quality and reduce specimen non-conformances,BD TTM System,BD4244,Yes,
+HCP0592,Pharmacist,Pharmacie Hospitalière,EHPAD,France,Français (fr) - French,2,Advanced,Yes,Yes,E-learning,40,Développer les compétences en pose et entretien de PICC line,Pyxis ES,BD9175,Yes,2.9
+HCP0593,Nurse Practitioner,Urgences,GP Surgery,United Kingdom,English (United Kingdom),22,Advanced,No,Yes,Blended,2,Validate Qualiopi competencies for task delegation,BD PICCline,BD3344,No,3.0
+HCP0594,Pharmacist,Pulmonology,CHU,France,Français (fr) - French,10,Intermediate,Yes,Yes,Blended,16,Préparer la mise en œuvre du protocole TTM en réanimation,BD Midline,BD7204,Yes,3.9
+HCP0595,Pharmacy Manager,Anesthesiology,MVZ,Germany,Deutsch (de) - German,2,Advanced,Yes,Yes,E-learning,8,Prepare for OPCO-funded certification in vascular access,BD Rowa™,BD3771,Yes,4.1
+HCP0596,Pharmacist,Advanced Practice Nursing,Universitetssjukhus,Norway,Norsk (Ino) - Norwegian,3,Beginner,No,Yes,Blended,40,Master blood collection techniques with BD Vacutainer® systems,BD A-Line™,,No,
+HCP0597,Biomedical Engineer,Blood Bank,Academic Medical Center,Hungary,Magyar (hu) - Hungarian,7,Beginner,No,No,Webinar,40,Onboard new staff on BD Alaris™ infusion pump systems,BD Eclipse™,,Yes,3.1
+HCP0598,Pharmacy Manager,Hematology,Hospital Universitário,Portugal,Português (pt) - Portuguese,9,Intermediate,No,Yes,Webinar,2,Enhance PICC line insertion and maintenance skills,BD Bair Hugger™,BD0647,Yes,4.2
+HCP0599,Pharmacy Manager,Specimen Management,Universitetssjukhus,Norway,Norsk (Ino) - Norwegian,4,Advanced,No,Yes,Masterclass,4,Improve pre-analytical quality and reduce specimen non-conformances,BD Microtainer®,BD5822,Yes,4.9
+HCP0600,Nurse,Blood Bank,RSA,Italy,Italiano (it) - Italian,20,Expert,No,Yes,Webinar,4,Support career development with certified training (Qualiopi equivalent),BD Foley,BD0119,No,4.8
+HCP0601,Nurse,Gériatrie,Pflegeheim,Germany,Deutsch (de) - German,9,Beginner,No,No,Webinar,2,Optimise Pyxis ES dispensing workflows,BD Provena™,BD8014,No,4.0
+HCP0602,Pharmacy Manager,Dispensing Automation,RSA,Italy,Italiano (it) - Italian,16,Beginner,No,No,Blended,40,Improve pre-analytical quality and reduce specimen non-conformances,BD Eclipse™,BD6798,Yes,3.9
+HCP0603,Physician,Geriatrics,VVT,Netherlands,Nederlands (nl) - Dutch,1,Beginner,No,No,E-learning,24,Prepare for BD Vacutainer® train-the-trainer programme,BD Rowa™,,Yes,4.0
+HCP0604,Clinical Pharmacist,Cardiology,Regionaal Ziekenhuis,Netherlands,Nederlands (nl) - Dutch,10,Beginner,Yes,Yes,E-learning,40,Onboard on BD Nexiva™ IV catheter system,BD BodyGuard T,BD3277,No,
+HCP0605,System Manager,Soins Intensifs,CHU,Belgium,Français (fr) - French,23,Advanced,Yes,No,On-site,2,Améliorer la conformité préanalytique et réduire les non-conformités,BD A-Line™,BD9890,No,3.7
+HCP0606,Pharmacist,Oncology,NHS Trust,United Kingdom,English (United Kingdom),14,Intermediate,No,Yes,On-site,16,Prepare for OPCO-funded certification in vascular access,BD Midline,,Yes,3.3
+HCP0607,Pharmacist,Nephrology,ESPIC,France,Français (fr) - French,8,Intermediate,Yes,No,On-site,16,Préparer une certification financée par l'OPCO en accès vasculaire,Pyxis Anesthesia,BD9941,Yes,3.9
+HCP0608,Nurse,EHR Integration,Community Hospital,Czech Republic,Čeština (cs) - Czech,16,Advanced,No,No,E-learning,2,Prepare for targeted temperature management protocol implementation,HealthSight,BD4631,Yes,3.6
+HCP0609,Nurse,Formulary Management,GP Surgery,United Kingdom,English (United Kingdom),29,Beginner,No,No,Webinar,8,Prepare for BD Vacutainer® train-the-trainer programme,BD Alaris™,BD6578,Yes,4.3
+HCP0610,Nurse Practitioner,Operating Theatre,Ambulatory Surgery Center,United States,English (United States),8,Intermediate,Yes,Yes,Webinar,16,Improve infusion safety and reduce medication errors,,,Yes,2.7
+HCP0611,ICU Specialist,Cardiology,Private Hospital,Bulgaria,Български (bg) - Bulgarian,8,Intermediate,No,No,Blended,24,Improve infusion safety and reduce medication errors,VADvisor™,BD1953,Yes,3.2
+HCP0612,Nurse,Specimen Management,Academic Medical Center,South Africa,English (United Kingdom),7,Intermediate,No,Yes,Webinar,16,Enhance PICC line insertion and maintenance skills,BD Bair Hugger™,BD7731,Yes,5.0
+HCP0613,Pharmacy Manager,Operating Theatre,Kantonsspital,Switzerland,Deutsch (de) - German,8,Advanced,No,Yes,Blended,40,Onboard new staff on BD Alaris™ infusion pump systems,BD Bair Hugger™,,No,3.1
+HCP0614,Pharmacy Manager,Trauma ICU,GGZ,Netherlands,Nederlands (nl) - Dutch,9,Beginner,No,Yes,Webinar,2,Improve pre-analytical quality and reduce specimen non-conformances,BD Microtainer®,,No,2.7
+HCP0615,Nurse,Infectious Disease,Centro de Saúde,Portugal,Português (pt) - Portuguese,7,Advanced,No,No,E-learning,24,Onboard on BD Nexiva™ IV catheter system,BD Vacutainer®,BD4194,Yes,2.5
+HCP0616,Pharmacist,Critical Care,Centro de Saúde,Portugal,Português (pt) - Portuguese,8,Intermediate,No,Yes,Masterclass,4,Gain expert-level certification in TTM management,BD Bair Hugger™,BD3984,Yes,4.2
+HCP0617,Physician,Hématologie,CHU,France,Français (fr) - French,6,Intermediate,Yes,No,Webinar,40,Valider les compétences Qualiopi pour la délégation de tâches infirmières,BD Alaris™,BD8498,Yes,3.5
+HCP0618,ICU Specialist,Internal Medicine,EHPAD,France,Français (fr) - French,17,Advanced,Yes,Yes,On-site,40,Améliorer la conformité préanalytique et réduire les non-conformités,BD Preset™,,Yes,4.0
+HCP0619,Nurse,Equipment Maintenance,CHU,France,Français (fr) - French,19,Advanced,Yes,Yes,E-learning,40,Obtenir une certification avancée en gestion de la TTM,BD Bair Hugger™,BD0320,Yes,4.9
+HCP0620,Pharmacist,EHR Integration,GGZ,Netherlands,Nederlands (nl) - Dutch,23,Beginner,Yes,No,On-site,4,Train on BD Rowa™ pharmacy automation system,BD Insyte™,,Yes,3.9
+HCP0621,Physician,Clinical Pharmacy,Universitetssjukhus,Denmark,Dansk (da) - Danish,16,Beginner,No,Yes,E-learning,16,Train on BD Rowa™ pharmacy automation system,BD Midline,,Yes,4.2
+HCP0622,Nurse Practitioner,Specimen Management,Policlinico,Italy,Italiano (it) - Italian,12,Advanced,Yes,No,Blended,40,Train on BD Rowa™ pharmacy automation system,BD PICCline,,Yes,3.2
+HCP0623,System Manager,Neurologie,Community Hospital,United Kingdom,English (United Kingdom),14,Intermediate,No,Yes,Masterclass,4,Prepare for BD Vacutainer® train-the-trainer programme,BD Provena™,BD2466,No,
+HCP0624,Nurse,Hématologie,HAD,France,Français (fr) - French,2,Intermediate,Yes,Yes,E-learning,16,Développer les compétences en pose et entretien de PICC line,,BD4964,Yes,3.3
+HCP0625,Physician,Emergency Department,ESPIC,France,Français (fr) - French,10,Beginner,Yes,Yes,E-learning,24,Préparer la mise en œuvre du protocole TTM en réanimation,BD Provena™,BD5468,No,2.8
+HCP0626,Pharmacist,Neurology,Academisch Ziekenhuis,Netherlands,Nederlands (nl) - Dutch,21,Intermediate,Yes,Yes,E-learning,2,Gain expert-level certification in TTM management,BD Rowa™,BD4244,Yes,4.4
+HCP0627,ICU Specialist,Anesthesiology,RSA,Italy,Italiano (it) - Italian,16,Beginner,No,Yes,E-learning,40,Improve pre-analytical quality and reduce specimen non-conformances,,,Yes,4.8
+HCP0628,Nurse,Pharmacie Hospitalière,Pflegeheim,Germany,Deutsch (de) - German,27,Beginner,No,No,Webinar,24,Prepare for OPCO-funded certification in vascular access,BD A-Line™,BD8393,Yes,3.9
+HCP0629,Nurse,Internal Medicine,GP Surgery,United Kingdom,English (United Kingdom),15,Intermediate,No,Yes,Blended,16,Optimise Pyxis ES dispensing workflows,BD Midline,,Yes,
+HCP0630,ICU Specialist,Clinical Pharmacy,Casa di Cura,Italy,Italiano (it) - Italian,3,Intermediate,Yes,Yes,Webinar,2,Validate Qualiopi competencies for task delegation,BD Alaris™,BD7181,Yes,2.5
+HCP0631,System Manager,Equipment Maintenance,MSP,France,Français (fr) - French,1,Intermediate,Yes,Yes,Blended,2,Former les nouveaux utilisateurs au système BD Alaris™,BD Eclipse™,BD7699,Yes,
+HCP0632,Pharmacist,Geriatrics,Community Hospital,United Kingdom,English (United Kingdom),5,Intermediate,Yes,Yes,Webinar,8,Validate Qualiopi competencies for task delegation,BD Foley,BD1135,No,4.4
+HCP0633,ICU Specialist,Blood Bank,RSA,Italy,Italiano (it) - Italian,2,Advanced,Yes,No,On-site,2,Train on BD Rowa™ pharmacy automation system,VADvisor™,BD2097,No,4.8
+HCP0634,Physician,Biochemistry,MVZ,Germany,Deutsch (de) - German,24,Intermediate,Yes,Yes,Blended,16,Prepare for OPCO-funded certification in vascular access,BD Bair Hugger™,BD3438,Yes,
+HCP0635,Nurse,Hématologie,Tagesklinik,Germany,Deutsch (de) - German,12,Intermediate,No,Yes,Webinar,4,Prepare for BD Vacutainer® train-the-trainer programme,BD Alaris™,BD4590,Yes,2.6
+HCP0636,Physician,Cardiology,Tagesklinik,Germany,Deutsch (de) - German,18,Advanced,Yes,No,E-learning,24,Prepare for BD Vacutainer® train-the-trainer programme,BD Insyte™,,No,4.8
+HCP0637,System Manager,Blood Bank,Regionsjukhus,Denmark,Dansk (da) - Danish,15,Intermediate,Yes,Yes,E-learning,16,Develop vascular access unit expertise,BD Eclipse™,,No,4.7
+HCP0638,Nurse,Nephrology,Universitätsklinikum,Germany,Deutsch (de) - German,14,Intermediate,Yes,Yes,Webinar,4,Improve infusion safety and reduce medication errors,BD Midline,,Yes,
+HCP0639,Pharmacist,Gériatrie,CHU,France,Français (fr) - French,21,Intermediate,Yes,Yes,On-site,8,Valider les compétences Qualiopi pour la délégation de tâches infirmières,BD Preset™,,Yes,3.3
+HCP0640,Pharmacist,IT Systems,ESPIC,France,Français (fr) - French,4,Beginner,Yes,Yes,Blended,4,Améliorer la conformité préanalytique et réduire les non-conformités,BD PICCline,BD9671,No,4.4
+HCP0641,Physician,Vascular Surgery,Hospital General,Spain,Español (es) - Spanish,27,Intermediate,No,No,Blended,2,Optimise Pyxis ES dispensing workflows,BD Insyte™,,Yes,2.5
+HCP0642,Nurse,Emergency ICU,Policlinico,Italy,Italiano (it) - Italian,15,Beginner,No,Yes,E-learning,8,Prepare for targeted temperature management protocol implementation,Pyxis ES,BD5568,Yes,4.7
+HCP0643,ICU Specialist,Operating Theatre,Academic Medical Center,Poland,Polski (pl) - Polish,12,Intermediate,No,Yes,E-learning,2,Prepare for BD Vacutainer® train-the-trainer programme,BD Provena™,BD7369,Yes,4.3
+HCP0644,Pharmacist,Pharmacie Hospitalière,Academic Medical Center,Israel,English (United Kingdom),24,Advanced,No,No,E-learning,24,Validate Qualiopi competencies for task delegation,BD Rowa™,BD0119,Yes,2.8
+HCP0645,Clinical Pharmacist,Formulary Management,Privatklinik,Switzerland,Deutsch (de) - German,12,Intermediate,No,No,E-learning,24,Train on BD Rowa™ pharmacy automation system,BD TTM System,BD3758,No,4.4
+HCP0646,System Manager,Medical Biology,ESPIC,France,Français (fr) - French,4,Intermediate,Yes,Yes,E-learning,4,Optimiser les workflows de dispensation sur le système Pyxis ES,BD Eclipse™,BD1510,Yes,2.8
+HCP0647,Pharmacist,EHR Integration,Privatklinik,Switzerland,Deutsch (de) - German,2,Advanced,Yes,Yes,Webinar,24,Develop vascular access unit expertise,BD Preset™,,Yes,3.0
+HCP0648,ICU Specialist,Neurology,Community Hospital,Saudi Arabia,English (United Kingdom),25,Advanced,No,No,On-site,16,Prepare for OPCO-funded certification in vascular access,BD Midline,,No,3.7
+HCP0649,Physician,Equipment Maintenance,Universitetssjukhus,Finland,Suomi (fi) - Finnish,25,Beginner,No,No,Webinar,40,Validate Qualiopi competencies for task delegation,Pyxis ES,BD9769,Yes,2.7
+HCP0650,Physician,Neurologie,ESPIC,France,Français (fr) - French,17,Intermediate,Yes,No,E-learning,8,Former les nouveaux utilisateurs au système BD Alaris™,BD Foley,BD9404,No,3.3
+HCP0651,Physician,Internal Medicine,Kreiskrankenhaus,Germany,Deutsch (de) - German,24,Intermediate,Yes,No,On-site,16,Master blood collection techniques with BD Vacutainer® systems,BD Nexiva™,,No,2.6
+HCP0652,Physician,Oncology,Ospedale Universitario,Italy,Italiano (it) - Italian,3,Intermediate,No,No,Webinar,24,Optimise Pyxis ES dispensing workflows,BD Rowa™,BD2306,Yes,3.3
+HCP0653,Pharmacy Manager,Nephrology,Policlinico,Italy,Italiano (it) - Italian,11,Intermediate,Yes,Yes,E-learning,16,Support career development with certified training (Qualiopi equivalent),VADvisor™,BD3418,Yes,
+HCP0654,Nurse,Pharmacy Management,Policlinico,Italy,Italiano (it) - Italian,3,Beginner,No,Yes,E-learning,24,Gain expert-level certification in TTM management,Pyxis Anesthesia,,Yes,3.0
+HCP0655,Pharmacist,Equipment Maintenance,Hospital General,Spain,Español (es) - Spanish,22,Advanced,Yes,No,E-learning,2,Improve infusion safety and reduce medication errors,BD Provena™,BD5568,Yes,2.9
+HCP0656,Pharmacist,Emergency ICU,MSP,France,Français (fr) - French,18,Intermediate,Yes,No,Webinar,2,Obtenir une certification avancée en gestion de la TTM,BD Rowa™,,No,2.5
+HCP0657,Pharmacist,Operating Theatre,Regionsjukhus,Norway,Norsk (Ino) - Norwegian,23,Expert,No,Yes,E-learning,8,Support career development with certified training (Qualiopi equivalent),BD PICCline,,Yes,4.0
+HCP0658,Nurse,Blood Bank,Universitätsklinikum,Austria,Deutsch (de) - German,9,Advanced,No,Yes,E-learning,24,Onboard new staff on BD Alaris™ infusion pump systems,BD Foley,BD0988,No,2.5
+HCP0659,System Manager,Emergency ICU,Universitetssjukhus,Sweden,Svenska (sv) - Swedish,16,Intermediate,Yes,No,Webinar,8,Master blood collection techniques with BD Vacutainer® systems,Pyxis ES,BD7699,No,4.0
+HCP0660,Physician,ICU / Critical Care,MVZ,Germany,Deutsch (de) - German,5,Intermediate,Yes,Yes,E-learning,40,Validate Qualiopi competencies for task delegation,BD BodyGuard T,BD2097,Yes,4.0
+HCP0661,Nurse,Equipment Maintenance,MVZ,Germany,Deutsch (de) - German,18,Expert,No,No,Blended,4,Onboard new staff on BD Alaris™ infusion pump systems,VADvisor™,BD2201,Yes,4.5
+HCP0662,Physician,Specimen Management,NHS Trust,United Kingdom,English (United Kingdom),14,Beginner,No,Yes,E-learning,16,Onboard new staff on BD Alaris™ infusion pump systems,BD Microtainer®,BD1135,Yes,2.9
+HCP0663,Physician,Vascular Surgery,Community Hospital,Romania,Română (ro) - Romanian,22,Intermediate,No,Yes,E-learning,4,Prepare for BD Vacutainer® train-the-trainer programme,BD Foley,BD7860,No,4.8
+HCP0664,Nurse,Cardiology,GP Surgery,United Kingdom,English (United Kingdom),20,Advanced,No,Yes,Webinar,16,Gain expert-level certification in TTM management,BD Bair Hugger™,BD6448,Yes,3.1
+HCP0665,Nurse,Anesthesiology,IDN,United States,English (United States),15,Expert,Yes,Yes,On-site,4,Validate Qualiopi competencies for task delegation,,,Yes,4.7
+HCP0666,Pharmacist,Soins Intensifs,Residencia,Spain,Español (es) - Spanish,7,Intermediate,No,No,E-learning,8,Prepare for targeted temperature management protocol implementation,BD BodyGuard T,,No,3.8
+HCP0667,Pharmacy Manager,Réanimation,Private Hospital,United Kingdom,English (United Kingdom),2,Intermediate,Yes,Yes,Webinar,8,Gain expert-level certification in TTM management,BD TTM System,BD7005,Yes,3.4
+HCP0668,System Manager,Neurology,VVT,Netherlands,Nederlands (nl) - Dutch,22,Intermediate,No,No,Webinar,16,Improve infusion safety and reduce medication errors,,BD4018,No,
+HCP0669,Nurse,Medical ICU,Ospedale Regionale,Italy,Italiano (it) - Italian,3,Intermediate,No,No,E-learning,8,Enhance PICC line insertion and maintenance skills,BD TTM System,,No,4.1
+HCP0670,Pharmacist,Medical ICU,Universitetssjukhus,Finland,Suomi (fi) - Finnish,21,Beginner,No,Yes,On-site,16,Enhance PICC line insertion and maintenance skills,,,No,2.8
+HCP0671,Nurse,Internal Medicine,Community Trust,United Kingdom,English (United Kingdom),15,Intermediate,No,No,Webinar,16,Onboard on BD Nexiva™ IV catheter system,BD A-Line™,BD8014,Yes,
+HCP0672,Physician,Réanimation,Centro de Salud,Spain,Español (es) - Spanish,23,Advanced,Yes,Yes,E-learning,40,Validate Qualiopi competencies for task delegation,BD Alaris™,,Yes,4.4
+HCP0673,ICU Specialist,Medical ICU,Centro de Saúde,Portugal,Português (pt) - Portuguese,8,Intermediate,No,Yes,Webinar,2,Support career development with certified training (Qualiopi equivalent),BD PICCline,BD4080,No,4.2
+HCP0674,Pharmacist,Specimen Management,Kantonsspital,Switzerland,Deutsch (de) - German,2,Intermediate,No,No,E-learning,2,Prepare for OPCO-funded certification in vascular access,BD TTM System,BD0265,No,
+HCP0675,Nurse,Urgences,Privatklinik,Germany,Deutsch (de) - German,8,Beginner,No,No,Masterclass,2,Support career development with certified training (Qualiopi equivalent),BD Insyte™,BD8498,No,2.6
+HCP0676,Pharmacy Manager,Infectious Disease,Residencia,Spain,Español (es) - Spanish,2,Advanced,Yes,No,Masterclass,40,Prepare for OPCO-funded certification in vascular access,BD Microtainer®,,Yes,3.9
+HCP0677,Biomedical Engineer,Gastroenterology,Private Hospital,Saudi Arabia,English (United Kingdom),23,Expert,Yes,Yes,Webinar,4,Gain expert-level certification in TTM management,BD Preset™,BD5079,Yes,4.7
+HCP0678,Nurse Practitioner,Oncologie,Ospedale Regionale,Italy,Italiano (it) - Italian,15,Advanced,Yes,No,Webinar,2,Improve pre-analytical quality and reduce specimen non-conformances,BD Insyte™,BD2299,Yes,
+HCP0679,Pharmacist,Soins Intensifs,Özel Hastane,Turkey,Türkçe (tr) - Turkish,16,Expert,Yes,Yes,E-learning,2,Optimise Pyxis ES dispensing workflows,,BD9452,Yes,3.8
+HCP0680,System Manager,Blood Bank,ESPIC,France,Français (fr) - French,8,Advanced,Yes,Yes,Blended,16,Optimiser les workflows de dispensation sur le système Pyxis ES,BD Vacutainer®,BD2661,Yes,4.1
+HCP0681,Physician,Réanimation,CHU,Belgium,Français (fr) - French,10,Intermediate,Yes,Yes,E-learning,4,Optimiser les workflows de dispensation sur le système Pyxis ES,BD TTM System,BD6391,No,2.7
+HCP0682,Nurse,Hospital Pharmacy,Academic Medical Center,South Africa,English (United Kingdom),22,Advanced,No,No,On-site,40,Gain expert-level certification in TTM management,BD Rowa™,BD9890,Yes,3.2
+HCP0683,Nurse,Oncology,Privat Klinik,Denmark,Dansk (da) - Danish,10,Advanced,Yes,Yes,Blended,2,Train on BD Rowa™ pharmacy automation system,BD PICCline,BD2501,No,2.6
+HCP0684,Pharmacist,Nephrology,Universitätsspital,Switzerland,Deutsch (de) - German,13,Beginner,No,Yes,Webinar,24,Enhance PICC line insertion and maintenance skills,BD Insyte™,BD7274,Yes,2.5
+HCP0685,ICU Specialist,Specimen Management,Universitätsklinikum,Austria,Deutsch (de) - German,21,Expert,Yes,Yes,E-learning,40,Improve infusion safety and reduce medication errors,BD Rowa™,,Yes,4.3
+HCP0686,Pharmacist,Advanced Practice Nursing,Centro de Saúde,Portugal,Português (pt) - Portuguese,15,Beginner,No,Yes,Webinar,8,Master blood collection techniques with BD Vacutainer® systems,BD A-Line™,,Yes,2.6
+HCP0687,Nurse,Surgical ICU,Regionsjukhus,Finland,Suomi (fi) - Finnish,8,Intermediate,No,Yes,On-site,4,Prepare for BD Vacutainer® train-the-trainer programme,BD Insyte™,BD1662,Yes,3.7
+HCP0688,Nurse,Pediatrics,Private Hospital,United Kingdom,English (United Kingdom),25,Intermediate,No,No,E-learning,24,Train on BD Rowa™ pharmacy automation system,BD Midline,BD0119,Yes,4.6
+HCP0689,Nurse,ICU / Critical Care,Regionaal Ziekenhuis,Netherlands,Nederlands (nl) - Dutch,26,Expert,No,Yes,E-learning,4,Enhance PICC line insertion and maintenance skills,BD Preset™,BD2299,Yes,4.4
+HCP0690,Nurse,Operating Theatre,Community Hospital,United Kingdom,English (United Kingdom),5,Expert,Yes,No,E-learning,16,Train on BD Rowa™ pharmacy automation system,BD Eclipse™,,Yes,3.2
+HCP0691,ICU Specialist,Operating Theatre,Policlinico,Italy,Italiano (it) - Italian,14,Beginner,No,Yes,E-learning,40,Train on BD Rowa™ pharmacy automation system,BD Foley,BD4501,Yes,3.0
+HCP0692,ICU Specialist,Dispensing Automation,Fachklinik,Germany,Deutsch (de) - German,7,Intermediate,No,Yes,Webinar,24,Improve infusion safety and reduce medication errors,Pyxis ES,BD5711,Yes,2.7
+HCP0693,Physician,Hematology,Kreiskrankenhaus,Germany,Deutsch (de) - German,14,Intermediate,Yes,Yes,E-learning,16,Improve pre-analytical quality and reduce specimen non-conformances,BD Provena™,BD9603,Yes,3.7
+HCP0694,Pharmacist,Réanimation,HAD,France,Français (fr) - French,15,Intermediate,Yes,Yes,E-learning,16,Améliorer la sécurité des perfusions et réduire les erreurs médicamenteuses,BD Provena™,,Yes,4.6
+HCP0695,Nurse,Surgical ICU,Regionsjukhus,Denmark,Dansk (da) - Danish,27,Beginner,No,Yes,E-learning,2,Onboard new staff on BD Alaris™ infusion pump systems,BD Midline,BD3017,Yes,4.7
+HCP0696,ICU Specialist,Chirurgie,Ospedale Universitario,Italy,Italiano (it) - Italian,17,Expert,Yes,Yes,E-learning,2,Prepare for targeted temperature management protocol implementation,BD A-Line™,BD0093,Yes,2.6
+HCP0697,Nurse,Formulary Management,CHU,Belgium,Français (fr) - French,1,Expert,Yes,Yes,Webinar,4,Améliorer la conformité préanalytique et réduire les non-conformités,VADvisor™,BD6780,Yes,2.6
+HCP0698,Nurse,Oncology,Community Hospital,Croatia,Hrvatski (hr) - Croatian,16,Beginner,No,Yes,Blended,2,Onboard on BD Nexiva™ IV catheter system,Pyxis Anesthesia,,Yes,3.1
+HCP0699,Nurse,Hospital Pharmacy,Clinique Privée,France,Français (fr) - French,9,Intermediate,Yes,Yes,Blended,4,Améliorer la conformité préanalytique et réduire les non-conformités,Pyxis Anesthesia,BD0417,Yes,2.8
+HCP0700,Pharmacist,Hematology,Pflegeheim,Germany,Deutsch (de) - German,11,Advanced,Yes,Yes,Webinar,16,Optimise Pyxis ES dispensing workflows,BD Nexiva™,BD0388,No,4.9
+HCP0701,System Manager,Operating Theatre,Community Hospital,United States,English (United States),7,Intermediate,No,No,E-learning,24,Validate Qualiopi competencies for task delegation,BD Eclipse™,,Yes,5.0
+HCP0702,Physician,Formulary Management,Universitetssjukhus,Denmark,Dansk (da) - Danish,7,Advanced,No,Yes,E-learning,4,Prepare for BD Vacutainer® train-the-trainer programme,,BD6233,Yes,3.2
+HCP0703,Physician,Dispensing Automation,Tagesklinik,Germany,Deutsch (de) - German,9,Intermediate,No,Yes,On-site,16,Optimise Pyxis ES dispensing workflows,BD Preset™,,No,4.2
+HCP0704,Physician,Formulary Management,Primärvård,Sweden,Svenska (sv) - Swedish,24,Advanced,Yes,Yes,E-learning,40,Train on BD Rowa™ pharmacy automation system,BD Insyte™,,Yes,3.7
+HCP0705,Physician,Pulmonology,Community Hospital,United States,English (United States),19,Intermediate,Yes,Yes,E-learning,40,Prepare for OPCO-funded certification in vascular access,BD Provena™,BD1070,Yes,
+HCP0706,System Manager,EHR Integration,Ospedale Regionale,Italy,Italiano (it) - Italian,8,Intermediate,No,Yes,Webinar,24,Train on BD Rowa™ pharmacy automation system,BD TTM System,BD3378,No,
+HCP0707,Physician,Urgences,Universitetssjukhus,Sweden,Svenska (sv) - Swedish,17,Beginner,Yes,Yes,Webinar,4,Validate Qualiopi competencies for task delegation,BD PICCline,BD5896,Yes,4.9
+HCP0708,Pharmacist,IT Systems,Privat Klinik,Denmark,Dansk (da) - Danish,1,Advanced,No,No,E-learning,4,Prepare for targeted temperature management protocol implementation,BD PICCline,BD7394,Yes,4.0
+HCP0709,System Manager,Microbiology,Policlinico,Italy,Italiano (it) - Italian,22,Advanced,No,Yes,E-learning,40,Prepare for OPCO-funded certification in vascular access,BD Microtainer®,BD0380,Yes,4.0
+HCP0710,ICU Specialist,Dispensing Automation,Private Hospital,United Kingdom,English (United Kingdom),25,Beginner,No,No,E-learning,40,Prepare for targeted temperature management protocol implementation,BD Vacutainer®,BD7274,Yes,4.3
+HCP0711,Nurse,Cardiologie,Hospital Universitario,Spain,Español (es) - Spanish,10,Advanced,Yes,Yes,E-learning,24,Prepare for targeted temperature management protocol implementation,Pyxis ES,,Yes,4.5
+HCP0712,Nurse,Clinical Pharmacy,Primärvård,Sweden,Svenska (sv) - Swedish,15,Advanced,Yes,Yes,E-learning,4,Prepare for OPCO-funded certification in vascular access,BD Rowa™,BD0807,No,4.5
+HCP0713,Nurse,Medical Biology,Universitetssjukhus,Denmark,Dansk (da) - Danish,21,Intermediate,No,Yes,E-learning,2,Prepare for targeted temperature management protocol implementation,BD Provena™,,Yes,
+HCP0714,Physician,Dispensing Automation,Private Hospital,Bulgaria,Български (bg) - Bulgarian,18,Advanced,Yes,Yes,E-learning,8,Onboard on BD Nexiva™ IV catheter system,BD Midline,,No,4.6
+HCP0715,Physician,EHR Integration,CHU,France,Français (fr) - French,19,Beginner,Yes,No,Webinar,4,Valider les compétences Qualiopi pour la délégation de tâches infirmières,BD PICCline,,No,4.8
+HCP0716,Nurse,Cardiac ICU,ESPIC,France,Français (fr) - French,8,Beginner,Yes,Yes,Blended,24,Préparer la mise en œuvre du protocole TTM en réanimation,HealthSight,,No,
+HCP0717,System Manager,Chirurgie,CH,France,Français (fr) - French,20,Beginner,Yes,Yes,Blended,2,Obtenir une certification avancée en gestion de la TTM,BD A-Line™,BD5047,Yes,4.8
+HCP0718,Nurse,Biomedical Engineering,Private Hospital,Bulgaria,Български (bg) - Bulgarian,21,Beginner,Yes,Yes,E-learning,24,Validate Qualiopi competencies for task delegation,BD A-Line™,BD0119,Yes,4.4
+HCP0719,Nurse Practitioner,Equipment Maintenance,Clínica Privada,Spain,Español (es) - Spanish,12,Intermediate,No,Yes,Webinar,4,Improve pre-analytical quality and reduce specimen non-conformances,,,Yes,4.1
+HCP0720,System Manager,Neurology,Community Hospital,South Africa,English (United Kingdom),16,Beginner,No,Yes,E-learning,4,Prepare for targeted temperature management protocol implementation,BD Preset™,BD6120,No,3.6
+HCP0721,Physician,Pharmacy Management,Policlinico,Italy,Italiano (it) - Italian,8,Expert,Yes,No,Webinar,8,Develop vascular access unit expertise,,,No,4.5
+HCP0722,Physician,Oncologie,Community Trust,United Kingdom,English (United Kingdom),7,Intermediate,No,Yes,E-learning,8,Improve pre-analytical quality and reduce specimen non-conformances,BD Foley,BD8658,Yes,3.4
+HCP0723,Pharmacist,Gastroenterology,CPAS,Belgium,Français (fr) - French,9,Advanced,Yes,Yes,E-learning,8,Développer les compétences en pose et entretien de PICC line,BD A-Line™,BD3017,No,2.7
+HCP0724,Physician,Geriatrics,CPAS,Belgium,Français (fr) - French,9,Intermediate,Yes,Yes,Webinar,40,Améliorer la sécurité des perfusions et réduire les erreurs médicamenteuses,BD TTM System,,Yes,2.5
+HCP0725,Pharmacist,Pulmonology,Community Hospital,Greece,Ελληνικά (el) - Greek,7,Advanced,No,Yes,Blended,2,Develop vascular access unit expertise,,BD0417,No,2.6
+HCP0726,Clinical Pharmacist,Advanced Practice Nursing,CHU,Belgium,Français (fr) - French,13,Beginner,Yes,Yes,E-learning,24,Préparer la mise en œuvre du protocole TTM en réanimation,BD Vacutainer®,,Yes,3.9
+HCP0727,Pharmacist,EHR Integration,Fachklinik,Germany,Deutsch (de) - German,11,Advanced,No,Yes,E-learning,24,Gain expert-level certification in TTM management,Pyxis Anesthesia,,Yes,4.3
+HCP0728,Physician,Hospital Pharmacy,Regionsjukhus,Denmark,Dansk (da) - Danish,24,Beginner,Yes,Yes,E-learning,2,Prepare for BD Vacutainer® train-the-trainer programme,BD Preset™,BD9475,Yes,4.4
+HCP0729,Nurse,Gastroenterology,Regionsjukhus,Norway,Norsk (Ino) - Norwegian,4,Advanced,No,Yes,Masterclass,24,Onboard new staff on BD Alaris™ infusion pump systems,Pyxis Anesthesia,,Yes,
+HCP0730,Nurse,Medical ICU,Centro de Saúde,Portugal,Português (pt) - Portuguese,25,Advanced,No,Yes,E-learning,24,Support career development with certified training (Qualiopi equivalent),BD PICCline,BD6385,Yes,4.8
+HCP0731,Physician,Blood Bank,Clínica Privada,Spain,Español (es) - Spanish,18,Intermediate,No,Yes,E-learning,40,Improve pre-analytical quality and reduce specimen non-conformances,BD Bair Hugger™,,Yes,4.4
+HCP0732,Biomedical Engineer,ICU / Critical Care,Community Hospital,United States,English (United States),11,Intermediate,Yes,No,E-learning,4,Prepare for BD Vacutainer® train-the-trainer programme,Pyxis Anesthesia,,Yes,4.6
+HCP0733,Pharmacist,Biochemistry,RSA,Italy,Italiano (it) - Italian,8,Intermediate,No,Yes,Webinar,8,Enhance PICC line insertion and maintenance skills,BD Alaris™,,No,2.5
+HCP0734,Nurse Practitioner,Cardiac ICU,Private Hospital,United Kingdom,English (United Kingdom),8,Advanced,No,No,Blended,16,Onboard new staff on BD Alaris™ infusion pump systems,,BD4194,Yes,3.6
+HCP0735,System Manager,Emergency ICU,Ospedale Universitario,Italy,Italiano (it) - Italian,10,Beginner,No,Yes,On-site,16,Onboard on BD Nexiva™ IV catheter system,,,Yes,
+HCP0736,Nurse,Emergency Department,Residencia,Spain,Español (es) - Spanish,15,Intermediate,No,Yes,E-learning,16,Train on BD Rowa™ pharmacy automation system,HealthSight,,Yes,3.8
+HCP0737,Nurse,Pharmacy Management,Clinique Privée,France,Français (fr) - French,6,Intermediate,Yes,Yes,E-learning,16,Optimiser les workflows de dispensation sur le système Pyxis ES,BD A-Line™,,Yes,4.0
+HCP0738,Physician,Dispensing Automation,Hospital Universitario,Spain,Español (es) - Spanish,9,Advanced,No,Yes,E-learning,8,Master blood collection techniques with BD Vacutainer® systems,BD Microtainer®,BD5359,Yes,3.1
+HCP0739,System Manager,Medical Biology,VA Hospital,United States,English (United States),5,Intermediate,Yes,Yes,Webinar,4,Improve pre-analytical quality and reduce specimen non-conformances,BD Insyte™,,Yes,4.0
+HCP0740,Biomedical Engineer,Gériatrie,Universitätsspital,Switzerland,Deutsch (de) - German,11,Beginner,No,Yes,Webinar,4,Onboard new staff on BD Alaris™ infusion pump systems,,BD3130,Yes,4.8
+HCP0741,Nurse,Emergency Department,HAD,France,Français (fr) - French,15,Intermediate,Yes,Yes,E-learning,4,Maîtriser les techniques de prélèvement avec BD Vacutainer®,Pyxis ES,BD7179,No,
+HCP0742,Pharmacist,Pediatrics,Community Hospital,Czech Republic,Čeština (cs) - Czech,5,Beginner,Yes,No,Webinar,2,Gain expert-level certification in TTM management,BD Eclipse™,BD6731,Yes,3.7
+HCP0743,Pharmacist,Urgences,CHU,France,Français (fr) - French,5,Intermediate,Yes,Yes,Webinar,16,Optimiser les workflows de dispensation sur le système Pyxis ES,BD Midline,BD1135,No,3.2
+HCP0744,Pharmacist,Gériatrie,Policlinico,Italy,Italiano (it) - Italian,1,Intermediate,No,Yes,E-learning,8,Train on BD Rowa™ pharmacy automation system,BD Microtainer®,,Yes,2.7
+HCP0745,Pharmacist,EHR Integration,Hospital Universitario,Spain,Español (es) - Spanish,7,Intermediate,No,No,E-learning,4,Validate Qualiopi competencies for task delegation,BD Alaris™,BD8813,Yes,3.0
+HCP0746,Biomedical Engineer,Soins Intensifs,Sağlık Merkezi,Turkey,Türkçe (tr) - Turkish,29,Intermediate,No,No,Webinar,2,Support career development with certified training (Qualiopi equivalent),BD Midline,,Yes,4.5
+HCP0747,Nurse,Microbiology,Kantonsspital,Switzerland,Deutsch (de) - German,13,Intermediate,Yes,No,Webinar,4,Master blood collection techniques with BD Vacutainer® systems,,BD5615,No,3.9
+HCP0748,Nurse,Operating Theatre,VVT,Netherlands,Nederlands (nl) - Dutch,6,Intermediate,Yes,Yes,Blended,2,Improve pre-analytical quality and reduce specimen non-conformances,BD Microtainer®,BD8241,Yes,4.5
+HCP0749,Nurse,Pulmonology,Community Hospital,United Kingdom,English (United Kingdom),25,Beginner,No,Yes,Webinar,4,Onboard new staff on BD Alaris™ infusion pump systems,,BD4631,Yes,4.4
+HCP0750,System Manager,Chirurgie,Community Hospital,United Kingdom,English (United Kingdom),23,Advanced,Yes,Yes,E-learning,16,Support career development with certified training (Qualiopi equivalent),Pyxis Anesthesia,BD7114,Yes,4.0
+HCP0751,Physician,Oncologie,Academic Medical Center,Hungary,Magyar (hu) - Hungarian,3,Advanced,Yes,No,Webinar,8,Gain expert-level certification in TTM management,BD TTM System,BD3283,No,
+HCP0752,System Manager,ICU / Critical Care,IDN,United States,English (United States),21,Beginner,No,Yes,E-learning,16,Validate Qualiopi competencies for task delegation,BD Eclipse™,,Yes,3.7
+HCP0753,Physician,Clinical Pharmacy,Casa di Cura,Italy,Italiano (it) - Italian,27,Intermediate,No,Yes,On-site,16,Gain expert-level certification in TTM management,HealthSight,BD1841,No,3.2
+HCP0754,Nurse,Formulary Management,Regionsjukhus,Denmark,Dansk (da) - Danish,18,Advanced,Yes,Yes,Webinar,4,Support career development with certified training (Qualiopi equivalent),BD Alaris™,,No,3.5
+HCP0755,Biomedical Engineer,Cardiology,Private Hospital,Poland,Polski (pl) - Polish,2,Intermediate,Yes,Yes,On-site,40,Validate Qualiopi competencies for task delegation,BD Midline,BD9269,No,2.6
+HCP0756,System Manager,Specimen Management,Privatklinik,Germany,Deutsch (de) - German,4,Beginner,Yes,Yes,Webinar,40,Support career development with certified training (Qualiopi equivalent),BD Alaris™,,Yes,3.7
+HCP0757,ICU Specialist,Soins Intensifs,Universitetssjukhus,Finland,Suomi (fi) - Finnish,7,Intermediate,No,No,Webinar,4,Support career development with certified training (Qualiopi equivalent),BD Vacutainer®,BD1197,Yes,3.6
+HCP0758,Pharmacist,Trauma ICU,GP Surgery,United Kingdom,English (United Kingdom),11,Advanced,Yes,Yes,E-learning,40,Enhance PICC line insertion and maintenance skills,BD PICCline,BD2976,Yes,3.3
+HCP0759,Physician,Neurologie,Casa di Cura,Italy,Italiano (it) - Italian,1,Beginner,No,Yes,Blended,24,Optimise Pyxis ES dispensing workflows,,BD3268,Yes,2.6
+HCP0760,Nurse,Cardiologie,Centro de Saúde,Portugal,Português (pt) - Portuguese,12,Intermediate,No,Yes,Blended,24,Improve infusion safety and reduce medication errors,BD Nexiva™,BD6731,Yes,4.2
+HCP0761,Nurse Practitioner,Chirurgie,Community Trust,United Kingdom,English (United Kingdom),15,Intermediate,No,No,E-learning,4,Optimise Pyxis ES dispensing workflows,BD Alaris™,BD1238,Yes,4.7
+HCP0762,Pharmacist,Geriatrics,HAD,France,Français (fr) - French,7,Advanced,Yes,Yes,E-learning,4,Optimiser les workflows de dispensation sur le système Pyxis ES,BD Rowa™,BD0754,Yes,3.4
+HCP0763,Nurse Practitioner,Surgical ICU,Community Hospital,Poland,Polski (pl) - Polish,25,Intermediate,Yes,Yes,E-learning,24,Enhance PICC line insertion and maintenance skills,Pyxis ES,,No,4.3
+HCP0764,System Manager,Medical Biology,CPAS,Belgium,Français (fr) - French,16,Beginner,Yes,Yes,E-learning,2,Maîtriser les techniques de prélèvement avec BD Vacutainer®,BD Insyte™,,No,3.0
+HCP0765,Pharmacist,Specimen Management,Ambulatory Surgery Center,United States,English (United States),16,Intermediate,No,Yes,E-learning,2,Improve infusion safety and reduce medication errors,Pyxis ES,,Yes,3.8
+HCP0766,Nurse,Infectious Disease,EHPAD,France,Français (fr) - French,1,Expert,Yes,No,E-learning,16,Préparer la mise en œuvre du protocole TTM en réanimation,BD Insyte™,BD2906,No,4.3
+HCP0767,Nurse,Geriatrics,HAD,France,Français (fr) - French,10,Advanced,Yes,Yes,E-learning,24,Obtenir une certification avancée en gestion de la TTM,HealthSight,BD3305,No,4.3
+HCP0768,ICU Specialist,Surgical ICU,Hôpital Général,France,Français (fr) - French,23,Advanced,Yes,Yes,E-learning,24,Améliorer la conformité préanalytique et réduire les non-conformités,BD Microtainer®,BD5055,Yes,4.0
+HCP0769,Physician,Geriatrics,ESPIC,France,Français (fr) - French,9,Intermediate,Yes,Yes,Webinar,24,Développer les compétences en pose et entretien de PICC line,BD Midline,BD4964,Yes,2.7
+HCP0770,ICU Specialist,Emergency ICU,Ospedale Universitario,Italy,Italiano (it) - Italian,17,Intermediate,No,Yes,Webinar,16,Gain expert-level certification in TTM management,,,No,3.4
+HCP0771,System Manager,Internal Medicine,HAD,France,Français (fr) - French,14,Advanced,Yes,Yes,E-learning,2,Maîtriser les techniques de prélèvement avec BD Vacutainer®,Pyxis ES,BD1820,Yes,4.9
+HCP0772,Nurse Practitioner,EHR Integration,Hôpital Général,France,Français (fr) - French,21,Expert,Yes,Yes,Webinar,24,Former les nouveaux utilisateurs au système BD Alaris™,BD PICCline,BD5468,Yes,3.9
+HCP0773,Nurse,Operating Theatre,Centro de Salud,Spain,Español (es) - Spanish,11,Advanced,Yes,Yes,On-site,24,Prepare for OPCO-funded certification in vascular access,BD PICCline,BD7487,Yes,3.0
+HCP0774,Nurse,Trauma ICU,Hospital General,Spain,Español (es) - Spanish,2,Advanced,No,Yes,E-learning,8,Onboard on BD Nexiva™ IV catheter system,BD A-Line™,,No,3.7
+HCP0775,ICU Specialist,Medical ICU,Private Hospital,Saudi Arabia,English (United Kingdom),22,Advanced,No,Yes,Blended,24,Onboard on BD Nexiva™ IV catheter system,HealthSight,BD8740,Yes,3.4
+HCP0776,System Manager,Emergency ICU,RSA,Italy,Italiano (it) - Italian,15,Advanced,No,Yes,E-learning,8,Onboard new staff on BD Alaris™ infusion pump systems,BD Alaris™,,Yes,4.9
+HCP0777,Physician,Surgery,Kantonsspital,Switzerland,Deutsch (de) - German,15,Expert,Yes,Yes,On-site,24,Prepare for targeted temperature management protocol implementation,BD Rowa™,BD5167,Yes,4.2
+HCP0778,Nurse,Anesthesiology,MSP,France,Français (fr) - French,12,Intermediate,Yes,Yes,E-learning,8,Améliorer la sécurité des perfusions et réduire les erreurs médicamenteuses,,BD3560,Yes,
+HCP0779,Nurse,IT Systems,RSA,Italy,Italiano (it) - Italian,18,Advanced,No,Yes,Webinar,24,Develop vascular access unit expertise,BD Nexiva™,BD2494,No,3.0
+HCP0780,Nurse,Medical Biology,HAD,France,Français (fr) - French,11,Beginner,Yes,Yes,E-learning,40,Développer les compétences en pose et entretien de PICC line,BD Provena™,BD4964,No,4.6
+HCP0781,Nurse,Advanced Practice Nursing,Tagesklinik,Germany,Deutsch (de) - German,4,Advanced,No,Yes,E-learning,24,Master blood collection techniques with BD Vacutainer® systems,BD A-Line™,,No,4.8
+HCP0782,Physician,Critical Care,CHU,France,Français (fr) - French,21,Advanced,Yes,No,Blended,4,Améliorer la sécurité des perfusions et réduire les erreurs médicamenteuses,BD Bair Hugger™,,No,4.4
+HCP0783,Physician,IT Systems,GGZ,Netherlands,Nederlands (nl) - Dutch,7,Advanced,No,Yes,Webinar,40,Improve infusion safety and reduce medication errors,Pyxis ES,BD3261,Yes,4.7
+HCP0784,Biomedical Engineer,Oncologie,Ospedale Regionale,Italy,Italiano (it) - Italian,21,Beginner,Yes,Yes,Blended,24,Onboard new staff on BD Alaris™ infusion pump systems,VADvisor™,,Yes,3.8
+HCP0785,System Manager,EHR Integration,Universitätsklinikum,Germany,Deutsch (de) - German,5,Intermediate,Yes,Yes,Blended,8,Prepare for targeted temperature management protocol implementation,BD Preset™,BD7305,Yes,4.1
+HCP0786,Biomedical Engineer,Pharmacie Hospitalière,Kantonsspital,Switzerland,Deutsch (de) - German,10,Beginner,No,Yes,E-learning,40,Onboard new staff on BD Alaris™ infusion pump systems,VADvisor™,,Yes,4.2
+HCP0787,Nurse,Formulary Management,Regionsjukhus,Finland,Suomi (fi) - Finnish,20,Advanced,No,Yes,On-site,8,Develop vascular access unit expertise,,,Yes,4.2
+HCP0788,ICU Specialist,Critical Care,Clinique Spécialisée,Belgium,Français (fr) - French,10,Expert,Yes,No,Webinar,24,Valider les compétences Qualiopi pour la délégation de tâches infirmières,,BD6115,No,3.3
+HCP0789,Pharmacist,Pulmonology,Clínica Privada,Spain,Español (es) - Spanish,16,Advanced,Yes,Yes,Blended,16,Validate Qualiopi competencies for task delegation,BD Vacutainer®,BD1835,Yes,4.1
+HCP0790,Nurse Practitioner,Clinical Pharmacy,Casa di Cura,Italy,Italiano (it) - Italian,13,Expert,No,Yes,E-learning,40,Onboard on BD Nexiva™ IV catheter system,BD Insyte™,BD8956,Yes,2.9
+HCP0791,Physician,Equipment Maintenance,Residencia,Spain,Español (es) - Spanish,1,Advanced,Yes,Yes,Webinar,2,Optimise Pyxis ES dispensing workflows,BD Preset™,BD4802,No,4.2
+HCP0792,Nurse Practitioner,Medical Biology,ESPIC,France,Français (fr) - French,21,Intermediate,Yes,Yes,E-learning,8,Obtenir une certification avancée en gestion de la TTM,HealthSight,BD1442,No,4.6
+HCP0793,Nurse,IT Systems,Regionsjukhus,Norway,Norsk (Ino) - Norwegian,28,Intermediate,No,Yes,On-site,40,Develop vascular access unit expertise,BD A-Line™,,Yes,3.3
+HCP0794,Nurse,Oncology,MSP,France,Français (fr) - French,23,Intermediate,Yes,Yes,Webinar,16,Préparer la mise en œuvre du protocole TTM en réanimation,BD Vacutainer®,BD6578,Yes,2.6
+HCP0795,System Manager,Gériatrie,Clinique Privée,France,Français (fr) - French,7,Intermediate,Yes,No,E-learning,16,Développer les compétences en pose et entretien de PICC line,HealthSight,BD3130,No,
+HCP0796,Nurse,Anesthesiology,Universitätsklinikum,Germany,Deutsch (de) - German,18,Beginner,No,Yes,E-learning,24,Optimise Pyxis ES dispensing workflows,Pyxis ES,BD0359,Yes,3.5
+HCP0797,Physician,Neurology,Community Hospital,South Africa,English (United Kingdom),22,Intermediate,Yes,Yes,Webinar,2,Optimise Pyxis ES dispensing workflows,BD Midline,BD5167,Yes,
+HCP0798,Nurse,Nephrology,MVZ,Germany,Deutsch (de) - German,16,Intermediate,No,No,Blended,16,Support career development with certified training (Qualiopi equivalent),BD Eclipse™,BD2494,No,4.5
+HCP0799,System Manager,Urgences,EHPAD,France,Français (fr) - French,8,Expert,Yes,No,E-learning,16,Former les nouveaux utilisateurs au système BD Alaris™,,BD5167,Yes,4.5
+HCP0800,Physician,Hospital Pharmacy,Academic Medical Center,Czech Republic,Čeština (cs) - Czech,8,Beginner,No,No,Webinar,24,Improve pre-analytical quality and reduce specimen non-conformances,BD Provena™,,No,4.7
+HCP0801,System Manager,Hospital Pharmacy,Private Hospital,United Kingdom,English (United Kingdom),27,Intermediate,No,Yes,Webinar,16,Prepare for BD Vacutainer® train-the-trainer programme,HealthSight,BD6952,No,3.3
+HCP0802,Pharmacy Manager,Operating Theatre,Regionsjukhus,Denmark,Dansk (da) - Danish,13,Beginner,No,No,E-learning,4,Train on BD Rowa™ pharmacy automation system,BD Provena™,,No,3.1
+HCP0803,Clinical Pharmacist,Gériatrie,Clínica Privada,Spain,Español (es) - Spanish,23,Beginner,Yes,No,Blended,8,Train on BD Rowa™ pharmacy automation system,Pyxis ES,BD6698,No,3.2
+HCP0804,ICU Specialist,Blood Bank,ESPIC,France,Français (fr) - French,7,Expert,Yes,No,Blended,24,Améliorer la sécurité des perfusions et réduire les erreurs médicamenteuses,BD BodyGuard T,BD6882,No,3.3
+HCP0805,Biomedical Engineer,Cardiologie,Academic Medical Center,United States,English (United States),6,Expert,Yes,Yes,E-learning,24,Support career development with certified training (Qualiopi equivalent),BD Vacutainer®,BD1213,No,2.5
+HCP0806,Nurse,IT Systems,CH,France,Français (fr) - French,8,Intermediate,Yes,Yes,E-learning,16,Obtenir une certification avancée en gestion de la TTM,BD Rowa™,BD7164,Yes,4.1
+HCP0807,Physician,Neurologie,CH,France,Français (fr) - French,3,Intermediate,Yes,Yes,Webinar,8,Optimiser les workflows de dispensation sur le système Pyxis ES,BD Insyte™,BD5192,Yes,3.9
+HCP0808,Physician,Soins Intensifs,MSP,France,Français (fr) - French,3,Beginner,Yes,Yes,Webinar,24,Améliorer la conformité préanalytique et réduire les non-conformités,BD Bair Hugger™,,Yes,4.9
+HCP0809,System Manager,Gériatrie,Private Hospital,Croatia,Hrvatski (hr) - Croatian,3,Intermediate,Yes,Yes,Webinar,8,Support career development with certified training (Qualiopi equivalent),BD Microtainer®,BD0787,No,2.6
+HCP0810,Nurse,Medical ICU,HAD,France,Français (fr) - French,11,Intermediate,Yes,Yes,E-learning,4,Préparer la mise en œuvre du protocole TTM en réanimation,BD Preset™,BD5711,No,4.3
+HCP0811,Nurse,Medical ICU,Hospital General,Spain,Español (es) - Spanish,19,Beginner,No,No,E-learning,40,Validate Qualiopi competencies for task delegation,BD Insyte™,BD6266,Yes,2.7
+HCP0812,Nurse,Clinical Pharmacy,Primärvård,Sweden,Svenska (sv) - Swedish,14,Expert,No,No,Webinar,2,Prepare for OPCO-funded certification in vascular access,,BD4242,No,3.8
+HCP0813,Nurse,Neurologie,IDN,United States,English (United States),11,Advanced,Yes,Yes,Masterclass,4,Prepare for OPCO-funded certification in vascular access,BD Eclipse™,BD0152,No,4.9
+HCP0814,Physician,Soins Intensifs,Academic Medical Center,Romania,Română (ro) - Romanian,16,Beginner,No,No,Blended,16,Prepare for OPCO-funded certification in vascular access,,BD9406,No,3.1
+HCP0815,Nurse,Geriatrics,Casa di Cura,Italy,Italiano (it) - Italian,9,Beginner,No,Yes,E-learning,8,Prepare for OPCO-funded certification in vascular access,,BD7394,Yes,4.7
+HCP0816,ICU Specialist,Clinical Pharmacy,IDN,United States,English (United States),24,Intermediate,Yes,Yes,Blended,4,Onboard on BD Nexiva™ IV catheter system,BD Foley,BD8813,Yes,3.3
+HCP0817,ICU Specialist,Cardiologie,Hôpital Général,France,Français (fr) - French,15,Intermediate,Yes,Yes,Blended,16,Améliorer la conformité préanalytique et réduire les non-conformités,BD Midline,,No,
+HCP0818,Pharmacist,Réanimation,Kreiskrankenhaus,Germany,Deutsch (de) - German,4,Intermediate,Yes,Yes,Webinar,2,Train on BD Rowa™ pharmacy automation system,BD Preset™,BD5192,Yes,
+HCP0819,Nurse,Infectious Disease,Integrated Care Board,United Kingdom,English (United Kingdom),1,Intermediate,No,No,Blended,40,Prepare for targeted temperature management protocol implementation,BD Microtainer®,,Yes,2.6
+HCP0820,Nurse,Urgences,HAD,France,Français (fr) - French,19,Intermediate,Yes,No,Webinar,24,Améliorer la sécurité des perfusions et réduire les erreurs médicamenteuses,BD Nexiva™,BD9417,Yes,2.9
+HCP0821,Physician,Cardiac ICU,Universitetssjukhus,Sweden,Svenska (sv) - Swedish,16,Beginner,Yes,No,Blended,4,Prepare for OPCO-funded certification in vascular access,BD Provena™,BD5192,Yes,4.1
+HCP0822,ICU Specialist,Gastroenterology,Pflegeheim,Germany,Deutsch (de) - German,12,Beginner,Yes,No,Blended,16,Master blood collection techniques with BD Vacutainer® systems,,,Yes,
+HCP0823,Pharmacist,Critical Care,CH,France,Français (fr) - French,6,Advanced,Yes,Yes,E-learning,4,Optimiser les workflows de dispensation sur le système Pyxis ES,Pyxis ES,BD5457,Yes,4.7
+HCP0824,Pharmacist,Pharmacie Hospitalière,CPAS,Belgium,Français (fr) - French,6,Advanced,Yes,Yes,Webinar,40,Préparer la mise en œuvre du protocole TTM en réanimation,HealthSight,BD5167,Yes,4.4
+HCP0825,Physician,Operating Theatre,Hospital General,Spain,Español (es) - Spanish,2,Beginner,Yes,Yes,E-learning,40,Prepare for targeted temperature management protocol implementation,Pyxis ES,BD5468,Yes,3.1
+HCP0826,Pharmacy Manager,Urgences,MSP,France,Français (fr) - French,3,Intermediate,Yes,Yes,Webinar,2,Préparer la mise en œuvre du protocole TTM en réanimation,BD Foley,BD2593,Yes,3.4
+HCP0827,Physician,Réanimation,Centro de Salud,Spain,Español (es) - Spanish,9,Intermediate,Yes,No,E-learning,16,Validate Qualiopi competencies for task delegation,BD TTM System,BD1994,Yes,4.2
+HCP0828,Pharmacist,Gastroenterology,CHU,Belgium,Français (fr) - French,14,Intermediate,Yes,Yes,Blended,16,Former les nouveaux utilisateurs au système BD Alaris™,BD Bair Hugger™,BD6835,Yes,
+HCP0829,Pharmacist,Operating Theatre,Regionsjukhus,Finland,Suomi (fi) - Finnish,21,Beginner,No,Yes,E-learning,40,Develop vascular access unit expertise,BD A-Line™,,Yes,4.7
+HCP0830,Physician,Critical Care,CPAS,Belgium,Français (fr) - French,27,Beginner,Yes,Yes,Webinar,2,Valider les compétences Qualiopi pour la délégation de tâches infirmières,BD Midline,BD9941,Yes,
+HCP0831,Physician,Pulmonology,Community Hospital,United Kingdom,English (United Kingdom),24,Intermediate,No,Yes,On-site,16,Support career development with certified training (Qualiopi equivalent),BD Insyte™,BD2481,No,4.8
+HCP0832,Nurse,Hospital Pharmacy,NHS Trust,United Kingdom,English (United Kingdom),1,Intermediate,No,No,Webinar,40,Improve infusion safety and reduce medication errors,BD Insyte™,BD1220,No,4.9
+HCP0833,Nurse,Gériatrie,Community Hospital,Greece,Ελληνικά (el) - Greek,16,Beginner,Yes,Yes,E-learning,4,Prepare for OPCO-funded certification in vascular access,,,No,4.8
+HCP0834,Nurse,Neurology,Community Hospital,United Kingdom,English (United Kingdom),12,Intermediate,Yes,No,E-learning,2,Improve pre-analytical quality and reduce specimen non-conformances,BD Vacutainer®,BD6614,Yes,4.1
+HCP0835,Physician,Biomedical Engineering,Ambulatory Surgery Center,United States,English (United States),18,Advanced,No,No,E-learning,24,Validate Qualiopi competencies for task delegation,BD A-Line™,BD2669,Yes,3.3
+HCP0836,Nurse,Anesthesiology,Clínica Privada,Spain,Español (es) - Spanish,13,Intermediate,No,Yes,E-learning,40,Prepare for targeted temperature management protocol implementation,BD Bair Hugger™,BD9941,Yes,3.6
+HCP0837,Pharmacist,Oncologie,Kantonsspital,Switzerland,Deutsch (de) - German,10,Intermediate,No,Yes,Blended,4,Gain expert-level certification in TTM management,BD BodyGuard T,BD9862,Yes,4.5
+HCP0838,System Manager,Gériatrie,EHPAD,France,Français (fr) - French,15,Intermediate,Yes,No,Webinar,2,Obtenir une certification avancée en gestion de la TTM,BD Nexiva™,BD5015,Yes,3.5
+HCP0839,Nurse,Vascular Surgery,CHU,France,Français (fr) - French,12,Intermediate,Yes,Yes,E-learning,40,Optimiser les workflows de dispensation sur le système Pyxis ES,BD Vacutainer®,BD5935,Yes,4.5
+HCP0840,Physician,Biochemistry,Academic Medical Center,Poland,Polski (pl) - Polish,14,Advanced,Yes,Yes,Blended,2,Improve infusion safety and reduce medication errors,HealthSight,BD5055,Yes,3.8
+HCP0841,Nurse,Clinical Pharmacy,Privatklinik,Switzerland,Deutsch (de) - German,14,Intermediate,Yes,Yes,Webinar,8,Enhance PICC line insertion and maintenance skills,BD Nexiva™,,Yes,4.4
+HCP0842,Nurse,Surgical ICU,Privat Klinik,Denmark,Dansk (da) - Danish,17,Beginner,No,Yes,Webinar,8,Prepare for BD Vacutainer® train-the-trainer programme,HealthSight,BD5919,Yes,4.5
+HCP0843,ICU Specialist,Emergency ICU,Ospedale Universitario,Italy,Italiano (it) - Italian,17,Intermediate,No,No,E-learning,8,Prepare for targeted temperature management protocol implementation,BD Nexiva™,,Yes,2.7
+HCP0844,System Manager,Critical Care,VVT,Netherlands,Nederlands (nl) - Dutch,14,Intermediate,No,Yes,Blended,24,Onboard new staff on BD Alaris™ infusion pump systems,BD Foley,BD0352,No,3.8
+HCP0845,Nurse,IT Systems,Clinique Spécialisée,Belgium,Français (fr) - French,15,Advanced,Yes,No,E-learning,16,Améliorer la conformité préanalytique et réduire les non-conformités,BD Preset™,BD0754,No,2.7
+HCP0846,Nurse,Surgery,VVT,Netherlands,Nederlands (nl) - Dutch,11,Intermediate,Yes,Yes,Webinar,4,Enhance PICC line insertion and maintenance skills,BD A-Line™,,No,2.9
+HCP0847,Pharmacy Manager,Chirurgie,Pflegeheim,Germany,Deutsch (de) - German,13,Advanced,No,Yes,Blended,2,Optimise Pyxis ES dispensing workflows,BD Eclipse™,BD0526,Yes,
+HCP0848,Pharmacist,Hematology,VA Hospital,United States,English (United States),7,Intermediate,No,Yes,E-learning,40,Onboard new staff on BD Alaris™ infusion pump systems,BD Midline,BD4631,Yes,2.5
+HCP0849,Physician,Trauma ICU,Ospedale Universitario,Italy,Italiano (it) - Italian,16,Intermediate,No,Yes,Masterclass,16,Prepare for OPCO-funded certification in vascular access,BD Alaris™,,Yes,3.7
+HCP0850,Pharmacist,Surgery,Kantonsspital,Switzerland,Deutsch (de) - German,2,Intermediate,No,Yes,E-learning,8,Prepare for targeted temperature management protocol implementation,,BD5919,Yes,4.2
+HCP0851,Nurse,Microbiology,IDN,United States,English (United States),8,Intermediate,No,No,Webinar,4,Onboard new staff on BD Alaris™ infusion pump systems,BD Midline,BD3771,Yes,4.0
+HCP0852,Physician,Neurology,MSP,France,Français (fr) - French,6,Intermediate,Yes,Yes,Webinar,2,Préparer la mise en œuvre du protocole TTM en réanimation,BD Bair Hugger™,BD7550,Yes,4.6
+HCP0853,System Manager,Specimen Management,Tagesklinik,Germany,Deutsch (de) - German,15,Beginner,Yes,Yes,Webinar,4,Improve pre-analytical quality and reduce specimen non-conformances,BD Nexiva™,,Yes,4.2
+HCP0854,Nurse,Vascular Surgery,MVZ,Germany,Deutsch (de) - German,9,Expert,No,No,E-learning,24,Prepare for OPCO-funded certification in vascular access,Pyxis ES,BD0430,Yes,3.2
+HCP0855,Nurse,Oncology,Private Hospital,Czech Republic,Čeština (cs) - Czech,8,Beginner,No,Yes,E-learning,2,Gain expert-level certification in TTM management,BD Microtainer®,BD2825,No,4.5
+HCP0856,Pharmacist,Operating Theatre,Hospital Universitário,Portugal,Português (pt) - Portuguese,7,Intermediate,No,Yes,E-learning,4,Support career development with certified training (Qualiopi equivalent),,BD8306,Yes,3.1
+HCP0857,Pharmacist,Emergency ICU,Privatklinik,Germany,Deutsch (de) - German,14,Intermediate,No,Yes,Webinar,16,Improve infusion safety and reduce medication errors,BD Rowa™,BD0448,No,4.9
+HCP0858,Pharmacist,Pharmacy Management,VVT,Netherlands,Nederlands (nl) - Dutch,1,Advanced,No,No,On-site,40,Onboard new staff on BD Alaris™ infusion pump systems,BD Provena™,BD5333,No,
+HCP0859,Nurse,Biomedical Engineering,CPAS,Belgium,Français (fr) - French,20,Expert,Yes,Yes,E-learning,16,Former les nouveaux utilisateurs au système BD Alaris™,BD Microtainer®,,Yes,2.7
+HCP0860,Physician,Medical ICU,HAD,France,Français (fr) - French,12,Intermediate,Yes,No,On-site,40,Optimiser les workflows de dispensation sur le système Pyxis ES,BD Nexiva™,BD2299,Yes,4.0
+HCP0861,Physician,ICU / Critical Care,GP Surgery,United Kingdom,English (United Kingdom),8,Expert,No,Yes,Blended,16,Prepare for BD Vacutainer® train-the-trainer programme,BD Foley,BD0266,Yes,2.6
+HCP0862,ICU Specialist,Nephrology,Privatklinik,Germany,Deutsch (de) - German,14,Beginner,No,No,Webinar,8,Train on BD Rowa™ pharmacy automation system,BD BodyGuard T,BD5794,Yes,2.6
+HCP0863,Pharmacy Manager,Oncologie,Integrated Care Board,United Kingdom,English (United Kingdom),10,Beginner,No,Yes,Webinar,2,Onboard on BD Nexiva™ IV catheter system,BD Provena™,BD5469,Yes,3.9
+HCP0864,Physician,Cardiac ICU,Private Hospital,United Kingdom,English (United Kingdom),9,Intermediate,No,Yes,E-learning,2,Onboard new staff on BD Alaris™ infusion pump systems,BD TTM System,BD9664,No,3.4
+HCP0865,Nurse Practitioner,Vascular Surgery,Academisch Ziekenhuis,Netherlands,Nederlands (nl) - Dutch,19,Intermediate,No,Yes,E-learning,40,Validate Qualiopi competencies for task delegation,BD BodyGuard T,BD1135,Yes,4.7
+HCP0866,Physician,Surgery,HAD,France,Français (fr) - French,6,Intermediate,Yes,Yes,E-learning,24,Valider les compétences Qualiopi pour la délégation de tâches infirmières,BD Insyte™,BD5366,No,
+HCP0867,Nurse,Surgery,Community Hospital,Hungary,Magyar (hu) - Hungarian,9,Advanced,Yes,Yes,Blended,40,Develop vascular access unit expertise,Pyxis ES,BD0787,Yes,3.3
+HCP0868,Physician,Nephrology,IPSS,Portugal,Português (pt) - Portuguese,24,Intermediate,No,Yes,Webinar,40,Onboard new staff on BD Alaris™ infusion pump systems,VADvisor™,BD6798,No,3.7
+HCP0869,System Manager,Geriatrics,Private Hospital,Bulgaria,Български (bg) - Bulgarian,7,Intermediate,Yes,Yes,On-site,40,Support career development with certified training (Qualiopi equivalent),BD PICCline,BD3731,Yes,4.5
+HCP0870,Pharmacy Manager,Clinical Pharmacy,Academic Medical Center,Hungary,Magyar (hu) - Hungarian,9,Intermediate,No,Yes,E-learning,4,Onboard new staff on BD Alaris™ infusion pump systems,HealthSight,,No,3.6
+HCP0871,Nurse,Operating Theatre,Ospedale Regionale,Italy,Italiano (it) - Italian,16,Intermediate,No,No,E-learning,2,Onboard on BD Nexiva™ IV catheter system,Pyxis ES,BD1198,Yes,3.4
+HCP0872,Pharmacist,Medical Biology,Tagesklinik,Germany,Deutsch (de) - German,7,Intermediate,No,No,Blended,8,Improve infusion safety and reduce medication errors,BD Preset™,BD4244,Yes,4.9
+HCP0873,Nurse,Soins Intensifs,Universitätsspital,Switzerland,Deutsch (de) - German,23,Beginner,No,Yes,On-site,24,Enhance PICC line insertion and maintenance skills,,BD4631,No,5.0
+HCP0874,System Manager,Gériatrie,HAD,France,Français (fr) - French,22,Expert,Yes,Yes,Webinar,40,Maîtriser les techniques de prélèvement avec BD Vacutainer®,VADvisor™,BD2669,Yes,
+HCP0875,ICU Specialist,Gastroenterology,Hospital Universitario,Spain,Español (es) - Spanish,12,Advanced,No,No,Webinar,2,Prepare for OPCO-funded certification in vascular access,BD BodyGuard T,BD0417,No,4.6
+HCP0876,Pharmacist,Réanimation,CHU,France,Français (fr) - French,19,Advanced,Yes,Yes,Webinar,24,Obtenir une certification avancée en gestion de la TTM,,,Yes,4.3
+HCP0877,Nurse,Oncologie,Clinique Privée,France,Français (fr) - French,12,Expert,Yes,Yes,E-learning,16,Améliorer la conformité préanalytique et réduire les non-conformités,Pyxis Anesthesia,BD1115,Yes,3.1
+HCP0878,Nurse,Internal Medicine,HAD,France,Français (fr) - French,1,Intermediate,Yes,Yes,On-site,4,Développer les compétences en pose et entretien de PICC line,BD Foley,BD1238,No,3.8
+HCP0879,Physician,Oncology,Community Hospital,Poland,Polski (pl) - Polish,5,Intermediate,No,Yes,E-learning,40,Prepare for BD Vacutainer® train-the-trainer programme,BD Midline,BD8393,Yes,4.1
+HCP0880,Anesthesiologist,Hématologie,Private Hospital,United Kingdom,English (United Kingdom),17,Advanced,No,Yes,On-site,16,Validate Qualiopi competencies for task delegation,,BD7699,Yes,2.7
+HCP0881,Nurse,Geriatrics,Ospedale Regionale,Italy,Italiano (it) - Italian,7,Expert,No,Yes,Webinar,2,Support career development with certified training (Qualiopi equivalent),BD Nexiva™,BD2906,Yes,4.1
+HCP0882,Physician,Biochemistry,Huisartsenpraktijk,Netherlands,Nederlands (nl) - Dutch,21,Beginner,No,No,E-learning,40,Train on BD Rowa™ pharmacy automation system,BD TTM System,BD6798,Yes,3.4
+HCP0883,Pharmacy Manager,Internal Medicine,Academic Medical Center,Poland,Polski (pl) - Polish,9,Intermediate,Yes,No,E-learning,2,Gain expert-level certification in TTM management,BD Eclipse™,,No,4.4
+HCP0884,Anesthesiologist,Surgical ICU,Academic Medical Center,Hungary,Magyar (hu) - Hungarian,23,Beginner,Yes,No,Webinar,4,Prepare for OPCO-funded certification in vascular access,BD Midline,BD2087,No,4.6
+HCP0885,Pharmacy Manager,Hématologie,Universitetssjukhus,Finland,Suomi (fi) - Finnish,5,Intermediate,Yes,Yes,On-site,8,Prepare for targeted temperature management protocol implementation,BD TTM System,,Yes,2.7
+HCP0886,Physician,Cardiac ICU,Universitätsklinikum,Germany,Deutsch (de) - German,8,Beginner,Yes,Yes,E-learning,16,Validate Qualiopi competencies for task delegation,,BD4590,No,5.0
+HCP0887,Physician,Soins Intensifs,GP Surgery,United Kingdom,English (United Kingdom),8,Intermediate,No,Yes,E-learning,8,Support career development with certified training (Qualiopi equivalent),BD A-Line™,BD6869,Yes,
+HCP0888,Physician,Gériatrie,GGZ,Netherlands,Nederlands (nl) - Dutch,8,Beginner,No,No,E-learning,24,Develop vascular access unit expertise,,BD9603,No,3.5
+HCP0889,ICU Specialist,Cardiac ICU,Clinique Privée,France,Français (fr) - French,5,Intermediate,Yes,No,E-learning,24,Optimiser les workflows de dispensation sur le système Pyxis ES,BD Provena™,,Yes,4.1
+HCP0890,Biomedical Engineer,Urgences,Casa di Cura,Italy,Italiano (it) - Italian,22,Intermediate,No,Yes,E-learning,4,Onboard on BD Nexiva™ IV catheter system,BD Rowa™,BD7860,Yes,3.4
+HCP0891,ICU Specialist,Pharmacie Hospitalière,GGZ,Netherlands,Nederlands (nl) - Dutch,12,Advanced,No,No,Webinar,40,Improve infusion safety and reduce medication errors,BD Midline,BD3418,No,3.7
+HCP0892,Pharmacist,Hématologie,Regionaal Ziekenhuis,Netherlands,Nederlands (nl) - Dutch,7,Beginner,No,Yes,E-learning,8,Prepare for targeted temperature management protocol implementation,BD A-Line™,,No,4.7
+HCP0893,Nurse,Pharmacie Hospitalière,Private Hospital,Romania,Română (ro) - Romanian,10,Advanced,Yes,Yes,Webinar,4,Train on BD Rowa™ pharmacy automation system,BD Midline,BD0807,Yes,4.7
+HCP0894,Nurse Practitioner,Gériatrie,Policlinico,Italy,Italiano (it) - Italian,2,Intermediate,No,Yes,Webinar,40,Gain expert-level certification in TTM management,VADvisor™,BD6952,Yes,
+HCP0895,Physician,Pediatrics,VVT,Netherlands,Nederlands (nl) - Dutch,21,Intermediate,No,Yes,Webinar,24,Validate Qualiopi competencies for task delegation,BD Insyte™,,Yes,
+HCP0896,Pharmacist,Oncology,Hospital Universitário,Portugal,Português (pt) - Portuguese,24,Expert,No,Yes,Webinar,2,Develop vascular access unit expertise,BD Rowa™,BD3128,Yes,
+HCP0897,Pharmacist,Equipment Maintenance,CHU,France,Français (fr) - French,6,Beginner,Yes,No,Blended,24,Obtenir une certification avancée en gestion de la TTM,BD Preset™,,No,3.9
+HCP0898,Pharmacist,Pharmacy Management,CPAS,Belgium,Français (fr) - French,21,Advanced,Yes,Yes,E-learning,16,Optimiser les workflows de dispensation sur le système Pyxis ES,BD Bair Hugger™,BD2976,No,3.5
+HCP0899,Nurse,Neurologie,Community Hospital,United Kingdom,English (United Kingdom),4,Advanced,No,Yes,Blended,8,Prepare for BD Vacutainer® train-the-trainer programme,VADvisor™,BD2250,No,4.4
+HCP0900,System Manager,Soins Intensifs,Ospedale Regionale,Italy,Italiano (it) - Italian,14,Beginner,No,No,Webinar,4,Prepare for BD Vacutainer® train-the-trainer programme,BD Midline,BD9121,Yes,
+HCP0901,Nurse,Vascular Surgery,Universitätsklinikum,Germany,Deutsch (de) - German,11,Intermediate,No,Yes,Webinar,8,Onboard on BD Nexiva™ IV catheter system,BD Provena™,BD6146,No,2.5
+HCP0902,Nurse,Hospital Pharmacy,Regionsjukhus,Denmark,Dansk (da) - Danish,29,Advanced,No,Yes,On-site,16,Support career development with certified training (Qualiopi equivalent),,BD5055,Yes,4.8
+HCP0903,Physician,Biochemistry,Primärvård,Sweden,Svenska (sv) - Swedish,15,Expert,No,No,Webinar,24,Enhance PICC line insertion and maintenance skills,BD BodyGuard T,BD7860,Yes,4.3
+HCP0904,Pharmacist,Neurology,Kantonsspital,Switzerland,Deutsch (de) - German,11,Advanced,No,No,E-learning,24,Gain expert-level certification in TTM management,HealthSight,,No,3.5
+HCP0905,Nurse,Urgences,Casa di Cura,Italy,Italiano (it) - Italian,8,Beginner,No,Yes,Webinar,16,Improve infusion safety and reduce medication errors,BD Alaris™,BD4830,Yes,3.4
+HCP0906,Nurse,Emergency Department,Universitetssjukhus,Norway,Norsk (Ino) - Norwegian,22,Beginner,No,Yes,Webinar,40,Onboard on BD Nexiva™ IV catheter system,BD PICCline,,No,3.2
+HCP0907,ICU Specialist,Soins Intensifs,Pflegeheim,Germany,Deutsch (de) - German,5,Intermediate,No,Yes,Webinar,24,Train on BD Rowa™ pharmacy automation system,BD Rowa™,BD4830,No,4.7
+HCP0908,Nurse,Surgery,Regionsjukhus,Denmark,Dansk (da) - Danish,13,Beginner,No,Yes,Webinar,4,Support career development with certified training (Qualiopi equivalent),VADvisor™,,Yes,3.3
+HCP0909,Pharmacy Manager,Dispensing Automation,Ospedale Regionale,Italy,Italiano (it) - Italian,24,Beginner,No,Yes,On-site,40,Prepare for BD Vacutainer® train-the-trainer programme,BD Insyte™,BD2487,Yes,4.1
+HCP0910,Physician,Hematology,Privatklinik,Switzerland,Deutsch (de) - German,14,Beginner,No,Yes,Blended,8,Optimise Pyxis ES dispensing workflows,BD BodyGuard T,BD7181,Yes,4.3
+HCP0911,Nurse,Pediatrics,Centro de Saúde,Portugal,Português (pt) - Portuguese,18,Advanced,No,No,E-learning,4,Prepare for BD Vacutainer® train-the-trainer programme,BD Alaris™,,Yes,
+HCP0912,Nurse,Pharmacy Management,ESPIC,France,Français (fr) - French,27,Intermediate,Yes,Yes,Webinar,8,Valider les compétences Qualiopi pour la délégation de tâches infirmières,,BD2862,Yes,4.6
+HCP0913,Nurse,Formulary Management,Primärvård,Sweden,Svenska (sv) - Swedish,14,Beginner,No,Yes,Webinar,8,Support career development with certified training (Qualiopi equivalent),BD TTM System,,Yes,4.0
+HCP0914,Nurse,Specimen Management,Clinique Privée,France,Français (fr) - French,12,Advanced,Yes,Yes,Webinar,40,Maîtriser les techniques de prélèvement avec BD Vacutainer®,BD Foley,BD8302,Yes,3.4
+HCP0915,Pharmacy Manager,Geriatrics,Clínica Privada,Spain,Español (es) - Spanish,8,Intermediate,No,No,E-learning,8,Improve infusion safety and reduce medication errors,BD Provena™,,Yes,4.5
+HCP0916,Nurse,Dispensing Automation,EHPAD,France,Français (fr) - French,19,Advanced,Yes,Yes,Webinar,40,Améliorer la conformité préanalytique et réduire les non-conformités,BD A-Line™,,No,3.7
+HCP0917,Nurse,Anesthesiology,MSP,France,Français (fr) - French,16,Intermediate,Yes,Yes,Blended,24,Valider les compétences Qualiopi pour la délégation de tâches infirmières,BD Eclipse™,BD8713,Yes,2.8
+HCP0918,Physician,Biochemistry,Academic Medical Center,Hungary,Magyar (hu) - Hungarian,7,Intermediate,No,No,Masterclass,40,Validate Qualiopi competencies for task delegation,,,No,3.4
+HCP0919,ICU Specialist,Cardiology,MSP,France,Français (fr) - French,28,Intermediate,Yes,Yes,On-site,40,Obtenir une certification avancée en gestion de la TTM,BD Microtainer®,BD8647,Yes,
+HCP0920,Physician,Biomedical Engineering,EHPAD,France,Français (fr) - French,15,Beginner,Yes,Yes,Webinar,4,Améliorer la conformité préanalytique et réduire les non-conformités,BD A-Line™,,Yes,3.1
+HCP0921,Anesthesiologist,Oncologie,Hospital Universitario,Spain,Español (es) - Spanish,7,Expert,No,No,Webinar,40,Improve infusion safety and reduce medication errors,BD A-Line™,BD2501,No,
+HCP0922,ICU Specialist,Medical Biology,GP Surgery,United Kingdom,English (United Kingdom),18,Intermediate,Yes,Yes,E-learning,24,Prepare for BD Vacutainer® train-the-trainer programme,BD Insyte™,BD1751,No,4.2
+HCP0923,Nurse,Hématologie,CHU,France,Français (fr) - French,27,Intermediate,Yes,No,E-learning,2,Former les nouveaux utilisateurs au système BD Alaris™,BD Bair Hugger™,BD5919,Yes,
+HCP0924,Biomedical Engineer,Hématologie,MSP,France,Français (fr) - French,14,Advanced,Yes,No,Webinar,24,Préparer une certification financée par l'OPCO en accès vasculaire,BD BodyGuard T,BD5469,Yes,4.5
+HCP0925,Nurse,Pediatrics,IPSS,Portugal,Português (pt) - Portuguese,2,Beginner,Yes,Yes,Webinar,4,Prepare for OPCO-funded certification in vascular access,BD TTM System,BD9269,Yes,4.4
+HCP0926,Nurse,Gériatrie,Hôpital Général,France,Français (fr) - French,25,Intermediate,Yes,Yes,Webinar,24,Améliorer la conformité préanalytique et réduire les non-conformités,BD Provena™,,No,4.4
+HCP0927,Physician,Surgical ICU,Regionsjukhus,Norway,Norsk (Ino) - Norwegian,12,Beginner,No,No,E-learning,2,Develop vascular access unit expertise,BD BodyGuard T,BD6120,No,3.6
+HCP0928,System Manager,ICU / Critical Care,RSA,Italy,Italiano (it) - Italian,5,Advanced,Yes,No,Webinar,40,Validate Qualiopi competencies for task delegation,BD Foley,,No,4.7
+HCP0929,Physician,Trauma ICU,Community Hospital,United Kingdom,English (United Kingdom),17,Expert,Yes,Yes,E-learning,40,Master blood collection techniques with BD Vacutainer® systems,BD Preset™,,Yes,4.0
+HCP0930,Pharmacist,Cardiology,Regionsjukhus,Denmark,Dansk (da) - Danish,21,Advanced,No,Yes,Webinar,8,Onboard on BD Nexiva™ IV catheter system,BD Rowa™,BD8849,Yes,3.4
+HCP0931,Nurse,Anesthesiology,Geriatrik,Turkey,Türkçe (tr) - Turkish,3,Advanced,No,No,On-site,40,Support career development with certified training (Qualiopi equivalent),BD TTM System,,Yes,4.2
+HCP0932,Nurse,Urgences,Universitetssjukhus,Norway,Norsk (Ino) - Norwegian,17,Intermediate,No,Yes,Webinar,2,Improve pre-analytical quality and reduce specimen non-conformances,BD Rowa™,,No,
+HCP0933,Nurse,Clinical Pharmacy,Community Hospital,United States,English (United States),6,Intermediate,Yes,Yes,E-learning,16,Master blood collection techniques with BD Vacutainer® systems,BD Bair Hugger™,,Yes,3.8
+HCP0934,Physician,Operating Theatre,Universitätsklinikum,Germany,Deutsch (de) - German,18,Beginner,No,No,Blended,16,Prepare for targeted temperature management protocol implementation,BD Bair Hugger™,BD3447,No,
+HCP0935,Physician,Surgical ICU,Centro de Salud,Spain,Español (es) - Spanish,5,Beginner,Yes,Yes,E-learning,24,Prepare for BD Vacutainer® train-the-trainer programme,VADvisor™,BD4830,Yes,3.8
+HCP0936,Nurse,Soins Intensifs,Kreiskrankenhaus,Germany,Deutsch (de) - German,9,Intermediate,No,Yes,E-learning,16,Validate Qualiopi competencies for task delegation,BD A-Line™,BD2629,Yes,4.3
+HCP0937,Nurse,Internal Medicine,VA Hospital,United States,English (United States),20,Intermediate,No,No,Blended,16,Onboard on BD Nexiva™ IV catheter system,BD Alaris™,,No,5.0
+HCP0938,Pharmacist,Anesthesiology,Ambulatory Surgery Center,United States,English (United States),2,Advanced,No,No,E-learning,16,Improve pre-analytical quality and reduce specimen non-conformances,BD PICCline,BD3130,Yes,
+HCP0939,Physician,Gériatrie,Kreiskrankenhaus,Germany,Deutsch (de) - German,16,Intermediate,Yes,Yes,Masterclass,16,Train on BD Rowa™ pharmacy automation system,BD Alaris™,BD0920,No,
+HCP0940,ICU Specialist,Specimen Management,Residencia,Spain,Español (es) - Spanish,1,Advanced,No,Yes,E-learning,8,Improve pre-analytical quality and reduce specimen non-conformances,BD Eclipse™,,No,
+HCP0941,Physician,Microbiology,Privatklinik,Germany,Deutsch (de) - German,3,Intermediate,No,Yes,Webinar,40,Enhance PICC line insertion and maintenance skills,BD Microtainer®,BD4272,Yes,2.6
+HCP0942,Nurse,Clinical Pharmacy,Universitätsklinikum,Austria,Deutsch (de) - German,3,Intermediate,No,No,Webinar,16,Gain expert-level certification in TTM management,,,No,3.6
+HCP0943,Physician,Chirurgie,Universitetssjukhus,Finland,Suomi (fi) - Finnish,5,Intermediate,No,Yes,On-site,24,Prepare for OPCO-funded certification in vascular access,BD TTM System,,Yes,4.9
+HCP0944,System Manager,Pharmacie Hospitalière,Clinique Spécialisée,Belgium,Français (fr) - French,14,Intermediate,Yes,Yes,E-learning,8,Préparer la mise en œuvre du protocole TTM en réanimation,BD Bair Hugger™,BD2250,No,
+HCP0945,Physician,Microbiology,Tagesklinik,Germany,Deutsch (de) - German,22,Expert,No,Yes,Blended,40,Prepare for BD Vacutainer® train-the-trainer programme,BD Eclipse™,BD5896,Yes,3.1
+HCP0946,Pharmacist,Neurologie,Centro de Salud,Spain,Español (es) - Spanish,8,Advanced,No,Yes,Masterclass,8,Prepare for targeted temperature management protocol implementation,BD Alaris™,BD7061,Yes,4.0
+HCP0947,Clinical Pharmacist,Vascular Surgery,CHU,Belgium,Français (fr) - French,13,Expert,Yes,Yes,E-learning,8,Valider les compétences Qualiopi pour la délégation de tâches infirmières,BD Midline,BD8014,No,4.7
+HCP0948,Pharmacist,Operating Theatre,IPSS,Portugal,Português (pt) - Portuguese,22,Beginner,Yes,Yes,Masterclass,24,Validate Qualiopi competencies for task delegation,BD Insyte™,BD3435,No,4.4
+HCP0949,Physician,Blood Bank,Community Hospital,United Kingdom,English (United Kingdom),5,Advanced,Yes,Yes,Webinar,8,Onboard on BD Nexiva™ IV catheter system,BD Alaris™,,No,3.1
+HCP0950,Pharmacist,Pulmonology,Ospedale Universitario,Italy,Italiano (it) - Italian,22,Intermediate,No,No,Webinar,40,Enhance PICC line insertion and maintenance skills,,,Yes,4.5
+HCP0951,Pharmacist,Infectious Disease,Academic Medical Center,Poland,Polski (pl) - Polish,11,Intermediate,Yes,No,E-learning,24,Develop vascular access unit expertise,BD Provena™,BD0988,No,3.0
+HCP0952,System Manager,Soins Intensifs,Hospital Universitario,Spain,Español (es) - Spanish,2,Intermediate,Yes,Yes,E-learning,24,Gain expert-level certification in TTM management,BD Provena™,BD6698,No,4.8
+HCP0953,Nurse,Clinical Pharmacy,CHU,France,Français (fr) - French,20,Intermediate,Yes,No,On-site,8,Valider les compétences Qualiopi pour la délégation de tâches infirmières,,BD0448,Yes,4.6
+HCP0954,Physician,Pharmacy Management,Private Hospital,Israel,English (United Kingdom),6,Expert,No,No,E-learning,4,Improve infusion safety and reduce medication errors,BD Preset™,,Yes,
+HCP0955,Pharmacist,Oncologie,Privatklinik,Germany,Deutsch (de) - German,2,Advanced,No,Yes,Webinar,24,Support career development with certified training (Qualiopi equivalent),BD A-Line™,,Yes,4.9
+HCP0956,System Manager,Critical Care,GP Surgery,United Kingdom,English (United Kingdom),5,Intermediate,No,Yes,Webinar,2,Support career development with certified training (Qualiopi equivalent),BD Eclipse™,BD0417,Yes,4.9
+HCP0957,System Manager,Gastroenterology,Residencia,Spain,Español (es) - Spanish,13,Expert,No,Yes,E-learning,4,Onboard new staff on BD Alaris™ infusion pump systems,BD Eclipse™,,Yes,4.7
+HCP0958,Nurse,Réanimation,Privatklinik,Austria,Deutsch (de) - German,25,Intermediate,No,Yes,Masterclass,24,Onboard on BD Nexiva™ IV catheter system,BD PICCline,BD5896,Yes,2.9
+HCP0959,Physician,Chirurgie,Universitetssjukhus,Norway,Norsk (Ino) - Norwegian,7,Beginner,No,No,E-learning,16,Master blood collection techniques with BD Vacutainer® systems,BD Foley,BD7832,No,3.5
+HCP0960,Physician,Nephrology,Pflegeheim,Germany,Deutsch (de) - German,13,Beginner,Yes,Yes,E-learning,40,Onboard new staff on BD Alaris™ infusion pump systems,BD Midline,,Yes,
+HCP0961,ICU Specialist,Urgences,CHU,Belgium,Français (fr) - French,3,Advanced,Yes,Yes,E-learning,8,Préparer la mise en œuvre du protocole TTM en réanimation,BD Insyte™,BD5079,No,
+HCP0962,Pharmacy Manager,Pulmonology,Kreiskrankenhaus,Germany,Deutsch (de) - German,23,Intermediate,No,Yes,Blended,8,Master blood collection techniques with BD Vacutainer® systems,BD Insyte™,BD1793,Yes,
+HCP0963,Pharmacy Manager,Operating Theatre,RSA,Italy,Italiano (it) - Italian,25,Intermediate,No,No,On-site,4,Improve infusion safety and reduce medication errors,BD Alaris™,BD8849,Yes,2.9
+HCP0964,Pharmacist,Oncologie,Ospedale Universitario,Italy,Italiano (it) - Italian,10,Advanced,No,Yes,Webinar,24,Master blood collection techniques with BD Vacutainer® systems,BD Eclipse™,,No,4.2
+HCP0965,ICU Specialist,Blood Bank,Academisch Ziekenhuis,Netherlands,Nederlands (nl) - Dutch,3,Beginner,Yes,No,Webinar,24,Prepare for BD Vacutainer® train-the-trainer programme,HealthSight,BD6621,Yes,2.7
+HCP0966,Nurse,IT Systems,Private Hospital,United Kingdom,English (United Kingdom),18,Beginner,Yes,No,E-learning,24,Validate Qualiopi competencies for task delegation,BD Alaris™,BD0492,Yes,4.4
+HCP0967,Pharmacist,Medical ICU,GGZ,Netherlands,Nederlands (nl) - Dutch,13,Expert,No,Yes,Blended,2,Optimise Pyxis ES dispensing workflows,BD Nexiva™,,No,
+HCP0968,System Manager,Blood Bank,Policlinico,Italy,Italiano (it) - Italian,17,Beginner,No,Yes,E-learning,16,Prepare for BD Vacutainer® train-the-trainer programme,BD Eclipse™,BD9384,Yes,4.0
+HCP0969,Pharmacist,Nephrology,Kantonsspital,Switzerland,Deutsch (de) - German,16,Expert,No,No,Webinar,40,Optimise Pyxis ES dispensing workflows,BD BodyGuard T,,No,3.3
+HCP0970,Physician,Blood Bank,Pflegeheim,Germany,Deutsch (de) - German,12,Intermediate,No,Yes,Webinar,8,Develop vascular access unit expertise,BD Insyte™,,No,4.7
+HCP0971,Pharmacy Manager,Formulary Management,Academisch Ziekenhuis,Netherlands,Nederlands (nl) - Dutch,19,Intermediate,No,No,E-learning,8,Master blood collection techniques with BD Vacutainer® systems,BD A-Line™,BD0807,No,
+HCP0972,Nurse,Pulmonology,GGZ,Netherlands,Nederlands (nl) - Dutch,12,Intermediate,Yes,Yes,On-site,16,Optimise Pyxis ES dispensing workflows,BD PICCline,BD1841,Yes,3.1
+HCP0973,Nurse,Trauma ICU,GGZ,Netherlands,Nederlands (nl) - Dutch,26,Intermediate,Yes,Yes,Blended,4,Validate Qualiopi competencies for task delegation,BD Eclipse™,BD5615,Yes,4.5
+HCP0974,Biomedical Engineer,Biochemistry,MVZ,Germany,Deutsch (de) - German,14,Advanced,Yes,No,E-learning,8,Master blood collection techniques with BD Vacutainer® systems,Pyxis Anesthesia,BD7969,No,3.8
+HCP0975,Physician,Neurology,Pflegeheim,Germany,Deutsch (de) - German,13,Intermediate,No,Yes,Webinar,40,Optimise Pyxis ES dispensing workflows,HealthSight,BD2629,Yes,
+HCP0976,Nurse,Neurology,Clínica Privada,Spain,Español (es) - Spanish,11,Advanced,No,Yes,E-learning,40,Improve infusion safety and reduce medication errors,BD PICCline,BD5047,No,
+HCP0977,Physician,Surgical ICU,Clínica Privada,Spain,Español (es) - Spanish,8,Intermediate,No,Yes,On-site,40,Support career development with certified training (Qualiopi equivalent),BD Preset™,BD6120,Yes,2.9
+HCP0978,Physician,Cardiology,Hospital Universitario,Spain,Español (es) - Spanish,18,Intermediate,No,Yes,On-site,4,Gain expert-level certification in TTM management,BD Nexiva™,BD9269,Yes,4.0
+HCP0979,Pharmacy Manager,Soins Intensifs,Clinique Spécialisée,Belgium,Français (fr) - French,23,Advanced,Yes,No,E-learning,24,Former les nouveaux utilisateurs au système BD Alaris™,BD Bair Hugger™,BD5352,Yes,4.6
+HCP0980,Nurse,ICU / Critical Care,MVZ,Germany,Deutsch (de) - German,6,Intermediate,No,No,E-learning,4,Improve infusion safety and reduce medication errors,BD Provena™,,Yes,
+HCP0981,Pharmacist,Oncologie,Casa di Cura,Italy,Italiano (it) - Italian,4,Intermediate,No,Yes,E-learning,2,Optimise Pyxis ES dispensing workflows,Pyxis ES,,Yes,
+HCP0982,Nurse Practitioner,Advanced Practice Nursing,Ospedale Universitario,Italy,Italiano (it) - Italian,21,Expert,No,No,Masterclass,2,Prepare for OPCO-funded certification in vascular access,BD PICCline,BD7440,Yes,
+HCP0983,Pharmacist,Geriatrics,Ospedale Universitario,Italy,Italiano (it) - Italian,4,Intermediate,Yes,Yes,Blended,2,Gain expert-level certification in TTM management,BD TTM System,BD5811,Yes,4.3
+HCP0984,ICU Specialist,Pharmacy Management,Academisch Ziekenhuis,Netherlands,Nederlands (nl) - Dutch,15,Advanced,Yes,Yes,Blended,8,Support career development with certified training (Qualiopi equivalent),HealthSight,BD6952,Yes,2.9
+HCP0985,Pharmacist,Pulmonology,Community Hospital,Israel,English (United Kingdom),1,Advanced,Yes,No,Webinar,2,Onboard on BD Nexiva™ IV catheter system,BD Bair Hugger™,,Yes,2.5
+HCP0986,Physician,Microbiology,Community Hospital,Czech Republic,Čeština (cs) - Czech,7,Beginner,No,No,Blended,24,Train on BD Rowa™ pharmacy automation system,BD Microtainer®,BD7321,Yes,4.7
+HCP0987,ICU Specialist,Gastroenterology,Universitätsspital,Switzerland,Deutsch (de) - German,25,Intermediate,No,No,E-learning,2,Prepare for targeted temperature management protocol implementation,BD A-Line™,BD6233,Yes,4.3
+HCP0988,Physician,Equipment Maintenance,Community Trust,United Kingdom,English (United Kingdom),3,Intermediate,Yes,Yes,Blended,16,Onboard on BD Nexiva™ IV catheter system,BD Vacutainer®,BD8062,Yes,3.5
+HCP0989,ICU Specialist,Trauma ICU,Clinique Spécialisée,Belgium,Français (fr) - French,21,Intermediate,Yes,Yes,On-site,2,Maîtriser les techniques de prélèvement avec BD Vacutainer®,Pyxis ES,,Yes,4.4
+HCP0990,Nurse,Biomedical Engineering,Hospital Universitario,Spain,Español (es) - Spanish,1,Expert,No,Yes,E-learning,2,Enhance PICC line insertion and maintenance skills,BD Bair Hugger™,BD5414,No,3.0
+HCP0991,Physician,Biomedical Engineering,ESPIC,France,Français (fr) - French,18,Advanced,Yes,Yes,Masterclass,4,Améliorer la sécurité des perfusions et réduire les erreurs médicamenteuses,BD Insyte™,BD0744,No,4.1
+HCP0992,Nurse,Medical Biology,Pflegeheim,Germany,Deutsch (de) - German,13,Intermediate,Yes,Yes,E-learning,8,Gain expert-level certification in TTM management,Pyxis ES,BD5167,No,3.5
+HCP0993,Pharmacy Manager,Advanced Practice Nursing,Ospedale Universitario,Italy,Italiano (it) - Italian,3,Intermediate,No,Yes,E-learning,24,Train on BD Rowa™ pharmacy automation system,BD Microtainer®,BD2299,Yes,
+HCP0994,Nurse,Infectious Disease,Regionaal Ziekenhuis,Netherlands,Nederlands (nl) - Dutch,14,Beginner,No,Yes,E-learning,24,Prepare for BD Vacutainer® train-the-trainer programme,BD Microtainer®,,Yes,4.3
+HCP0995,Nurse,Medical ICU,IDN,United States,English (United States),12,Intermediate,Yes,No,Blended,16,Prepare for targeted temperature management protocol implementation,BD Microtainer®,BD7487,Yes,4.6
+HCP0996,ICU Specialist,Geriatrics,EHPAD,France,Français (fr) - French,8,Beginner,Yes,Yes,Masterclass,8,Obtenir une certification avancée en gestion de la TTM,Pyxis ES,BD2293,No,4.8
+HCP0997,Pharmacist,Pharmacie Hospitalière,Centro de Salud,Spain,Español (es) - Spanish,6,Intermediate,Yes,Yes,E-learning,16,Improve infusion safety and reduce medication errors,BD Alaris™,,Yes,
+HCP0998,Nurse,Hospital Pharmacy,MSP,France,Français (fr) - French,4,Intermediate,Yes,Yes,Masterclass,16,Valider les compétences Qualiopi pour la délégation de tâches infirmières,BD Vacutainer®,BD2976,No,3.5
+HCP0999,Physician,Equipment Maintenance,RSA,Italy,Italiano (it) - Italian,12,Beginner,Yes,No,Webinar,16,Master blood collection techniques with BD Vacutainer® systems,BD PICCline,BD1972,No,
+HCP1000,Nurse,Hospital Pharmacy,EHPAD,France,Français (fr) - French,2,Intermediate,Yes,Yes,Webinar,2,Optimiser les workflows de dispensation sur le système Pyxis ES,,BD0647,No,2.6
