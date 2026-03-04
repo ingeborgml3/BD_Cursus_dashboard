@@ -7,7 +7,11 @@ Run: streamlit run cursus_dashboard_v4.py
 """
 import streamlit as st
 import pandas as pd
-from model import recommend
+
+# ── Always resolve paths relative to this script file ────────────────────────
+import os as _os
+_BASE_DIR = _os.path.dirname(_os.path.abspath(__file__))
+_os.chdir(_BASE_DIR)
 
 st.set_page_config(
     page_title="CURSUS – BD Training",
@@ -248,23 +252,81 @@ st.markdown(CSS, unsafe_allow_html=True)
 
 
 # ── DATA ─────────────────────────────────────────────────────────────────────
+# Tries both known filename variants so it works locally and on Streamlit Cloud
+# as long as the CSV is committed to the repo.
 @st.cache_data
 def load_data():
-    try:
-        return pd.read_csv("C:\\Users\\ingeb\\OneDrive\\Documenten\\Grenoble Ecole de Management\\MDAI\\Capstone Project\\BD_Dataset2_HCP_Profiles_v3_dashboard (1).csv")
-    except FileNotFoundError:
-        return pd.DataFrame({
-            "Customer_Role": ["Nurse","Physician","Pharmacist","ICU Specialist","Nurse Practitioner","System Manager"],
-            "Specialty_Service": ["Oncologie","Cardiology","Pharmacie Hospitalière","Pediatrics","Gastroenterology","Operating Theatre"],
-            "Establishment_Type": ["CHU","Private Hospital","Academic Medical Center","CH","Centro de Salud","Community Trust"],
-            "Country": ["France","Germany","United Kingdom","Italy","Spain","United Kingdom"],
-            "Language": ["Français (fr)","Deutsch (de)","English (United Kingdom)","Italiano (it)","Español (es)","English (United Kingdom)"],
-            "Years_Experience": [5,12,8,20,3,8],
-            "Skill_Level_Self_Assessed": ["Beginner","Advanced","Intermediate","Expert","Beginner","Advanced"],
-            "Format_Preference": ["E-learning","Blended","Webinar","Masterclass","Webinar","Blended"],
-            "Available_Time_Hours": [4,8,16,2,24,40],
-            "Preferred_BD_Product": ["BD PICCline","BD Alaris™","BD Rowa™","BD Insyte™","BD A-Line™","BD Bair Hugger™"],
-        })
+    candidates = [
+        "BD_Dataset2_HCP_Profiles_v3 (1).csv",
+        "BD_Dataset2_HCP_Profiles_v3_(1).csv",
+        "BD_Dataset2_HCP_Profiles_v3.csv",
+        "BD_Dataset2_HCP_Profiles_v3_dashboard.csv",
+    ]
+    for fname in candidates:
+        try:
+            df = pd.read_csv(fname, encoding="utf-8-sig")
+            print(f"✅ Loaded HCP profiles from: {fname} ({len(df)} rows)")
+            return df
+        except FileNotFoundError:
+            continue
+    # Last-resort fallback — built from the real CSV so values are complete
+    print("⚠️  HCP CSV not found — using built-in fallback data")
+    return pd.DataFrame({
+        "Customer_Role": [
+            "Anesthesiologist", "Biomedical Engineer", "Clinical Pharmacist",
+            "ICU Specialist", "Nurse", "Nurse Practitioner", "Pharmacist",
+            "Pharmacy Manager", "Physician", "System Manager",
+        ],
+        "Specialty_Service": [
+            "Advanced Practice Nursing", "Anesthesiology", "Cardiac ICU",
+            "Cardiology", "Clinical Pharmacy", "Critical Care",
+            "Emergency Department", "Gastroenterology", "Hematology",
+            "Hospital Pharmacy", "ICU / Critical Care", "Infectious Disease",
+            "Internal Medicine", "Medical ICU", "Nephrology", "Neurology",
+            "Oncologie", "Oncology", "Operating Theatre", "Pediatrics",
+            "Pharmacie Hospitalière", "Réanimation", "Surgery",
+            "Surgical ICU", "Trauma ICU", "Urgences", "Vascular Surgery",
+        ],
+        "Establishment_Type": [
+            "CHU", "Private Hospital", "Academic Medical Center", "CH",
+            "Centro de Salud", "Community Trust", "Clinique", "EHPAD",
+            "University Hospital", "Regional Hospital", "Polyclinic",
+        ],
+        "Country": [
+            "Austria", "Belgium", "Bulgaria", "Croatia", "Czech Republic",
+            "Denmark", "Finland", "France", "Germany", "Greece", "Hungary",
+            "Israel", "Italy", "Netherlands", "Norway", "Poland", "Portugal",
+            "Qatar", "Romania", "Saudi Arabia", "South Africa", "Spain",
+            "Sweden", "Switzerland", "Turkey", "United Kingdom", "United States",
+        ],
+        "Language": [
+            "Dansk (da) - Danish", "Deutsch (de) - German",
+            "English (United Kingdom)", "English (United States)",
+            "Español (es) - Spanish", "Français (fr) - French",
+            "Hrvatski (hr) - Croatian", "Italiano (it) - Italian",
+            "Magyar (hu) - Hungarian", "Nederlands (nl) - Dutch",
+            "Norsk (Ino) - Norwegian", "Polski (pl) - Polish",
+            "Português (pt) - Portuguese", "Română (ro) - Romanian",
+            "Suomi (fi) - Finnish", "Svenska (sv) - Swedish",
+            "Türkçe (tr) - Turkish", "Čeština (cs) - Czech",
+            "Ελληνικά (el) - Greek", "Български (bg) - Bulgarian",
+        ],
+        "Years_Experience":          [5, 12, 8, 20, 3, 8, 15, 2, 10, 6,
+                                       14, 1, 22, 7, 18, 4, 9, 11, 3, 16,
+                                       25, 6, 13, 8, 2, 19, 5],
+        "Skill_Level_Self_Assessed": (["Beginner", "Intermediate", "Advanced", "Expert"] * 7)[:27],
+        "Format_Preference":         (["E-learning", "Blended", "Webinar", "Masterclass", "On-site"] * 6)[:27],
+        "Available_Time_Hours":      ([2, 4, 8, 16, 24, 40] * 5)[:27],
+        "Preferred_BD_Product": [
+            "BD A-Line™", "BD Alaris™", "BD Bair Hugger™", "BD BodyGuard T",
+            "BD Eclipse™", "BD Foley", "BD Insyte™", "BD Microtainer®",
+            "BD Midline", "BD Nexiva™", "BD PICCline", "BD Preset™",
+            "BD Provena™", "BD Rowa™", "BD TTM System", "BD Vacutainer®",
+            "HealthSight", "Pyxis Anesthesia", "Pyxis ES", "VADvisor™",
+            "BD A-Line™", "BD Alaris™", "BD Foley", "BD Insyte™",
+            "BD PICCline", "BD Rowa™", "BD Nexiva™",
+        ],
+    })
 
 df = load_data()
 
@@ -325,14 +387,15 @@ MODULES = [
      "description":"Evidence-based training on catheter insertion, care bundles, and CAUTI prevention using BD Foley systems.","opco":False},
 ]
 
-TYPE_ORDER   = ["Qualiopi","BDLA","Product Training","Premium","External"]
-TYPE_ICONS   = {"Qualiopi":"🏅","BDLA":"📘","Product Training":"🔧","Premium":"⭐","External":"🤝"}
-TYPE_ICON_BG = {"Qualiopi":"#FFF3CD","BDLA":"#CCE5FF","Product Training":"#D4EDDA","Premium":"#F8D7DA","External":"#E2D9F3"}
-BADGE_CLASS  = {"Qualiopi":"badge-qualiopi","BDLA":"badge-bdla","Product Training":"badge-product","Premium":"badge-premium","External":"badge-external"}
+TYPE_ORDER   = ["Qualiopi-Certified","BD Learning Academy","Product Training","Premium Programs","External Partners"]
+TYPE_ICONS   = {"Qualiopi-Certified":"🏅","BD Learning Academy":"📘","Product Training":"🔧","Premium Programs":"⭐","External Partners":"🤝"}
+TYPE_ICON_BG = {"Qualiopi-Certified":"#FFF3CD","BD Learning Academy":"#CCE5FF","Product Training":"#D4EDDA","Premium Programs":"#F8D7DA","External Partners":"#E2D9F3"}
+BADGE_CLASS  = {"Qualiopi-Certified":"badge-qualiopi","BD Learning Academy":"badge-bdla","Product Training":"badge-product","Premium Programs":"badge-premium","External Partners":"badge-external"}
 
 FORMAT_OPTIONS = ["E-learning","Blended","Masterclass","On-site","Webinar","No Preference"]
 SKILL_OPTIONS  = ["Beginner","Intermediate","Advanced","Expert"]
 TIME_OPTIONS   = [2,4,8,16,24,40]
+
 
 
 def filter_modules(role, skill, formats, product, available_hours):
@@ -390,6 +453,9 @@ if st.session_state.page == "profile":
     </div>
     """, unsafe_allow_html=True)
 
+    # Build options dynamically from the loaded CSV.
+    # If the CSV is present (locally or committed to GitHub), this reflects
+    # the real data. If not, the fallback DataFrame above covers all values.
     roles       = sorted(df["Customer_Role"].dropna().unique().tolist())
     specialties = sorted(df["Specialty_Service"].dropna().unique().tolist())
     countries   = sorted(df["Country"].dropna().unique().tolist())
@@ -428,16 +494,20 @@ if st.session_state.page == "profile":
     </div>
     """, unsafe_allow_html=True)
 
-        # Skill level — horizontal radio (single select)
+    # Skill level — horizontal checkboxes (one per column)
     st.markdown("<label>SKILL LEVEL *</label>", unsafe_allow_html=True)
-    selected_skill = st.radio(
-        "skill_hidden",
-        SKILL_OPTIONS,
-        index=SKILL_OPTIONS.index(st.session_state.selected_skill) if st.session_state.selected_skill in SKILL_OPTIONS else 0,
-        horizontal=True,
-        label_visibility="collapsed"
-    )
-    st.session_state.selected_skill = selected_skill
+    sk_cols = st.columns(4, gap="small")
+    for i, sk in enumerate(SKILL_OPTIONS):
+        with sk_cols[i]:
+            checked = (st.session_state.selected_skill == sk)
+            if st.checkbox(sk, value=checked, key=f"skill_{sk}"):
+                if st.session_state.selected_skill != sk:
+                    st.session_state.selected_skill = sk
+                    st.rerun()
+            else:
+                if st.session_state.selected_skill == sk:
+                    st.session_state.selected_skill = None
+                    st.rerun()
 
     st.markdown("<br>", unsafe_allow_html=True)
 
@@ -516,23 +586,8 @@ if st.session_state.page == "profile":
 elif st.session_state.page == "curriculum":
 
     p = st.session_state.profile_data
-
-    # ── Call your real model ──────────────────────────────────────────────────
-    model_profile = {
-        "Customer_Role":             p["role"],
-        "Specialty_Service":         p.get("specialty", ""),
-        "Skill_Level_Self_Assessed": p["skill"],
-        "Format_Preference":         p["formats"][0] if p["formats"] and "No Preference" not in p["formats"] else "",
-        "Available_Time_Hours":      p["hours"],
-        "Country":                   p.get("country", ""),
-        "Language":                  p.get("language", ""),
-        "Preferred_BD_Product":      p.get("product", ""),
-        "Training_Objective":        p.get("objective", ""),
-        "OPCO_Eligibility":          "No",
-        "Establishment_Type":        "",
-    }
-    matched_df = recommend(model_profile, top_k=5)
-    match_h = int(matched_df["Duration_Hours"].sum())
+    matched = filter_modules(p["role"], p["skill"], p["formats"], p["product"], p["hours"])
+    match_h = sum(m["duration_h"] for m in matched)
 
     st.markdown('<div class="back-btn">', unsafe_allow_html=True)
     if st.button("← Edit Profile"):
@@ -541,7 +596,7 @@ elif st.session_state.page == "curriculum":
     st.markdown("</div>", unsafe_allow_html=True)
 
     fmt_display = ", ".join(p["formats"]) if p["formats"] else "Any format"
-    product_tag = f'<span class="profile-tag">📦 {p["product"]}</span>' if p["product"] != "No preference" else ""
+    product_tag = f'''<span class="profile-tag">📦 {p["product"]}</span>''' if p["product"] != "No preference" else ""
 
     st.markdown(f"""
     <div class="hero-blue">
@@ -554,29 +609,27 @@ elif st.session_state.page == "curriculum":
         {product_tag}
       </div>
       <div class="stats-row">
-        <div class="stat-box"><div class="stat-num">{len(matched_df)}</div><div class="stat-lbl">Matched</div></div>
+        <div class="stat-box"><div class="stat-num">{len(matched)}</div><div class="stat-lbl">Matched</div></div>
+        <div class="stat-box"><div class="stat-num">{len(MODULES)}</div><div class="stat-lbl">Total</div></div>
         <div class="stat-box"><div class="stat-num">{match_h}h</div><div class="stat-lbl">Learning</div></div>
       </div>
     </div>
     """, unsafe_allow_html=True)
 
-    if matched_df.empty:
-        st.info("No modules matched your profile. Try broadening your preferences.")
+    if not matched:
+        st.info("No modules matched your exact profile. Try broadening your format preferences or available time.")
     else:
         st.markdown(f"""
         <div class="results-bar">
-          <span class="results-label">Showing <strong>{len(matched_df)} module(s)</strong> — best matches for your profile</span>
+          <span class="results-label">Showing <strong>{len(matched)} module(s)</strong> — best matches for your profile</span>
         </div>
         """, unsafe_allow_html=True)
 
         for mtype in TYPE_ORDER:
-            group = matched_df[matched_df["Training_Type"] == mtype]
-            if group.empty:
-                continue
-            icon    = TYPE_ICONS.get(mtype, "📋")
-            icon_bg = TYPE_ICON_BG.get(mtype, "#EEF3FA")
-            badge_cls = BADGE_CLASS.get(mtype, "badge-product")
-
+            group = [m for m in matched if m["type"] == mtype]
+            if not group: continue
+            icon    = TYPE_ICONS[mtype]
+            icon_bg = TYPE_ICON_BG[mtype]
             st.markdown(f"""
             <div class="type-group-header">
               <div class="type-icon" style="background:{icon_bg};">{icon}</div>
@@ -586,25 +639,20 @@ elif st.session_state.page == "curriculum":
             """, unsafe_allow_html=True)
 
             cols = st.columns(min(len(group), 2), gap="medium")
-            for i, (_, m) in enumerate(group.iterrows()):
+            for i, m in enumerate(group):
                 with cols[i % 2]:
-                    opco_html = '<span class="meta-pill">✅ OPCO</span>' if str(m.get("OPCO_Eligible","")).lower() == "yes" else ""
-                    score_pct = int(float(m.get("Fusion_Score", 0)) * 100)
-                    desc = str(m.get("Description", ""))[:150] + "…"
+                    badge_cls  = BADGE_CLASS[m["type"]]
+                    opco_html  = '<span class="meta-pill">✅ OPCO</span>' if m["opco"] else ""
+                    prods_html = " ".join(f'<span class="meta-pill">📦 {p_}</span>' for p_ in m["products"][:2])
                     st.markdown(f"""
                     <div class="module-card">
                       <div style="display:flex;justify-content:space-between;align-items:flex-start;">
-                        <span class="module-type-badge {badge_cls}">{mtype.upper()}</span>
-                        <span class="match-badge">⭐ {score_pct}% match</span>
+                        <span class="module-type-badge {badge_cls}">{m["type"].upper()}</span>
+                        <span class="match-badge">⭐ Match</span>
                       </div>
-                      <div class="module-title">{m.get("Module_Title","")}</div>
-                      <div class="module-desc">{desc}</div>
-                      <div style="margin-bottom:10px;">
-                        <span class="meta-pill">📋 {m.get("Delivery_Format","")}</span>
-                        <span class="meta-pill">⏱ {m.get("Duration_Hours","")}h</span>
-                        <span class="meta-pill">🎯 {m.get("Topic_Domain","")}</span>
-                        {opco_html}
-                      </div>
+                      <div class="module-title">{m["title"]}</div>
+                      <div class="module-desc">{m["description"]}</div>
+                      <div style="margin-bottom:10px;">{prods_html} <span class="meta-pill">📋 {m["format"]}</span> <span class="meta-pill">⏱ {m["duration_h"]}h</span> {opco_html}</div>
                       <a class="enroll-btn-html" href="#" onclick="return false;">📖 Enroll Now</a>
                     </div>
                     """, unsafe_allow_html=True)
@@ -619,82 +667,3 @@ elif st.session_state.page == "curriculum":
           <p style="font-size:15px;font-style:italic;color:var(--muted);margin:0;">"{p["objective"]}"</p>
         </div>
         """, unsafe_allow_html=True)
-
-    st.markdown('<div class="back-btn">', unsafe_allow_html=True)
-    if st.button("← Edit Profile", key= "back_btn_top"):
-        st.session_state.page = "profile"
-        st.rerun()
-    st.markdown("</div>", unsafe_allow_html=True)
-
-    # fmt_display = ", ".join(p["formats"]) if p["formats"] else "Any format"
-    # product_tag = f'''<span class="profile-tag">📦 {p["product"]}</span>''' if p["product"] != "No preference" else ""
-
-    # st.markdown(f"""
-    # <div class="hero-blue">
-    #   <div class="hero-eyebrow">✦ YOUR PERSONALIZED PATHWAY</div>
-    #   <div class="hero-title">Training Curriculum</div>
-    #   <div class="profile-tags">
-    #     <span class="profile-tag">👤 {p["role"]}</span>
-    #     <span class="profile-tag">📋 {fmt_display}</span>
-    #     <span class="profile-tag">⏱ {p["hours"]}h available</span>
-    #     {product_tag}
-    #   </div>
-    #   <div class="stats-row">
-    #     <div class="stat-box"><div class="stat-num">{len(matched_df)}</div><div class="stat-lbl">Matched</div></div>
-    #     <div class="stat-box"><div class="stat-num">{len(MODULES)}</div><div class="stat-lbl">Total</div></div>
-    #     <div class="stat-box"><div class="stat-num">{match_h}h</div><div class="stat-lbl">Learning</div></div>
-    #   </div>
-    # </div>
-    # """, unsafe_allow_html=True)
-
-    # if matched_df.empty:
-    #     st.info("No modules matched your exact profile. Try broadening your format preferences or available time.")
-    # else:
-    #     st.markdown(f"""
-    #     <div class="results-bar">
-    #       <span class="results-label">Showing <strong>{len(matched_df)} module(s)</strong> — best matches for your profile</span>
-    #     </div>
-    #     """, unsafe_allow_html=True)
-
-    #     for mtype in TYPE_ORDER:
-    #         group = [m for m in matched_df if m["type"] == mtype]
-    #         if not group: continue
-    #         icon    = TYPE_ICONS[mtype]
-    #         icon_bg = TYPE_ICON_BG[mtype]
-    #         st.markdown(f"""
-    #         <div class="type-group-header">
-    #           <div class="type-icon" style="background:{icon_bg};">{icon}</div>
-    #           <span class="type-label">{mtype}</span>
-    #           <span class="type-count">{len(group)}</span>
-    #         </div>
-    #         """, unsafe_allow_html=True)
-
-    #         cols = st.columns(min(len(group), 2), gap="medium")
-    #         for i, m in enumerate(group):
-    #             with cols[i % 2]:
-    #                 badge_cls  = BADGE_CLASS[m["type"]]
-    #                 opco_html  = '<span class="meta-pill">✅ OPCO</span>' if m["opco"] else ""
-    #                 prods_html = " ".join(f'<span class="meta-pill">📦 {p_}</span>' for p_ in m["products"][:2])
-    #                 st.markdown(f"""
-    #                 <div class="module-card">
-    #                   <div style="display:flex;justify-content:space-between;align-items:flex-start;">
-    #                     <span class="module-type-badge {badge_cls}">{m["type"].upper()}</span>
-    #                     <span class="match-badge">⭐ Match</span>
-    #                   </div>
-    #                   <div class="module-title">{m["title"]}</div>
-    #                   <div class="module-desc">{m["description"]}</div>
-    #                   <div style="margin-bottom:10px;">{prods_html} <span class="meta-pill">📋 {m["format"]}</span> <span class="meta-pill">⏱ {m["duration_h"]}h</span> {opco_html}</div>
-    #                   <a class="enroll-btn-html" href="#" onclick="return false;">📖 Enroll Now</a>
-    #                 </div>
-    #                 """, unsafe_allow_html=True)
-
-    # if p.get("objective"):
-    #     st.markdown(f"""
-    #     <div class="section-card" style="margin-top:24px;border-left:4px solid var(--orange);">
-    #       <div class="section-header">
-    #         <div class="section-icon">🎯</div>
-    #         <div class="section-title">Your Training Objective</div>
-    #       </div>
-    #       <p style="font-size:15px;font-style:italic;color:var(--muted);margin:0;">"{p["objective"]}"</p>
-    #     </div>
-    #     """, unsafe_allow_html=True)
