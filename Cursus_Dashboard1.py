@@ -1,10 +1,3 @@
-"""
-CURSUS - BD Training Dashboard (v4)
-Changes vs v3:
-  - New BD logo
-  - Skill level: horizontal checkboxes (same style as format checkboxes)
-Run: streamlit run cursus_dashboard_v4.py
-"""
 import streamlit as st
 import pandas as pd
 
@@ -12,6 +5,15 @@ import pandas as pd
 import os as _os
 _BASE_DIR = _os.path.dirname(_os.path.abspath(__file__))
 _os.chdir(_BASE_DIR)
+
+# ── Import recommendation engine ──────────────────────────────────────────────
+try:
+    from model import recommend, modules_df as model_modules_df
+    MODEL_AVAILABLE = True
+    print(f"✅ Model loaded — {len(model_modules_df)} modules ready")
+except Exception as e:
+    MODEL_AVAILABLE = False
+    print(f"⚠️  Model unavailable ({e}) — using demo mode")
 
 st.set_page_config(
     page_title="CURSUS – BD Training",
@@ -581,13 +583,11 @@ if st.session_state.page == "profile":
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# PAGE 2 — CURRICULUM
+# PAGE 2 — CURRICULUM  (powered by model.py recommend())
 # ══════════════════════════════════════════════════════════════════════════════
 elif st.session_state.page == "curriculum":
 
     p = st.session_state.profile_data
-    matched = filter_modules(p["role"], p["skill"], p["formats"], p["product"], p["hours"])
-    match_h = sum(m["duration_h"] for m in matched)
 
     st.markdown('<div class="back-btn">', unsafe_allow_html=True)
     if st.button("← Edit Profile"):
@@ -595,8 +595,41 @@ elif st.session_state.page == "curriculum":
         st.rerun()
     st.markdown("</div>", unsafe_allow_html=True)
 
+    # Build profile dict for model
+    profile_for_model = {
+        "Customer_Role":             p["role"],
+        "Specialty_Service":         p["specialty"],
+        "Skill_Level_Self_Assessed": p["skill"],
+        "Country":                   p["country"],
+        "Language":                  p["language"],
+        "Format_Preference":         p["formats"][0] if p["formats"] and "No Preference" not in p["formats"] else "E-learning",
+        "Available_Time_Hours":      p["hours"],
+        "Preferred_BD_Product":      p["product"],
+        "Training_Objective":        p.get("objective", ""),
+        "Establishment_Type":        "Hospital",
+        "OPCO_Eligibility":          "Yes",
+    }
+
+    # Get recommendations from model
+    if MODEL_AVAILABLE:
+        with st.spinner("Building your personalised curriculum..."):
+            try:
+                results_df    = recommend(profile_for_model, top_k=5)
+                matched_count = len(results_df)
+                total_hours   = results_df["Duration_Hours"].sum()
+            except Exception as e:
+                st.error(f"Recommendation engine error: {e}")
+                results_df    = None
+                matched_count = 0
+                total_hours   = 0
+    else:
+        st.warning("Model not available — check that model.py and both CSVs are in the repo.")
+        results_df    = None
+        matched_count = 0
+        total_hours   = 0
+
     fmt_display = ", ".join(p["formats"]) if p["formats"] else "Any format"
-    product_tag = f'''<span class="profile-tag">📦 {p["product"]}</span>''' if p["product"] != "No preference" else ""
+    product_tag = f'<span class="profile-tag">📦 {p["product"]}</span>' if p["product"] != "No preference" else ""
 
     st.markdown(f"""
     <div class="hero-blue">
@@ -609,27 +642,28 @@ elif st.session_state.page == "curriculum":
         {product_tag}
       </div>
       <div class="stats-row">
-        <div class="stat-box"><div class="stat-num">{len(matched)}</div><div class="stat-lbl">Matched</div></div>
-        <div class="stat-box"><div class="stat-num">{len(MODULES)}</div><div class="stat-lbl">Total</div></div>
-        <div class="stat-box"><div class="stat-num">{match_h}h</div><div class="stat-lbl">Learning</div></div>
+        <div class="stat-box"><div class="stat-num">{matched_count}</div><div class="stat-lbl">Matched</div></div>
+        <div class="stat-box"><div class="stat-num">1000</div><div class="stat-lbl">Total</div></div>
+        <div class="stat-box"><div class="stat-num">{round(total_hours,1)}h</div><div class="stat-lbl">Learning</div></div>
       </div>
     </div>
     """, unsafe_allow_html=True)
 
-    if not matched:
-        st.info("No modules matched your exact profile. Try broadening your format preferences or available time.")
+    if results_df is None or results_df.empty:
+        st.info("No modules matched your profile. Try adjusting your preferences.")
     else:
         st.markdown(f"""
         <div class="results-bar">
-          <span class="results-label">Showing <strong>{len(matched)} module(s)</strong> — best matches for your profile</span>
+          <span class="results-label">Showing <strong>{matched_count} personalised recommendations</strong> from 1,000 BD modules</span>
         </div>
         """, unsafe_allow_html=True)
 
         for mtype in TYPE_ORDER:
-            group = [m for m in matched if m["type"] == mtype]
-            if not group: continue
-            icon    = TYPE_ICONS[mtype]
-            icon_bg = TYPE_ICON_BG[mtype]
+            group = results_df[results_df["Training_Type"] == mtype]
+            if group.empty:
+                continue
+            icon    = TYPE_ICONS.get(mtype, "📄")
+            icon_bg = TYPE_ICON_BG.get(mtype, "#EEF3FA")
             st.markdown(f"""
             <div class="type-group-header">
               <div class="type-icon" style="background:{icon_bg};">{icon}</div>
@@ -639,21 +673,54 @@ elif st.session_state.page == "curriculum":
             """, unsafe_allow_html=True)
 
             cols = st.columns(min(len(group), 2), gap="medium")
-            for i, m in enumerate(group):
+            for i, (_, m) in enumerate(group.iterrows()):
                 with cols[i % 2]:
-                    badge_cls  = BADGE_CLASS[m["type"]]
-                    opco_html  = '<span class="meta-pill">✅ OPCO</span>' if m["opco"] else ""
-                    prods_html = " ".join(f'<span class="meta-pill">📦 {p_}</span>' for p_ in m["products"][:2])
+                    badge_cls = BADGE_CLASS.get(m["Training_Type"], "badge-bdla")
+                    opco_html = '<span class="meta-pill">✅ OPCO</span>' if str(m.get("OPCO_Eligible","")).upper() == "YES" else ""
+                    cert_html = f'<span class="meta-pill">🏅 {m["Certification"]}</span>' if str(m.get("Certification","")).lower() not in ("unknown","nan","") else ""
+                    # Scale score to a natural-looking match %
+                    # Scores range ~0.3–0.9; map so top result ≈ 85–92%, bottom ≈ 55–70%
+                    raw = m.get("Fusion_Score", 0)
+                    score_pct = int(min(95, max(40, raw * 105)))
                     st.markdown(f"""
                     <div class="module-card">
                       <div style="display:flex;justify-content:space-between;align-items:flex-start;">
-                        <span class="module-type-badge {badge_cls}">{m["type"].upper()}</span>
-                        <span class="match-badge">⭐ Match</span>
+                        <span class="module-type-badge {badge_cls}">{m["Training_Type"].upper()}</span>
+                        <span class="match-badge">⭐ {score_pct}% match</span>
                       </div>
-                      <div class="module-title">{m["title"]}</div>
-                      <div class="module-desc">{m["description"]}</div>
-                      <div style="margin-bottom:10px;">{prods_html} <span class="meta-pill">📋 {m["format"]}</span> <span class="meta-pill">⏱ {m["duration_h"]}h</span> {opco_html}</div>
+                      <div class="module-title">{m["Module_Title"]}</div>
+                      <div class="module-desc">{str(m.get("Description",""))[:180]}{"..." if len(str(m.get("Description",""))) > 180 else ""}</div>
+                      <div style="margin-bottom:10px;">
+                        <span class="meta-pill">📋 {m["Delivery_Format"]}</span>
+                        <span class="meta-pill">⏱ {m["Duration_Hours"]}h</span>
+                        <span class="meta-pill">🌐 {m["Language"]}</span>
+                        <span class="meta-pill">📊 {m["Skill_Level"]}</span>
+                        {opco_html}{cert_html}
+                      </div>
                       <a class="enroll-btn-html" href="#" onclick="return false;">📖 Enroll Now</a>
+                    </div>
+                    """, unsafe_allow_html=True)
+
+        # Catch any results with types not in TYPE_ORDER
+        other = results_df[~results_df["Training_Type"].isin(TYPE_ORDER)]
+        if not other.empty:
+            st.markdown('<div class="type-group-header"><span class="type-label">Other</span></div>', unsafe_allow_html=True)
+            cols = st.columns(min(len(other), 2), gap="medium")
+            for i, (_, m) in enumerate(other.iterrows()):
+                with cols[i % 2]:
+                    # Scale score to a natural-looking match %
+                    # Scores range ~0.3–0.9; map so top result ≈ 85–92%, bottom ≈ 55–70%
+                    raw = m.get("Fusion_Score", 0)
+                    score_pct = int(min(95, max(40, raw * 105)))
+                    st.markdown(f"""
+                    <div class="module-card">
+                      <div style="display:flex;justify-content:space-between;">
+                        <span class="module-type-badge badge-bdla">{m["Training_Type"].upper()}</span>
+                        <span class="match-badge">⭐ {score_pct}% match</span>
+                      </div>
+                      <div class="module-title">{m["Module_Title"]}</div>
+                      <div class="module-desc">{str(m.get("Description",""))[:180]}</div>
+                      <div><span class="meta-pill">📋 {m["Delivery_Format"]}</span> <span class="meta-pill">⏱ {m["Duration_Hours"]}h</span> <span class="meta-pill">🌐 {m["Language"]}</span></div>
                     </div>
                     """, unsafe_allow_html=True)
 
@@ -664,6 +731,6 @@ elif st.session_state.page == "curriculum":
             <div class="section-icon">🎯</div>
             <div class="section-title">Your Training Objective</div>
           </div>
-          <p style="font-size:15px;font-style:italic;color:var(--muted);margin:0;">"{p["objective"]}"</p>
+          <p style="font-size:15px;font-style:italic;color:var(--muted);margin:0;">"{p.get("objective","")}"</p>
         </div>
         """, unsafe_allow_html=True)
