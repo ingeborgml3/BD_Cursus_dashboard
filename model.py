@@ -39,10 +39,10 @@ BOOST_OPCO          = 0.05
 BOOST_CONTRACT_CERT = 0.03
 BOOST_SKILL         = 0.04
 BOOST_FORMAT        = 0.03
-PENALTY_DURATION    = 0.10
+PENALTY_DURATION    = 0.04   # Soft signal — was 0.10 which killed good modules
 TOP_K          = 5
 MMR_LAMBDA     = 0.70
-CANDIDATE_POOL = 50
+CANDIDATE_POOL = 100  # Wider pool so boosted modules aren't excluded pre-boost
 
 SKILL_ORDER = {"Beginner": 0, "Intermediate": 1, "Advanced": 2, "Expert": 3}
 SKILL_PHRASES = {
@@ -122,7 +122,7 @@ if USE_SBERT:
             show_progress_bar=True, convert_to_numpy=True,
             normalize_embeddings=True,
         )
-        print("\u2705 SBERT ready")
+        print(f"\u2705 SBERT ready — model: {SBERT_MODEL}, embeddings shape: {M_sbert.shape}")
     except Exception as e:
         print(f"\u26a0\ufe0f  SBERT failed to load ({e}). Falling back to TF-IDF only mode.")
         USE_SBERT   = False
@@ -205,24 +205,61 @@ def recommend(profile: dict, top_k: int = TOP_K) -> pd.DataFrame:
     sim_sbert = np.dot(C_sbert, M_sbert.T)[0]
     scores    = W_TFIDF * sim_tfidf + W_SBERT * sim_sbert
 
-    # Boosts
-    mod_skill_num = modules_df["Skill_Level"].map(SKILL_ORDER).fillna(1).values
-    cust_skill    = SKILL_ORDER.get(profile.get("Skill_Level_Self_Assessed", ""), 1)
-    skill_diff    = mod_skill_num - cust_skill
-
+    # Apply ALL boosts BEFORE selecting the candidate pool.
+    # Previously boosts were applied after pool selection, meaning a module
+    # ranked 51st on raw cosine (but perfectly matched on language/skill)
+    # would never appear in results even with a large boost.
+    mod_skill_num   = modules_df["Skill_Level"].map(SKILL_ORDER).fillna(1).values
+    cust_skill      = SKILL_ORDER.get(profile.get("Skill_Level_Self_Assessed", ""), 1)
+    skill_diff      = mod_skill_num - cust_skill
     inferred_domain = infer_domain(profile.get("Training_Objective", ""))
+
     if inferred_domain:
         scores += BOOST_DOMAIN * (modules_df["Topic_Domain"].values == inferred_domain).astype(float)
 
     scores += BOOST_LANGUAGE * (modules_df["Language"].values == profile.get("Language", "")).astype(float)
     scores += BOOST_SKILL    * (((skill_diff >= 0) & (skill_diff <= 1)).astype(float))
     scores += BOOST_FORMAT   * (modules_df["Delivery_Format"].values == profile.get("Format_Preference", "")).astype(float)
+    # Soft duration penalty — modules over the available time are deprioritised,
+    # not hard-filtered, so we still always return top_k results
     scores -= PENALTY_DURATION * (modules_df["Duration_Hours"].values > float(profile.get("Available_Time_Hours", 8))).astype(float)
 
-    # MMR re-ranking
+    # MMR re-ranking on post-boost scores
     candidate_idx = np.argsort(scores)[::-1][:CANDIDATE_POOL]
     top_idx       = mmr_rerank(scores, M_sbert, candidate_idx, top_k=top_k)
 
     results = modules_df.iloc[top_idx].copy()
     results["Fusion_Score"] = scores[top_idx].round(4)
     return results.reset_index(drop=True)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
