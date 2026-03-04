@@ -16,9 +16,15 @@ except ImportError:
 warnings.filterwarnings("ignore")
 print("✅ Imports complete")
 
+# ── Always resolve paths relative to this script file ────────────────────────
+# This means you can run the script from any directory (VS Code, terminal,
+# Streamlit Cloud) and it will always find the CSVs next to model.py.
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+os.chdir(BASE_DIR)
+
 # ── File paths ────────────────────────────────────────────────────────────────
 MODULES_PATH   = "BD_Dataset1_Training_Modules_v3.csv"
-CUSTOMERS_PATH = "BD_Dataset2_HCP_Profiles_v3 (1).csv"
+CUSTOMERS_PATH = "BD_Dataset2_HCP_Profiles_v3.csv"
 
 # ── Settings ──────────────────────────────────────────────────────────────────
 USE_SBERT      = SBERT_AVAILABLE
@@ -104,17 +110,26 @@ M_tfidf = normalize(svd.fit_transform(M_tfidf_sparse))
 print("✅ TF-IDF + LSA ready")
 
 # ── Sentence-BERT ─────────────────────────────────────────────────────────────
+# NOTE: The import-level try/except only catches a missing package.
+# The model download or CPU initialisation can still fail at runtime on
+# Streamlit Cloud, so we wrap the actual loading in its own try/except too.
 if USE_SBERT:
-    print(f"Loading SBERT model: {SBERT_MODEL} ...")
-    sbert_model = SentenceTransformer(SBERT_MODEL)
-    M_sbert = sbert_model.encode(
-        module_texts.tolist(), batch_size=64,
-        show_progress_bar=True, convert_to_numpy=True,
-        normalize_embeddings=True,
-    )
-    print("✅ SBERT ready")
+    try:
+        print(f"Loading SBERT model: {SBERT_MODEL} ...")
+        sbert_model = SentenceTransformer(SBERT_MODEL)
+        M_sbert = sbert_model.encode(
+            module_texts.tolist(), batch_size=64,
+            show_progress_bar=True, convert_to_numpy=True,
+            normalize_embeddings=True,
+        )
+        print("\u2705 SBERT ready")
+    except Exception as e:
+        print(f"\u26a0\ufe0f  SBERT failed to load ({e}). Falling back to TF-IDF only mode.")
+        USE_SBERT   = False
+        sbert_model = None
+        M_sbert     = M_tfidf.copy()
 else:
-    print("ℹ️  SBERT unavailable — using TF-IDF for both slots.")
+    print("\u2139\ufe0f  SBERT unavailable \u2014 using TF-IDF for both slots.")
     sbert_model = None
     M_sbert = M_tfidf.copy()
 
@@ -178,7 +193,10 @@ def recommend(profile: dict, top_k: int = TOP_K) -> pd.DataFrame:
     # Embed the single customer
     C_tfidf = normalize(svd.transform(tfidf_vectorizer.transform([sentence])))
     if USE_SBERT:
-        C_sbert = sbert_model.encode([sentence], normalize_embeddings=True, convert_to_numpy=True)
+        try:
+            C_sbert = sbert_model.encode([sentence], normalize_embeddings=True, convert_to_numpy=True)
+        except Exception:
+            C_sbert = C_tfidf.copy()
     else:
         C_sbert = C_tfidf.copy()
 
@@ -207,5 +225,4 @@ def recommend(profile: dict, top_k: int = TOP_K) -> pd.DataFrame:
 
     results = modules_df.iloc[top_idx].copy()
     results["Fusion_Score"] = scores[top_idx].round(4)
-
     return results.reset_index(drop=True)
