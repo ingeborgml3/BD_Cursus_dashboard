@@ -64,7 +64,7 @@ cursus/
 ## Live Demo
 
 The dashboard is deployed on Streamlit Cloud:
-**[https://bdcursusdashboard-rr7fccqtgodftxvc6mc62m.streamlit.app/]*
+*[https://bdcursusdashboard-rr7fccqtgodftxvc6mc62m.streamlit.app/]*
 
 ---
 
