@@ -1,7 +1,7 @@
 # C.U.R.S.U.S.
 ### Curriculum Unified Recommendation System for Upskilling & Scaling
 
-> AI-powered training recommendation dashboard built for BD Healthcare (Hecton and Dickinson) as part of the M2 MDAI Capstone Project at Grenoble Ecole de Management (March 2026).
+> AI-powered training recommendation dashboard built for BD Healthcare (Becton and Dickinson) as part of the M2 MDAI Capstone Project at Grenoble Ecole de Management (March 2026).
 
 ---
 
